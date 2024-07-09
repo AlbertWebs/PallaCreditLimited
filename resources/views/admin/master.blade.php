@@ -43,7 +43,7 @@
             <div class="col-md-2 col-sm-3 col-xs-6 sb1-1">
                 <a href="#" class="btn-close-menu"><i class="fa fa-times" aria-hidden="true"></i></a>
                 <a href="#" class="atab-menu"><i class="fa fa-bars tab-menu" aria-hidden="true"></i></a>
-                <a href="{{url('/')}}/admin/home" class="logo"><img src="{{url('/')}}/uploads/logo/{{$SiteSettings->logo}}" alt="{{$SiteSettings->sitename}}" />
+                <a href="{{url('/')}}/admin/home" class="logo"><img style="width:100px" src="{{url('/')}}/supplier-theme/images/wakazi-logo.png" alt="{{$SiteSettings->sitename}}" />
                 </a>
             </div>
             <!--== SEARCH ==-->
@@ -86,8 +86,11 @@
                     <li><a href="{{url('/')}}/create-backup" class="waves-effect"><i class="fa fa-undo" aria-hidden="true"></i> Backup Data</a>
                     </li>
                     <li class="divider"></li>
-                    <li><a href="{{url('/')}}/logout" class="ho-dr-con-last waves-effect"><i class="fa fa-sign-in" aria-hidden="true"></i> Logout</a>
+                    <li><a href="{{ route('logout') }}" class="sa-nav__link" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="ho-dr-con-last waves-effect"><i class="fa fa-sign-in" aria-hidden="true"></i> Logout</a>
                     </li>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
                 </ul>
             </div>
         </div>
@@ -162,16 +165,8 @@
     {{-- <script src="{{ asset('vendor/laraberg/js/laraberg.js') }}"></script> --}}
     {{-- <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script> --}}
     <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
-    {{-- <script>
-        CKEDITOR.replace( 'ckeditor' );
-        CKEDITOR.config.filebrowserImageUploadUrl = '/ck-upload';
-    </script> --}}
-
     <script>
-        CKEDITOR.replace('ckeditor', {
-            filebrowserUploadUrl: "{{ route('admin.product.uploadMedia', ['_token' => csrf_token()]) }}",
-            filebrowserUploadMethod: 'form'
-        });
+        CKEDITOR.replace( 'ckeditor' );
     </script>
 
     {{-- <script>

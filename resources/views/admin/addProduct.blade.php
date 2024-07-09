@@ -75,7 +75,7 @@
                             </div>
                             <div class="row">
                                 {{--  --}}
-                                <div class="input-field col s12">
+                                <div class="input-field col s6">
                                     <select required name="category" class="icons" id="mydiv">
                                         <option value="" disabled selected>Choose your Category</option>
                                         @foreach ($Category as $Categories)
@@ -84,97 +84,19 @@
                                     </select>
                                     <label>Choose Category</label>
                                 </div>
-                                {{-- <a href="#ex1" rel="modal:open"> <strong>+ Add New Category</strong> </a> --}}
-                                {{--  --}}
-                                <div class="section-space col s12"></div>
+
+                                <div class="input-field col s6">
+                                    <select name="sub_cat" id="sub_cat"  class="icons">
+
+                                        <option value="" disabled selected>Choose your Sub Category</option>
+
+                                    </select>
+                                    <label>Choose Sub Category</label>
+                                </div>
+
                             </div>
-                            <?php $Thickness = DB::table('thicknesses')->get(); ?>
-                            {{--  --}}
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <select required name="thickness" class="icons" id="mydiv">
-                                        <option value="" disabled selected>Choose Thickness</option>
-                                        @foreach ($Thickness as $thickness)
-                                        <option value="{{$thickness->title}}" data-icon="{{url('/')}}/uploads/thicknesses/{{$thickness->image}}" class="circle">{{$thickness->title}}</option>
-                                        @endforeach
-                                    </select>
-                                    <label>Choose Thickness</label>
-                                </div>
-                                <?php $ACRating = DB::table('a_c_ratings')->get(); ?>
-                                <div class="input-field col s6">
-                                    <select required name="a_c_ratings" class="icons" id="mydiv">
-                                        <option value="" disabled selected>Choose AC Ratings</option>
-                                        @foreach ($ACRating as $a_c_ratings)
-                                        <option value="{{$a_c_ratings->slung}}" data-icon="{{url('/')}}/uploads/ac_ratings/{{$a_c_ratings->image}}" class="circle">{{$a_c_ratings->title}}</option>
-                                        @endforeach
-                                    </select>
-                                    <label>Choose AC Ratings</label>
-                                </div>
-                                <div class="section-space col s12"></div>
-                            </div>
-                            {{--  --}}
+                            <div class="section-space col s12"></div>
 
-
-                            <?php $Color = DB::table('colors')->get(); ?>
-                            {{--  --}}
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <select required name="color" class="icons" id="mydiv">
-                                        <option value="" disabled selected>Choose Color</option>
-                                        @foreach ($Color as $color)
-                                        <option value="{{$color->title}}" data-icon="{{url('/')}}/uploads/colors/{{$color->image}}" class="circle">{{$color->title}}</option>
-                                        @endforeach
-                                    </select>
-                                    <label>Choose Color</label>
-                                </div>
-                                <?php $Species = DB::table('species')->get(); ?>
-                                <div class="input-field col s6">
-                                    <select required name="species" class="icons" id="mydiv">
-                                        <option value="" disabled selected>Choose Species</option>
-                                        @foreach ($Species as $species)
-                                        <option value="{{$species->title}}" data-icon="{{url('/')}}/uploads/species/{{$species->image}}" class="circle">{{$species->title}}</option>
-                                        @endforeach
-                                    </select>
-                                    <label>Choose Species</label>
-                                </div>
-                                <div class="section-space col s12"></div>
-                            </div>
-                            {{--  --}}
-
-
-                            <?php $Color = DB::table('waters')->get(); ?>
-                            {{--  --}}
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <select  name="waters" class="icons" id="mydiv">
-                                        <option value="" disabled selected>Choose Water Resistant</option>
-                                        @foreach ($Color as $color)
-                                        <option value="{{$color->title}}" data-icon="{{url('/')}}/uploads/colors/{{$color->image}}" class="circle">{{$color->title}}</option>
-                                        @endforeach
-                                    </select>
-                                    <label>Choose Water Resistant</label>
-                                </div>
-                                <?php $Species = DB::table('warranties')->get(); ?>
-                                <div class="input-field col s6">
-                                    <select  name="warranties" class="icons" id="mydiv">
-                                        <option value="" disabled selected>Choose Waranty</option>
-                                        @foreach ($Species as $species)
-                                        <option value="{{$species->title}}" data-icon="{{url('/')}}/uploads/species/{{$species->image}}" class="circle">{{$species->title}}</option>
-                                        @endforeach
-                                    </select>
-                                    <label>Choose Species</label>
-                                </div>
-                                <div class="section-space col s12"></div>
-                            </div>
-                            {{--  --}}
-
-
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <textarea required name="dimensions" class="materialize-textarea"></textarea>
-                                    <label for="textarea1">Product Dimensions:</label>
-                                </div>
-                            </div>
 
                             <div class="row">
                                 <div class="input-field col s12">
@@ -182,12 +104,19 @@
                                     <label for="textarea1">Meta Descriptions:</label>
                                 </div>
                             </div>
+
+
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <textarea required id="article-ckeditor" name="content" class="materialilze-textarea" placeholder="content"></textarea>
-                                    {{-- <label for="textarea1">Blog Descriptions:</label> --}}
+                                    <textarea name="content" id="article_ckeditor" rows="10" cols="80"></textarea>
                                 </div>
-                            </div><br><br>
+                            </div>
+
+                                    <script src="https://amanivehiclesounds.co.ke/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+                                    <script>
+                                        CKEDITOR.replace( 'article_ckeditor' );
+                                    </script>
+                                    <br><br>
 
 
                                 <script src="{{ asset('ckeditor/ckeditor.js')}}"></script>
@@ -284,6 +213,34 @@
          });
         });
       </script>
+      <script>
+        $(document).ready(function (e) {
+            // $('select').material_select();
+            $('#mydiv').on('change', e => {
+                var val = $('#mydiv').val();
+                $('#sub_cat').empty()
+                $.ajax({
+                    url: `/admin/get-subcategories/${val}`,
+                    success: function(data){
+                            var toAppend = '';
+                            $.each(data,function(i,o){
+                            toAppend += '<option value="'+o.id+'">'+o.title+'</option>';
+                            $('#sub_cat').empty();
+                            $('#sub_cat').append(toAppend);
+                            $("#sub_cat").material_select()
+
+                        });
+                        // $('#sub_cat').append(toAppend);
+
+
+                        }
+                })
+            })
+        })
+    </script>
+
+
+
 </div>
 {{--  --}}
 @endsection

@@ -51,17 +51,22 @@
                             {{csrf_field()}}
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <input value="{{$Advertisement->title}}" autocomplete="off" name="title" id="list-title" type="text" class="validate" readonly required>
-                                    <label for="list-title">Ad Type</label>
+                                    <input value="{{$Advertisement->title}}" autocomplete="off" name="title" id="list-title" type="text" class="validate" required>
+                                    <label for="list-title">Post Title</label>
                                 </div>
                             </div>
 
-
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <label for="date-picker">Show Untill</label>
+                                </div>
+                            </div>
+                            <br><br>
 
                             <div class="row">
                                 <div class="input-field col s12">
                                     <p>
-                                        <input type="hidden" id="date-picker" value="{{today()}}" name="date" class="datepicker" required>
+                                        <input type="date" id="date-picker" value="{{$Advertisement->date}}" name="date" class="datepicker" required>
                                     </p>
                                     {{--  --}}
                                 </div>
@@ -69,16 +74,16 @@
 
                             <div class="row">
                                 <div class="input-field col s4">
-                                    <input value="{{$Advertisement->dimension}}" autocomplete="off"  id="list-title" type="hidden" class="validate" readonly required>
-                                    {{-- <label for="list-title">Dimensions</label> --}}
+                                    <input value="{{$Advertisement->dimension}}" autocomplete="off"  id="list-title" type="text" class="validate" readonly required>
+                                    <label for="list-title">Dimensions</label>
                                 </div>
                                 <div class="input-field col s4">
-                                    <input value="{{$Advertisement->placement}}" autocomplete="off" id="list-title" type="hidden" class="validate" readonly required>
-                                    {{-- <label for="list-title">Placements</label> --}}
+                                    <input value="{{$Advertisement->placement}}" autocomplete="off" id="list-title" type="text" class="validate" readonly required>
+                                    <label for="list-title">Placements</label>
                                 </div>
                                 <div class="input-field col s4">
-                                    <input value="{{$Advertisement->page}}" autocomplete="off" id="list-title" type="hidden" class="validate" readonly required>
-                                    {{-- <label for="list-title">Page</label> --}}
+                                    <input value="{{$Advertisement->page}}" autocomplete="off" id="list-title" type="text" class="validate" readonly required>
+                                    <label for="list-title">Page</label>
                                 </div>
                             </div>
 
@@ -86,8 +91,8 @@
 
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <input required autocomplete="off" value="{{Auth::user()->name }}" id="post-auth" name="author" type="hidden" class="validate">
-                                    {{-- <label for="post-auth">Author Name</label> --}}
+                                    <input required autocomplete="off" value="{{Auth::user()->name }}" id="post-auth" name="author" type="text" class="validate">
+                                    <label for="post-auth">Author Name</label>
                                 </div>
                             </div>
                             {{-- Images --}}

@@ -6,7 +6,7 @@
         @include('admin.sidebar')
 
         <!--== BODY INNER CONTAINER ==-->
-
+        
         <div class="sb2-2">
             <div class="sb2-2-2">
                 <ul>
@@ -25,7 +25,7 @@
                 <div class="bor">
                     <form method="POST" action="{{url('/')}}/admin/logo-and-favicon-update" enctype="multipart/form-data">
                         {{csrf_field()}}
-
+                       
                         <hr>
                             {{-- Images --}}
                                  {{-- Preview --}}
@@ -125,7 +125,7 @@
 
                         <input type="hidden" name="logo_cheat" value="{{$SiteSettings->logo}}">
                         <input type="hidden" name="logo_footer_cheat" value="{{$SiteSettings->logo_footer}}">
-
+                        
 
                         <input type="hidden" name="logo_two_cheat" value="{{$SiteSettings->logo_two}}">
                         <input type="hidden" name="favicon_cheat" value="{{$SiteSettings->favicon}}">

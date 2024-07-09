@@ -24,7 +24,7 @@
                 <ul>
                     <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
                     </li>
-                    <li class="active-bre"><a href="#"> Create Post</a>
+                    <li class="active-bre"><a href="#"> Add New Post</a>
                     </li>
                     <li class="page-back"><a href="{{url('/')}}/admin/blog"><i class="fa fa-backward" aria-hidden="true"></i> All Posts</a>
                     </li>
@@ -34,7 +34,7 @@
             <div class="sb2-2-add-blog sb2-2-1">
                 <div class="box-inn-sp">
                     <div class="inn-title">
-                        <h4>Create Post</h4>
+                        <h4>Add New Post</h4>
                         {{-- <p> Create Blog Posts </p> --}}
                         <center>
                             @if(Session::has('message'))
@@ -54,77 +54,59 @@
                                     <input autocomplete="off" name="title" id="list-title" type="text" class="validate" required>
                                     <label for="list-title">Title</label>
                                 </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <input autocomplete="off" name="video_url" id="list-title" type="text" class="validate" >
-                                    <label for="list-title">Video Uri</label>
-                                </div>
-                                <div class="input-field col s6">
-                                    <input autocomplete="off" name="podcast_url" id="list-title" type="text" class="validate" >
-                                    <label for="list-title">Podcats Uri</label>
-                                </div>
-                            </div>
-
-                            {{--  --}}
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <select required name="category" class="icons" id="mydiv">
-                                        <option value="" disabled selected>Choose Topic</option>
-                                        @foreach ($Category as $Categories)
-                                        <option value="{{$Categories->id}}" class="circle">{{$Categories->title}}</option>
-                                        @endforeach
-                                    </select>
-                                    {{-- <label>Choose Category</label> --}}
-                                </div>
-                                <div class="input-field col s6">
-                                    <select required name="type" class="icons" onchange="showDiv('hidden_div', this)">
-                                        <option value="" disabled selected>Choose Content Type</option>
-                                        <option value="News"  class="circle">News</option>
-                                        <option value="Articles"  class="circle">Articles</option>
-                                        <option value="Interviews"  class="circle">Interviews</option>
-                                        <option value="Videos"  class="circle">Videos</option>
-                                        <option value="Webinars"  class="circle">Webinars</option>
-                                        <option value="Publications"  class="circle">Publications</option>
-                                        <option value="Whitepapers/Application Notes"  class="circle">Whitepapers/Application Notes</option>
-                                        <option value="Events"  class="circle">Events</option>
-                                        <option value="Podcasts"  class="circle">Podcasts</option>
-                                    </select>
-                                    {{-- <label>Choose Content Type</label> --}}
-                                </div>
-                            </div>
-                            {{--  --}}
-                            {{-- Show Dynamics --}}
-                            <div class="row">
-                                <div class="input-field col s12" id="hidden_div">
+                                <div class="input-field col s12">
                                     <div class="file-field">
                                         <div class="btn">
                                             <span>File</span>
-                                            <input  name="whitepaper_file" type="file">
+                                            <input required name="image_one" type="file">
                                         </div>
                                         <div class="file-path-wrapper">
-                                            <input  class="file-path validate" type="text" placeholder="Whitepaper File">
+                                            <input  class="file-path validate" type="text" placeholder="Upload Blog Banner">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            {{-- Show Dynamics --}}
-                            <script>
-                                function showDiv(divId, element)
-                                {
-                                    document.getElementById(divId).style.display = element.value == "Whitepapers/Application Notes" ? 'block' : 'none';
-                                }
-                            </script>
-                            <div class="section-space col s12"></div>
+                            {{--  --}}
+                            <div class="row">
 
+                                {{--  --}}
+                                <div class="input-field col s12">
+                                    <select required name="type" class="icons" >
+                                        <option value="" disabled selected>Choose your Type</option>
+                                        <option value="News"  class="circle">Blog</option>
+                                        <option value="County Bounty"  class="circle">County Bounty</option>
+                                        <option value="Artisan Voices"  class="circle">Artisan Voices</option>
+                                    </select>
+                                    <label>Choose Type</label>
+                                </div>
+                            </div>
+                            {{--  --}}
+                            <div class="row">
+
+                                {{--  --}}
+                                <div class="input-field col s12">
+                                    <select required name="category" class="icons" id="mydiv">
+                                        <option value="" disabled selected>Choose your Category</option>
+                                        @foreach ($Category as $Categories)
+                                        <option value="{{$Categories->id}}" data-icon="{{url('/')}}/uploads/categories/{{$Categories->image}}" class="circle">{{$Categories->title}}</option>
+                                        @endforeach
+                                    </select>
+                                    <label>Choose Category</label>
+                                </div>
+
+                            </div>
+                            <style>
+                                /* .cke_reset{
+                                    height: 400px !important;
+                                } */
+                            </style>
                             <div class="row">
                                 <div class="input-field col s12">
                                     <textarea required name="meta" class="materialize-textarea"></textarea>
                                     <label for="textarea1">Meta Descriptions:</label>
                                 </div>
                             </div>
-                            <div class="section-space col s12"></div>
+
 
                             <div class="row">
                                 <div class="input-field col s12">
@@ -133,41 +115,12 @@
                             </div>
                             <br><br>
                             <div class="section-space col s12"></div>
-                            <div class="row">
+                            {{-- <div class="row">
                                 <div class="input-field col s12">
-                                    <div class="file-field">
-                                        <div class="btn">
-                                            <span>File</span>
-                                            <input required name="image_one" type="file">
-                                        </div>
-                                        <div class="file-path-wrapper">
-                                            <input  class="file-path validate" type="text" placeholder="Featured Image">
-                                        </div>
-                                    </div>
+                                    <input readonly required autocomplete="off" value="{{Auth::user()->name }}" id="post-auth" name="author" type="text" class="validate">
+                                    <label for="post-auth">Author</label>
                                 </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input autocomplete="off" name="image_credit" id="list-title" type="text" class="validate" >
-                                    <label for="list-title">Image Credit</label>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <div class="file-field">
-                                        <div class="btn">
-                                            <span>Audio</span>
-                                            <input name="audio" type="file">
-                                        </div>
-                                        <div class="file-path-wrapper">
-                                            <input  class="file-path validate" type="text" placeholder="Featured Audio">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                            </div> --}}
 
                             <div class="row">
                                 <div class="input-field col s12">

@@ -63,15 +63,9 @@
                                 <div class="input-field col s12">
                                     <select required name="type" class="icons" >
                                         <option value="{{$Blog->type}}" selected>{{$Blog->type}}</option>
-                                        <option value="News"  class="circle">News</option>
-                                        <option value="Articles"  class="circle">Articles</option>
-                                        <option value="Interviews"  class="circle">Interviews</option>
-                                        <option value="Videos"  class="circle">Videos</option>
-                                        <option value="Webinars"  class="circle">Webinars</option>
-                                        <option value="Publications"  class="circle">Publications</option>
-                                        <option value="Whitepapers/Application Notes"  class="circle">Whitepapers/Application Notes</option>
-                                        <option value="Events"  class="circle">Events</option>
-                                        <option value="Podcasts"  class="circle">Podcasts</option>
+                                        <option value="News"  class="circle">Blog</option>
+                                        <option value="County Bounty"  class="circle">County Bounty</option>
+                                        <option value="Artisan Voices"  class="circle">Artisan Voices</option>
                                     </select>
                                     <label>Choose Type</label>
                                 </div>

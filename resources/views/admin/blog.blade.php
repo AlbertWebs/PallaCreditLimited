@@ -35,21 +35,18 @@
                     @if(Session::has('message'))
                                   <div class="alert alert-success">{{ Session::get('message') }}</div>
                    @endif
-
+   
                    @if(Session::has('messageError'))
                                   <div class="alert alert-danger">{{ Session::get('messageError') }}</div>
                    @endif
                 </center>
-
+               
                 <table class="table">
                     <thead>
                         <tr>
                             <th>#</th>
                             <th>Title</th>
-                            <th>Active</th>
-                            <th>Featured</th>
-                            <th>Topics</th>
-                            <th>Content Types</th>
+                            <th>Category & Tags</th>
                             <th>Date</th>
                             <th>Edit</th>
                             <th>Delete</th>
@@ -62,52 +59,13 @@
                             <td>{{$item->id}}</td>
                             <td>{{$item->title}}</td>
                             <td>
-                                <!-- Switch -->
-                                <div class="switch">
-                                    @if($item->active == 1)
-                                    <label>
-                                        On
-                                        <input class="switchers" checked type="checkbox" id="{{$item->id}}">
-                                        <span class="lever"></span> On
-                                    </label>
-                                    @else
-                                    <label>
-                                        off
-                                        <input class="switchers" type="checkbox" id="{{$item->id}}">
-                                        <span class="lever"></span> off
-                                    </label>
-                                    @endif
-                                </div>
-                            </td>
-                            <td>
-                                <!-- Switch -->
-                                <div class="switch">
-                                    @if($item->featured == 1)
-                                    <label>
-                                        On
-                                        <input class="switcher" checked type="checkbox" id="{{$item->id}}">
-                                        <span class="lever"></span> On
-                                    </label>
-                                    @else
-                                    <label>
-                                        off
-                                        <input class="switcher" type="checkbox" id="{{$item->id}}">
-                                        <span class="lever"></span> off
-                                    </label>
-                                    @endif
-                                </div>
-                            </td>
-                            <td>
-                               {{$item->type}}
-                            </td>
-                            <td>
                                 <?php $Category = DB::table('categories')->where('id',$item->category)->get(); ?>
                                 @foreach ($Category as $cat)
                                     {{$cat->title}}
                                 @endforeach
                             </td>
                             <td>
-                                <?php
+                                <?php 
                                     $RawDate = $item->created_at;
                                     $FormatDate = strtotime($RawDate);
                                     $Month = date('M',$FormatDate);
@@ -142,7 +100,7 @@
                                                 type: "POST",
                                                 data: {id: {{$item->id}}},
                                                 dataType: "html",
-                                                success: function ()
+                                                success: function () 
                                                 {
                                                     swal("Done!","It was succesfully deleted!","success");
                                                     setTimeout(function() {
@@ -151,8 +109,8 @@
 
                                                 }
                                             });
-                                            //
-
+                                            // 
+                                          
                                         } else {
                                             swal("Your imaginary file is safe!");
                                         }
@@ -169,97 +127,6 @@
     </div>
 </div>
 
-<script>
-    $('.switcher').click(function() {
-    // alert($(this).attr('id'));
-    var id = $(this).attr('id');
-    datas = {
-            TheId: $(this).attr('id'),
-            "_token": "{{ csrf_token() }}",
-        }
-    // alert(id)
-       if(this.checked){
-            $.ajax({
-                type: "POST",
-                url: '{{url('/')}}/admin/switchFeatredAjaxRequest',
-                data: datas,  //--> send id of checked checkbox on other page
-                success: function(data) {
-                    // alert("Success");
-                    // $('#container').html(data);
-                },
-                 error: function() {
-                    // alert('it broke');
-                },
-                complete: function() {
-                    // alert('it completed');
-                }
-            });
-
-        }else{
-            $.ajax({
-                type: "POST",
-                url: '{{url('/')}}/admin/switchFeatredAjaxRequest',
-                data: datas,  //--> send id of checked checkbox on other page
-                success: function(data) {
-                    // alert("Success");
-                    // $('#container').html(data);
-                },
-                 error: function() {
-                    // alert('it broke');
-                },
-                complete: function() {
-                    // alert('it completed');
-                }
-            });
-        }
-      });
-</script>
-
-<script>
-    $('.switchers').click(function() {
-    // alert($(this).attr('id'));
-    var id = $(this).attr('id');
-    datas = {
-            TheId: $(this).attr('id'),
-            "_token": "{{ csrf_token() }}",
-        }
-    // alert(id)
-       if(this.checked){
-            $.ajax({
-                type: "POST",
-                url: '{{url('/')}}/admin/switchActiveAjaxRequest',
-                data: datas,  //--> send id of checked checkbox on other page
-                success: function(data) {
-                    // alert("Success");
-                    // $('#container').html(data);
-                },
-                 error: function() {
-                    // alert('it broke');
-                },
-                complete: function() {
-                    // alert('it completed');
-                }
-            });
-
-        }else{
-            $.ajax({
-                type: "POST",
-                url: '{{url('/')}}/admin/switchActiveAjaxRequest',
-                data: datas,  //--> send id of checked checkbox on other page
-                success: function(data) {
-                    // alert("Success");
-                    // $('#container').html(data);
-                },
-                 error: function() {
-                    // alert('it broke');
-                },
-                complete: function() {
-                    // alert('it completed');
-                }
-            });
-        }
-      });
-</script>
 {{--  --}}
 <div id="ex1" class="modal">
     <div class="sb2-2-3">
@@ -283,13 +150,13 @@
                                     <input  type="submit" class="waves-effect waves-light btn-large" value="Submit">
                                 </div>
                             </div>
-
+                            
                             <div class="tab-inn" id="loading-bar">
                                 <div class="progress">
                                     <div class="indeterminate"></div>
                                 </div>
                             </div>
-
+                            
                         </form>
                     </div>
                 </div>
@@ -304,10 +171,10 @@
     $('#categoryAddForm').on('submit',function(event){
         event.preventDefault();
         $('#loading-bar').show();
-
+   
 
         let title = $('#CategoryTitle').val();
-
+       
 
         $.ajax({
           url: "{{url('/')}}/admin/addCategoryAjaxRequest",

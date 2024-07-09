@@ -49,12 +49,11 @@
                                     <table class="table table-hover">
                                         <thead>
                                             <tr>
-                                                <th>User</th>
+                                                {{-- <th>User</th> --}}
                                                 <th>Name</th>
-                                                <th>Mandate</th>
                                                 <th>Contacts</th>
 
-                                                <th>Country</th>
+                                                <th>Role</th>
                                                 <th>Status</th>
                                                 <th>Delete</th>
                                             </tr>
@@ -63,24 +62,23 @@
                                             <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
                                             @foreach ($Users as $item)
                                             <tr>
-                                                <td><span class="list-img"><img src="{{$item->image}}" alt="{{$item->name}}"></span>
-                                                </td>
+                                                {{-- <td><span class="list-img"><img src="{{url('/')}}/uploads/users/{{$item->image}}" alt="{{$item->name}}"></span>
+                                                </td> --}}
                                                 <td><a href="{{url('/')}}/editUser/{{$item->id}}"><span class="list-enq-name">{{$item->name}}</span></a>
-                                                </td>
-                                                <td><a href="{{url('/')}}/editUser/{{$item->id}}">
-                                                    <span class="list-enq-name">
-                                                        @if($item->type == 1)
-                                                        System Admin
-                                                        @elseif($item->type == 2)
-                                                        Manager
-                                                        @else
-                                                        subscribers
-                                                        @endif
-                                                    </span></a>
                                                 </td>
                                                 <td>{{$item->mobile}}<br>{{$item->email}}<br>{{$item->address}}<br>{{$item->country}}</td>
 
-                                                <td>{{$item->country}}</td>
+                                                <td>
+                                                    @if($item->type == 1)
+                                                     Admin
+                                                    @elseif($item->type == 2)
+                                                    Manager
+                                                    @elseif($item->type == 2)
+                                                    Suppliers
+                                                    @else
+                                                    User
+                                                    @endif
+                                                </td>
                                                 @if($item->status == 1)
                                                 <td>
                                                     <span class="label label-success">Active</span>

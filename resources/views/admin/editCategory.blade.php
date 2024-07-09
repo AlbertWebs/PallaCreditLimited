@@ -58,6 +58,35 @@
                             <label for="textarea1">Meta</label>
                         </div>
                     </div>
+
+                     {{--  --}}
+                     <div class="row">
+                        {{--  --}}
+                        <div class="input-field col s12">
+                            <select required name="main_id" class="icons" id="mydiv">
+                                <?php
+                                  $Parent = \App\Models\Main::find($Category->main_id);
+                                ?>
+                                @if($Parent == null)
+
+                                @foreach ($Main as $mains)
+                                <option value="{{$mains->id}}">{{$mains->title}}</option>
+                                @endforeach
+                                @else
+                                <option value="{{$Parent->id}}" disabled selected>{{$Parent->title;}}</option>
+                                @foreach ($Main as $mains)
+                                <option value="{{$mains->id}}">{{$mains->title}}</option>
+                                @endforeach
+                                @endif
+
+                            </select>
+                            <label>Choose Parent</label>
+                        </div>
+                        {{-- <a href="#ex1" rel="modal:open"> <strong>+ Add New Category</strong> </a> --}}
+                        {{--  --}}
+                        <div class="section-space col s12"></div>
+                    </div>
+                    {{--  --}}
                     {{--  --}}
                     <div class="row">
 
