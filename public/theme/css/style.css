@@ -1503,7 +1503,7 @@ a.btn-mod:focus{
 }
 .btn-icon.color-3{
     color: #fff;
-    background: var(--color-primary-3);
+    background: var(--color-primary-1);
 }
 .btn-icon.color-4{
     color: #fff;
