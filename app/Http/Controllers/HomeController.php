@@ -27,6 +27,10 @@ class HomeController extends Controller
         return view('front.index-1');
     }
 
+    public function about_us(){
+        return view('front.about');
+    }
+
     public function update($slung){
         $Blog = DB::table('blogs')->where('slung',$slung)->get();
         return view('front.update', compact('Blog'));

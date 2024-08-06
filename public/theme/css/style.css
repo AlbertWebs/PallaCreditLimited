@@ -204,7 +204,7 @@ Primary use: Multipurpose Template
     --color-primary-light-3: #f7defe;
     --color-primary-4: #e748b1;
     --color-primary-light-4: #ffe1f5;
-    --color-secondary-1: #fbe3a1;
+    --color-secondary-1: #88B437;
     --gradient-primary-1: linear-gradient( 90deg, var(--color-primary-4) 0%, var(--color-primary-3) 33%, var(--color-primary-2) 67%, var(--color-primary-1) 100%);
     --gradient-primary-1-a: linear-gradient( 90deg, var(--color-primary-4) 25%, var(--color-primary-3) 40%, var(--color-primary-2) 60%, var(--color-primary-1) 75%);
     --gradient-primary-1-b: linear-gradient( 45deg, var(--color-primary-4) 0%, var(--color-primary-3) 33%, var(--color-primary-2) 67%, var(--color-primary-1) 100%);
@@ -2846,6 +2846,9 @@ a.bg-video-button-pause{
     right: 0;
     width: 90.1875%;
 }
+.about-banner{
+    background-position:center top;
+}
 .bg-shape-1 img{
     width: 100%;
 }
@@ -4379,6 +4382,9 @@ a.logo:hover{
 }
 .light-content .section-text{
     color: #fff;
+}
+.bg-white{
+    background-color:#ffffff;
 }
 .bg-dark-alpha:before,
 .bg-dark-alpha .YTPOverlay:before,

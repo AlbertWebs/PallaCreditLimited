@@ -50,7 +50,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     image size for support of retina screens. See details in the template documentation. *) -->
                     <div class="nav-logo-wrap position-static local-scroll">
                         <a href="{{url('/')}}" class="logo">
-                            <img  src="{{url('/')}}/uploads/logo.png" alt="Palla Credit"  height="200" />
+                            <img  src="{{url('/')}}/uploads/Palla-Credit-Logo-new.png" alt="Palla Credit"  height="200" />
                         </a>
                     </div>
 

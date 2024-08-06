@@ -72,7 +72,7 @@
 
         <!-- Decorative Line -->
         <div class="bg-line-1 opacity-025">
-            <img src="images/demo-corporate/decoration-2.svg" alt="" class="wow fadeIn" data-wow-delay="0.4s" />
+            {{-- <img src="{{asset('theme/images/demo-corporate/decoration-2.svg')}}" alt="" class="wow fadeIn" data-wow-delay="4.4s" />- --}}
         </div>
         <!-- End Decorative Line -->
 
@@ -81,9 +81,9 @@
             <div class="row mb-70 mb-sm-50">
                 <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
 
-                    <h2 class="section-title mb-40 mb-xs-30">Empowering SMEs with The Biashara Loan for Business Growth</h2>
+                    <h2 class="section-title mb-40 mb-xs-30 wow fadeInUp" data-wow-delay="0.4s">Empowering SMEs with The Biashara Loan for Business Growth</h2>
 
-                    <p class="section-descr mb-0">
+                    <p class="section-descr mb-0 wow fadeInUp" data-wow-delay="0.4s">
                         Palla Credit is a fast growing non deposit taking micro-finance institution with eight branches namely; <strong>Kangemi, Kiambu, Kawangware, Eastlands, Muranga, Naivasha, Kasarani, Githurai</strong>
                     </p>
 
@@ -91,246 +91,14 @@
             </div>
 
 
-            <div class="local-scroll text-center">
-                <a href="#" class="btn btn-mod btn-w btn-with-icon btn-circle"><span class="btn-icon color-3"><i class="mi-favorite"></i></span> <span data-btn-animate="y">Read More About Us <i class="mi-arrow-right"></i></span></a>
+            <div class="local-scroll text-center wow fadeInUp" data-wow-delay="0.4s">
+                <a href="{{route('about-us')}}" class="btn btn-mod btn-w btn-with-icon btn-circle"><span class="btn-icon color-3"><i class="mi-favorite"></i></span> <span data-btn-animate="y">Read More About Us <i class="mi-arrow-right"></i></span></a>
             </div>
 
         </div>
 
     </section>
     <!-- End About Section -->
-
-
-
-
-    <!-- About Section -->
-    <section class="page-section bg-light light-content content-dark" id="about">
-
-        <div class="container position-relative">
-
-            <div class="row mb-60 mb-xs-30">
-
-                <div class="col-md-6">
-                    <h2 class="section-caption mb-xs-10 content-dark">Our Story</h2>
-                    <h3 class="section-title mb-0 content-dark"><span class="wow charsAnimIn" data-splitting="chars">Palla Credit Limited</span></h3>
-                </div>
-
-                <div class="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
-
-                    <!-- Decorative Dots -->
-                    <div class="decoration-2 opacity-035 d-none d-md-block" data-rellax-y data-rellax-speed="0.7" data-rellax-percentage="-0.2">
-                        <img src="{{asset('theme/images/decoration-2.svg')}}" alt="" />
-                    </div>
-                    <!-- End Decorative Dots -->
-
-                    <a href="#" class="link-hover-anim underline align-middle content-dark" data-link-animate="y">Learn more about us <i class="mi-arrow-right size-18"></i></a>
-
-                </div>
-
-            </div>
-
-            <div class="row wow fadeInUp" data-wow-delay="0.5s">
-
-                <div class="col-lg-6 mb-md-60s">
-                    <div class="position-relative">
-
-                        <!-- Image -->
-                        <div class="video">
-                            <video style="border-radius:75px;" preload="auto" loop="" controls="controls" poster="{{asset('uploads/palla-credit.jpg')}}">
-                            <source src="{{asset('uploads/Palla-Credit-Clients-Testimonials.mp4')}}" type="video/mp4">
-                        </video>
-                        </div>
-                        <!-- End Image -->
-
-
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-xl-5 offset-xl-1">
-
-
-
-                    <div class="content-dark">
-                        <p>Palla Credit is a fast growing non deposit taking micro-finance institution with eight branches namely; <strong>Kangemi, Kiambu, Kawangware, Eastlands, Muranga, Naivasha, Kasarani, Githurai</strong></p>
-                        <p class="description normal animated vntd-animated fadeIn visible" data-animation="fadeIn" data-animation-delay="100">We are a company offering lending services to small and medium enterprises. Our flagship product, The <strong>Biashara Loan</strong>, is primarily intended to aid business people expand their operations. We take great pride and effort in ensuring that business owners and entrepreneurs meet their business goals by offering them the best possible financial solutions. We work hard in ensuring customer convenience so that you can focus on growing your business while leaving the financial aspects to us</p>
-                    </div>
-
-
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-    <!-- End About Section -->
-
-
-    <!-- Divider -->
-    <hr class="mt-0 mb-0"/>
-    <!-- End Divider -->
-
-
-
-    <!-- Services Section -->
-    <section class="page-section" id="services">
-        <div class="container position-relative">
-
-            <div class="row">
-
-                <div class="col-lg-6 mb-md-60 mb-sm-30">
-
-                    <h2 class="section-caption mb-xs-10">Product & Services</h2>
-
-                    <h3 class="section-title mb-30"><span class="wow charsAnimIn" data-splitting="chars">Biashara Loan.</span></h3>
-
-                    <div class="row">
-                        <div class="col-lg-10">
-                            <p class="section-descr mb-50 mb-sm-30 wow fadeInUp" data-wow-delay="0.4s">
-                                Apply  for the fastest  biashara loans in Kenya, payable over flexible repayment periods while giving you access to financing to drive your business short term and long-term goals.
-                            </p>
-                        </div>
-                    </div>
-
-                    <ul class="nav nav-tabs services-tabs wow fadeInUp" data-wow-delay="0.55s" role="tablist">
-                        <li role="presentation">
-                            <a href="#services-item-1" class="active" aria-controls="services-item-1" role="tab" aria-selected="true" data-bs-toggle="tab">Instant Loan <span class="number">01</span></a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#services-item-2" aria-controls="services-item-2" role="tab" aria-selected="false" data-bs-toggle="tab">No guarantors <span class="number">02</span></a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#services-item-3" aria-controls="services-item-3" role="tab" aria-selected="false" data-bs-toggle="tab">No Savings <span class="number">03</span></a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#services-item-4" aria-controls="services-item-4" role="tab" aria-selected="false" data-bs-toggle="tab">No Registration Fee <span class="number">04</span></a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#services-item-5" aria-controls="services-item-5" role="tab" aria-selected="false" data-bs-toggle="tab">No Hidden Costs <span class="number">05</span></a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#services-item-6" aria-controls="services-item-6" role="tab" aria-selected="false" data-bs-toggle="tab">Flexible Payment Plan <span class="number">06</span></a>
-                        </li>
-                    </ul>
-
-                </div>
-
-                <div class="col-lg-6 d-flex wow fadeInLeft" data-wow-delay="0.55s" data-wow-offset="275">
-
-                    <div class="tab-content services-content">
-
-                        <!-- Tab Content -->
-                        <div class="tab-pane services-content-item show fade active" id="services-item-1" role="tabpanel">
-
-                            <div class="services-text">
-                                <div class="services-text-container">
-                                    <h4 class="services-title">Instant loan issued without deducting interest</h4>
-                                    <p class="text-gray mb-0">
-                                        Palla Credit offers instant loans with a fast application process and quick approval. Ideal for urgent expenses, business expansion, or emergencies, they provide competitive rates and flexible repayment options.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <img class="services-image" src="{{asset('uploads/Untitled-design.png')}}" alt="Image Description" />
-
-                        </div>
-                        <!-- End Tab Content -->
-
-                        <!-- Tab Content -->
-                        <div class="tab-pane services-content-item fade" id="services-item-2" role="tabpanel">
-
-                            <div class="services-text">
-                                <div class="services-text-container">
-                                    <h4 class="services-title">No guarantors Required</h4>
-                                    <p class="text-gray mb-0">
-                                        Palla Credit offers instant loans with no guarantors or security required. With a fast application process and quick approval, their loans are ideal for urgent expenses, business expansion, or emergencies, featuring competitive rates and flexible repayment options.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <img class="services-image" src="{{asset('uploads/savings.jpg')}}" alt="Image Description" />
-
-                        </div>
-                        <!-- End Tab Content -->
-
-                        <!-- Tab Content -->
-                        <div class="tab-pane services-content-item fade" id="services-item-3" role="tabpanel">
-
-                            <div class="services-text">
-                                <div class="services-text-container">
-                                    <h4 class="services-title">No savings required as collateral</h4>
-                                    <p class="text-gray mb-0">
-                                        Palla Credit offers instant loans with no collateral or guarantors required. With a quick application process and approval, their loans are ideal for urgent expenses, business expansion, or emergencies, featuring competitive rates and flexible repayment options.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <img class="services-image" src="{{asset('uploads/savings.jpg')}}" alt="Image Description" />
-
-                        </div>
-                        <!-- End Tab Content -->
-
-                        <!-- Tab Content -->
-                        <div class="tab-pane services-content-item fade" id="services-item-4" role="tabpanel">
-
-                            <div class="services-text">
-                                <div class="services-text-container">
-                                    <h4 class="services-title">No registration fee required to facilitate loan</h4>
-                                    <p class="text-gray mb-0">
-                                        Palla Credit offers instant loans with no registration fee, collateral, or guarantors needed. With a fast application and quick approval, their loans suit urgent expenses, business expansion, or emergencies, with competitive rates and flexible repayment.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <img class="services-image" src="{{asset('uploads/Registration-Fee.png')}}" alt="Image Description" />
-
-                        </div>
-                        <!-- End Tab Content -->
-
-                        <!-- Tab Content -->
-                        <div class="tab-pane services-content-item fade" id="services-item-5" role="tabpanel">
-
-                            <div class="services-text">
-                                <div class="services-text-container">
-                                    <h4 class="services-title">No Hidden Costs</h4>
-                                    <p class="text-gray mb-0">
-                                        Palla Credit offers instant loans with no hidden costs, registration fee, collateral, or guarantors needed. With a fast application and approval process, their loans are ideal for urgent expenses, business expansion, or emergencies, with competitive rates and flexible repayment.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <img class="services-image" src="{{asset('uploads/iceberg.jpg')}}" alt="Image Description" />
-
-                        </div>
-                        <!-- End Tab Content -->
-
-                        <!-- Tab Content -->
-                        <div class="tab-pane services-content-item fade" id="services-item-6" role="tabpanel">
-
-                            <div class="services-text">
-                                <div class="services-text-container">
-                                    <h4 class="services-title">Flexible repayment plan</h4>
-                                    <p class="text-gray mb-0">
-                                        Palla Credit offers instant loans with no hidden costs, registration fee, collateral, or guarantors required. With a fast application and approval process, their loans are ideal for urgent expenses, business expansion, or emergencies, featuring competitive rates and flexible repayment, including daily payments via M-Pesa.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <img class="services-image" src="{{asset('uploads/pmt-blog-21-08-2022.jpg')}}" alt="Image Description" />
-
-                        </div>
-                        <!-- End Tab Content -->
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-    <!-- End Services Section -->
 
 
 
@@ -425,6 +193,154 @@
     </section>
     <!-- End Steps Section -->
 
+         <!-- Services Section -->
+         <section class="page-section pb-0" id="services">
+
+            <div class="container position-relative">
+
+                <div class="row mb-70 mb-sm-50">
+                    <div class="col-md-8 offset-md-2 text-center">
+
+                        <h2 class="section-title mb-40 mb-xs-30">Value Guaranteed</h2>
+
+                        <p class="section-descr mb-0">
+                            Unbeatable Rates Tailored to Your Financial Needs: Secure the Best Interest Rates in the Market with Our Customized Financial Solutions
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Services Grid -->
+            <div class="row g-0 mb-70 mb-sm-50">
+
+                <!-- Services Item -->
+                <div class="col-md-6 col-xl-3 d-flex">
+                    <div class="services-8-item p-4 p-sm-5 wow fadeIn" data-wow-duration="1.2s">
+
+                        <div class="services-8-icon color-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M7 22v-16h14v7.543c0 4.107-6 2.457-6 2.457s1.518 6-2.638 6h-5.362zm16-7.614v-10.386h-18v20h8.189c3.163 0 9.811-7.223 9.811-9.614zm-10 1.614h-4v-1h4v1zm6-4h-10v1h10v-1zm0-3h-10v1h10v-1zm1-7h-17v19h-2v-21h19v2z"/>
+                            </svg>
+                        </div>
+
+                        <h3 class="services-8-title">
+                            Tailored Financial Rates for Your Unique Needs
+                        </h3>
+
+                        <p class="services-8-text">
+                            We offer unbeatable rates tailored to your specific financial needs, ensuring you get the best interest rates in the market.
+                        </p>
+
+
+
+                    </div>
+                </div>
+                <!-- End Services Item -->
+
+                <!-- Services Item -->
+                <div class="col-md-6 col-xl-3 d-flex">
+                    <div class="services-8-item p-4 p-sm-5 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.15s">
+
+                        <div class="services-8-icon color-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M18 10.031v-6.423l-6.036-3.608-5.964 3.569v6.499l-6 3.224v7.216l6.136 3.492 5.864-3.393 5.864 3.393 6.136-3.492v-7.177l-6-3.3zm-1.143.036l-4.321 2.384v-4.956l4.321-2.539v5.111zm-4.895-8.71l4.272 2.596-4.268 2.509-4.176-2.554 4.172-2.551zm-10.172 12.274l4.778-2.53 4.237 2.417-4.668 2.667-4.347-2.554zm4.917 3.587l4.722-2.697v5.056l-4.722 2.757v-5.116zm6.512-3.746l4.247-2.39 4.769 2.594-4.367 2.509-4.649-2.713zm9.638 6.323l-4.421 2.539v-5.116l4.421-2.538v5.115z"/>
+                            </svg>
+                        </div>
+
+                        <h3 class="services-8-title">
+                            Secure the Best Interest Rates with Custom Solutions
+                        </h3>
+
+                        <p class="services-8-text">
+                            Secure the best interest rates available with our customized financial solutions designed to fit your unique financial situation
+                        </p>
+
+
+
+                    </div>
+                </div>
+                <!-- End Services Item -->
+
+                <!-- Services Item -->
+                <div class="col-md-6 col-xl-3 d-flex">
+                    <div class="services-8-item p-4 p-sm-5 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.3s">
+
+                        <div class="services-8-icon color-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M6.676 9.18c-1.426-.009-3.217.764-4.583 2.13-.521.521-.979 1.129-1.333 1.812 1.232-.933 2.547-1.225 4.086-.361.453-1.199 1.056-2.418 1.83-3.581zm8.154 8.143c-1.264.826-2.506 1.422-3.581 1.842.863 1.54.571 2.853-.361 4.085.684-.353 1.291-.812 1.812-1.334 1.37-1.369 2.144-3.165 2.13-4.593zm5.127-13.288c-.344-.024-.681-.035-1.011-.035-7.169 0-11.249 5.465-12.733 9.86l3.939 3.94c4.525-1.62 9.848-5.549 9.848-12.642 0-.366-.014-.74-.043-1.123zm-8.24 8.258c-.326-.325-.326-.853 0-1.178.325-.326.853-.326 1.178 0 .326.326.326.853 0 1.178-.326.326-.853.326-1.178 0zm2.356-2.356c-.651-.65-.651-1.706 0-2.357s1.706-.651 2.356 0c.651.651.651 1.706 0 2.357-.65.65-1.704.65-2.356 0zm-12.432 10.378l-.755-.755 4.34-4.323.755.755-4.34 4.323zm4.149 1.547l-.755-.755 3.029-3.054.755.755-3.029 3.054zm-5.035 2.138l-.755-.755 5.373-5.364.756.755-5.374 5.364zm21.083-14.291c-.188.618-.673 1.102-1.291 1.291.618.188 1.103.672 1.291 1.291.189-.619.673-1.103 1.291-1.291-.618-.188-1.102-.672-1.291-1.291zm-14.655-6.504c-.247.81-.881 1.443-1.69 1.69.81.247 1.443.881 1.69 1.69.248-.809.881-1.443 1.69-1.69-.81-.247-1.442-.88-1.69-1.69zm-1.827-3.205c-.199.649-.706 1.157-1.356 1.355.65.199 1.157.707 1.356 1.355.198-.649.706-1.157 1.354-1.355-.648-.198-1.155-.706-1.354-1.355zm5.387 0c-.316 1.035-1.127 1.846-2.163 2.163 1.036.316 1.847 1.126 2.163 2.163.316-1.036 1.127-1.846 2.162-2.163-1.035-.317-1.845-1.128-2.162-2.163zm11.095 13.64c-.316 1.036-1.127 1.846-2.163 2.163 1.036.316 1.847 1.162 2.163 2.197.316-1.036 1.127-1.881 2.162-2.197-1.035-.317-1.846-1.127-2.162-2.163z"/>
+                            </svg>
+                        </div>
+
+                        <h3 class="services-8-title">
+                            Competitive Rates for Optimal Financial Solutions
+                        </h3>
+
+                        <p class="services-8-text">
+                            Our financial solutions are crafted to provide you with the most competitive rates, guaranteeing the best interest options for your needs
+                        </p>
+
+
+                    </div>
+                </div>
+                <!-- End Services Item -->
+
+                <!-- Services Item -->
+                <div class="col-md-6 col-xl-3 d-flex">
+                    <div class="services-8-item p-4 p-sm-5 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.3s">
+
+                        <div class="services-8-icon color-4">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" aria-hidden="true">
+                                <path d="M24 20h-3v4l-5.333-4h-7.667v-4h2v2h6.333l2.667 2v-2h3v-8.001h-2v-2h4v12.001zm-6-6h-9.667l-5.333 4v-4h-3v-14.001h18v14.001zm-9-4.084h-5v1.084h5v-1.084zm5-2.916h-10v1h10v-1zm0-3h-10v1h10v-1z"/>
+                            </svg>
+                        </div>
+
+                        <h3 class="services-8-title">
+                            Unbeatable Rates and Personalized Financial Services
+                        </h3>
+
+                        <p class="services-8-text">
+                            Experience the advantage of our unbeatable rates and personalized financial services, designed to help you secure the most favorable interest rates in the market
+                        </p>
+
+
+
+                    </div>
+                </div>
+                <!-- End Services Item -->
+
+            </div>
+            <!-- End Services Grid -->
+
+            <!-- Call to Action Block -->
+            {{-- <div class="container position-relative z-index-1">
+                <div class="row text-center">
+                    <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                        <div class="text-center mb-40 mb-sm-30">
+                            <img src="{{asset('theme/images/demo-corporate/section-image-1.png')}}" width="100" height="100" alt="Image Description" />
+                        </div>
+                        <p class="section-descr-medium mb-50 mb-sm-40">
+                            Looking for exclusive marketing services? Contact us and get free online consultation for your brand or your client's brand.
+                        </p>
+                        <div class="local-scroll text-center">
+                            <a href="corporate-contact.html" class="btn btn-mod btn-w btn-with-icon btn-circle"><span class="btn-icon color-1"><i class="mi-heart"></i></span> <span data-btn-animate="y">Get Free Consultation <i class="mi-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Call to Action Block -->
+
+            <!-- Decorative Line -->
+            <div class="bg-line-2 mt-n10 mt-md-20 opacity-025">
+                <img src="{{asset('theme/images/demo-corporate/decoration-3.svg')}}" alt="" />
+            </div>
+            <!-- End Decorative Line --> --}}
+
+        </section>
+        <!-- End Services Section -->
+
+
 
     <!-- Testimonials Section -->
     <section class="page-section" id="clients-stories">
@@ -441,7 +357,7 @@
 
                 <div class="col-md-5 col-lg-4 offset-lg-1 mb-sm-40">
                     <div class="overflow-hidden round">
-                        <img src="{{asset('uploads/pexels-olly-3801426.jpg')}}" alt="Image Description" class="wow scaleOutIn" />
+                        <img src="{{asset('uploads/testimonials/business-loan-in-kenya.jpg')}}" alt="Image Description" class="wow scaleOutIn" style="min-height:400px; object-fit: cover" />
                     </div>
                 </div>
 
@@ -451,7 +367,7 @@
                         <div class="testimonials-6-icon" aria-hidden="true">“</div>
 
                         <p class="testimonials-6-text mb-40">
-                            Getting a loan from Palla Credit was incredibly easy and fast. Their process is seamless, with no hidden fees or complicated requirements. I applied online, got approved within hours, and the funds were in my account the next day. Perfect for anyone needing quick financial assistance with competitive rates and flexible repayment options. Highly recommend Palla Credit!
+                            Getting a loan from Palla Credit was incredibly easy and fast. Their process is seamless, with no hidden fees or complicated requirements. I applied online, got approved within hours, and the funds were in my account the next day.
                         </p>
 
                         <div class="section-line mb-10"></div>
@@ -461,7 +377,7 @@
                                 Gerishom Kadiri
                             </div>
                             <div class="testimonials-6-position">
-                                Marketing Consultant
+                                Stock Acquisition Loan
                             </div>
                         </footer>
 
@@ -476,7 +392,7 @@
 
                 <div class="col-md-5 offset-md-1 col-lg-4 offset-lg-1 order-md-last mb-sm-40">
                     <div class="overflow-hidden round">
-                        <img src="{{asset('uploads/pexels-olly-3801426.jpg')}}" alt="Image Description" class="wow scaleOutIn" />
+                        <img src="{{asset('uploads/testimonials/business-loans-kenyas.jpg')}}" alt="Image Description" class="wow scaleOutIn" style="min-height:400px; object-fit: cover" />
                     </div>
                 </div>
 
@@ -486,7 +402,7 @@
                         <div class="testimonials-6-icon" aria-hidden="true">“</div>
 
                         <p class="testimonials-6-text mb-40">
-                            Choosing Palla Credit for my loan needs was a game-changer. Their no-hassle application process, combined with quick approval and transparent terms, made everything straightforward. Whether for business expansion or unexpected expenses, their competitive rates and flexible repayment plans provided the financial support I needed when I needed it most.
+                            Palla Credit's no-hassle application, quick approval, and transparent terms were a game-changer. Their competitive rates and flexible repayment plans provided the financial support I needed for business expansion and unexpected expenses
                         </p>
 
                         <div class="section-line mb-10"></div>
@@ -496,7 +412,7 @@
                                 Dan Faith
                             </div>
                             <div class="testimonials-6-position">
-                                Accountant
+                                Business Expansion Loan
                             </div>
                         </footer>
 
@@ -505,6 +421,45 @@
 
             </div>
             <!-- End Testimonial -->
+
+              <!-- Testimonial -->
+              <div class="row mb-80 mt-80 mb-sm-60">
+
+                <div class="col-md-5 col-lg-4 offset-lg-1 mb-sm-40">
+                    <div class="overflow-hidden round">
+                        <img src="{{asset('uploads/testimonials/women-loan-in-nairobi.jpg')}}" alt="Image Description" class="wow scaleOutIn" style="min-height:400px; object-fit: cover" />
+                    </div>
+                </div>
+
+                <div class="col-md-6 offset-md-1 col-lg-5 offset-lg-1 d-flex align-items-center wow fadeInUp">
+                    <blockquote class="testimonials-6-item">
+
+                        <div class="testimonials-6-icon" aria-hidden="true">“</div>
+
+                        <p class="testimonials-6-text mb-40">
+                            Getting a loan from Palla Credit was incredibly easy and fast. Their process is seamless, with no hidden fees or complicated requirements. I applied online, got approved within hours, and the funds were in my account the next day.
+                        </p>
+
+                        <div class="section-line mb-10"></div>
+
+                        <footer>
+                            <div class="testimonials-6-author">
+                                Gerishom Kadiri
+                            </div>
+                            <div class="testimonials-6-position">
+                                Women Loan Nairobi
+                            </div>
+                        </footer>
+
+                    </blockquote>
+                </div>
+
+            </div>
+            <!-- End Testimonial -->
+
+            <div class="local-scroll text-center wow fadeInUp" data-wow-delay="0.4s">
+                <a href="{{route('about-us')}}" class="btn btn-mod btn-w btn-with-icon btn-circle"><span class="btn-icon color-3"><i class="mi-favorite"></i></span> <span data-btn-animate="y">Read More Stories <i class="mi-arrow-right"></i></span></a>
+            </div>
 
         </div>
     </section>
@@ -524,16 +479,16 @@
 
         <div class="container position-relative">
             <div class="row">
-                <div class="col-md-8 offset-md-5 col-lg-6 offset-lg-8 col-xl-5 offset-xl-7">
+                <div class="col-md-8 col-lg-6 col-xl-8" style="margin:0 auto; text-align:center">
 
-                    <h2 class="section-title mb-40 mb-xs-30">Smart <span class="mark-decoration-5">Financing</span> Solutions for Your Business</h2>
+                    <h2 class="section-title mb-40 mb-xs-30" style="color:#88B437; font-weight:900 ">Smart <span class="mark-decoration-5">Financing</span> Business Solutions</h2>
 
                     <p class="section-descr mb-50 mb-sm-40">
                         We understand that financial needs can arise unexpectedly. That's why we offer hassle-free instant loans designed to meet your urgent requirements, whether you're expanding your business, dealing with unforeseen expenses, or facing emergencies
                     </p>
 
                     <div class="local-scroll mb-70 mb-sm-50">
-                        <a href="tel:+254722388009" class="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"><span> <i class="fa-viber"></i> Give us a Call</span></a>
+                        <a href="tel:+254722388009" class="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09" style="background-color: #88B437"><span> <i class="fa-viber"></i> Give us a Call</span></a>
                     </div>
 
                 </div>
@@ -605,50 +560,10 @@
     <!-- End Blog Section -->
 
 
-    <!-- Newsletter Section -->
-    <section class="container">
-        <div class="page-section px-4 px-md-0 bg-gradient-primary-light-1 round">
 
-            <div class="row">
-                <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 wow fadeInUp">
-
-                    <div class="row">
-                        <div class="col-md-10 col-xl-8 d-flex mb-50 mb-sm-30">
-                            <div class="flex-sm-shrink-0 me-3 me-sm-4">
-                                <img src="{{asset('theme/images/demo-corporate/section-image-1.png')}}" width="100" height="100" alt="Image Description" />
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <h2 class="section-title-small w-100 mb-0">Stay informed with our weekly newsletter.</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <form id="mailchimp" class="form">
-
-                        <div class="d-sm-flex justify-content-between mb-3">
-                            <label for="newsletter-email" class="visually-hidden">Your email</label>
-                            <input placeholder="Enter your email" class="newsletter-field input-lg round" id="newsletter-email" name="newsletter-email" type="email" pattern=".{5,100}" required aria-required="true">
-                            <button type="submit" aria-controls="subscribe-result" class="newsletter-button btn btn-mod btn-color btn-large btn-round btn-hover-anim">
-                                <span>Subscribe <span class="d-none d-md-inline-block">Now</span></span>
-                            </button>
-                        </div>
-
-                        <div class="form-tip">
-                            <i class="icon-info size-16"></i>
-                            By sending the form you agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
-                        </div>
-
-                        <div id="subscribe-result" role="region" aria-live="polite" aria-atomic="true"></div>
-
-                    </form>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- End Newsletter Section -->
-
+  <!-- Divider -->
+  <hr class="mt-0 mb-0"/>
+  <!-- End Divider -->
 
     <!-- Contact Section -->
     <section class="page-section" id="contact">
