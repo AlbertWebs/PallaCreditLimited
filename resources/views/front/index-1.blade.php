@@ -216,84 +216,124 @@
                 <!-- Services Grid -->
                 <div class="row g-0 mb-70 mb-sm-50">
 
-                    <!-- Services Item -->
-                    <div class="col-md-6 col-xl-3 d-flex">
-                        <div class="services-8-item p-4 p-sm-5 wow fadeIn" data-wow-duration="1.2s">
 
+                    {{--  --}}
+                    <!-- Portfolio Grid -->
+                    <div class="row mt-n50 mt-sm-n40 mb-70 mb-sm-50">
 
+                        <!-- Portfolio Item -->
+                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
 
-                            <h3 class="services-8-title">
-                                Tailored Financial Rates for Your Unique Needs
-                            </h3>
+                                <div class="portfolio-5-image">
+                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                    <div class="wow fadeIn" data-wow-delay="1s">
+                                        <img src="{{url('/')}}/uploads/facebook/1.jpg" alt="#" />
+                                    </div>
+                                </div>
 
-                            <p class="services-8-text">
-                                We offer unbeatable rates tailored to your specific financial needs, ensuring you get the best interest rates in the market.
-                            </p>
-
-
-
+                                <h3 class="portfolio-5-title text-center">
+                                    <span>Merchant Cash Advances</span>
+                                </h3>
+                            </a>
                         </div>
-                    </div>
-                    <!-- End Services Item -->
+                        <!-- End Portfolio Item -->
 
-                    <!-- Services Item -->
-                    <div class="col-md-6 col-xl-3 d-flex">
-                        <div class="services-8-item p-4 p-sm-5 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.15s">
+                        <!-- Portfolio Item -->
+                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
 
-
-
-                            <h3 class="services-8-title">
-                                Secure the Best Interest Rates with Custom Solutions
-                            </h3>
-
-                            <p class="services-8-text">
-                                Secure the best interest rates available with our customized financial solutions designed to fit your unique financial situation
-                            </p>
-
-
-
+                                <div class="portfolio-5-image">
+                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                    <div class="wow fadeIn" data-wow-delay="1s">
+                                        <img src="{{url('/')}}/uploads/facebook/2.jpg" alt="Image Description" />
+                                    </div>
+                                </div>
+                                <h3 class="portfolio-5-title text-center">
+                                    <span>Equipment Financing</span>
+                                </h3>
+                            </a>
                         </div>
-                    </div>
-                    <!-- End Services Item -->
+                        <!-- End Portfolio Item -->
 
-                    <!-- Services Item -->
-                    <div class="col-md-6 col-xl-3 d-flex">
-                        <div class="services-8-item p-4 p-sm-5 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                        <!-- Portfolio Item -->
+                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
 
+                                <div class="portfolio-5-image">
+                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                    <div class="wow fadeIn" data-wow-delay="1s">
+                                        <img src="{{url('/')}}/uploads/facebook/3.jpg" alt="Image Description" />
+                                    </div>
+                                </div>
 
-
-                            <h3 class="services-8-title">
-                                Competitive Rates for Optimal Financial Solutions
-                            </h3>
-
-                            <p class="services-8-text">
-                                Our financial solutions are crafted to provide you with the most competitive rates, guaranteeing the best interest options for your needs
-                            </p>
-
-
+                                <h3 class="portfolio-5-title text-center">
+                                    <span>Inventory Financing</span>
+                                </h3>
+                            </a>
                         </div>
-                    </div>
-                    <!-- End Services Item -->
+                        <!-- End Portfolio Item -->
 
-                    <!-- Services Item -->
-                    <div class="col-md-6 col-xl-3 d-flex">
-                        <div class="services-8-item p-4 p-sm-5 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                         <!-- Portfolio Item -->
+                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
 
+                                <div class="portfolio-5-image">
+                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                    <div class="wow fadeIn" data-wow-delay="1s">
+                                        <img src="{{url('/')}}/uploads/facebook/4.jpg" alt="Image Description" />
+                                    </div>
+                                </div>
 
-
-                            <h3 class="services-8-title">
-                                Unbeatable Rates and Personalized Financial Services
-                            </h3>
-
-                            <p class="services-8-text">
-                                Experience the advantage of our unbeatable rates and personalized financial services, designed to help you secure the most favorable interest rates in the market
-                            </p>
-
-
-
+                                <h3 class="portfolio-5-title text-center">
+                                    <span>Minimart Stock Financing</span>
+                                </h3>
+                            </a>
                         </div>
+                        <!-- End Portfolio Item -->
+
+                         <!-- Portfolio Item -->
+                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+
+                                <div class="portfolio-5-image">
+                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                    <div class="wow fadeIn" data-wow-delay="1s">
+                                        <img src="{{url('/')}}/uploads/facebook/5.jpg" alt="Image Description" />
+                                    </div>
+                                </div>
+
+                                <h3 class="portfolio-5-title text-center">
+                                    <span>Equipment Purchase Financing</span>
+                                </h3>
+                            </a>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+
+                         <!-- Portfolio Item -->
+                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+
+                                <div class="portfolio-5-image">
+                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                    <div class="wow fadeIn" data-wow-delay="1s">
+                                        <img src="{{url('/')}}/uploads/facebook/6.jpg" alt="Image Description" />
+                                    </div>
+                                </div>
+
+                                <h3 class="portfolio-5-title text-center">
+                                    <span>Agri-Business Financing</span>
+                                </h3>
+                            </a>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+
+
                     </div>
-                    <!-- End Services Item -->
+                    <!-- End Portfolio Grid -->
+                    {{--  --}}
 
                 </div>
                 <!-- End Services Grid -->
