@@ -223,7 +223,7 @@
 
                         <!-- Portfolio Item -->
                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+                            <a href="#" class="portfolio-5-link">
 
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
@@ -241,7 +241,7 @@
 
                         <!-- Portfolio Item -->
                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+                            <a href="#" class="portfolio-5-link">
 
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
@@ -258,7 +258,7 @@
 
                         <!-- Portfolio Item -->
                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+                            <a href="#" class="portfolio-5-link">
 
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
@@ -276,7 +276,7 @@
 
                          <!-- Portfolio Item -->
                          <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+                            <a href="#" class="portfolio-5-link">
 
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
@@ -294,7 +294,7 @@
 
                          <!-- Portfolio Item -->
                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+                            <a href="#" class="portfolio-5-link">
 
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
@@ -313,7 +313,7 @@
 
                          <!-- Portfolio Item -->
                          <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+                            <a href="#" class="portfolio-5-link">
 
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
@@ -420,7 +420,7 @@
 
                         <!-- Portfolio Item -->
                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+                            <a href="#" class="portfolio-5-link">
 
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
@@ -445,7 +445,7 @@
 
                         <!-- Portfolio Item -->
                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+                            <a href="#" class="portfolio-5-link">
 
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
@@ -470,7 +470,7 @@
 
                         <!-- Portfolio Item -->
                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+                            <a href="#" class="portfolio-5-link">
 
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
