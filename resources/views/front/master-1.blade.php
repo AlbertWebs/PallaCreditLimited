@@ -25,6 +25,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <link rel="stylesheet" href="{{asset('theme/css/YTPlayer.css')}}">
         <link rel="stylesheet" href="{{asset('theme/css/demo-corporate/demo-corporate.css')}}">
 
+        @include('front.favicon')
+
     </head>
     <body class="appear-animate">
 
