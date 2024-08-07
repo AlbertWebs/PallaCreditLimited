@@ -5,7 +5,7 @@
 
 <main id="main">
     <!-- Home Section -->
-    <section class="home-section light-content" id="home">
+    <section class="home-section light-content parallax-5" id="home">
         <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
 
             <!-- Background Video -->
@@ -321,7 +321,7 @@
                             <img src="{{asset('theme/images/demo-corporate/section-image-1.png')}}" width="100" height="100" alt="Image Description" />
                         </div>
                         <p class="section-descr-medium mb-50 mb-sm-40">
-                            Looking for exclusive marketing services? Contact us and get free online consultation for your brand or your client's brand.
+                            Need instant working capital for your business? Reach out to us now and enjoy a free consultation to get started!
                         </p>
                         <div class="local-scroll text-center">
                             <a href="corporate-contact.html" class="btn btn-mod btn-w btn-with-icon btn-circle"><span class="btn-icon color-1"><i class="mi-heart"></i></span> <span data-btn-animate="y">Get Free Consultation <i class="mi-arrow-right"></i></span></a>
@@ -334,11 +334,172 @@
             <!-- Decorative Line -->
             <div class="bg-line-2 mt-n10 mt-md-20 opacity-025">
                 <img src="{{asset('theme/images/demo-corporate/decoration-3.svg')}}" alt="" />
-            </div>
-            <!-- End Decorative Line --> --}}
+            </div> --}}
+            <!-- End Decorative Line -->
 
         </section>
         <!-- End Services Section -->
+
+               <!-- Portfolio Section -->
+               <section class="page-section" id="portfolio">
+                <div class="container position-relative">
+
+                    <div class="row mb-70 mb-sm-50">
+
+                        <div class="col-lg-6 col-xl-5 mb-md-40">
+
+                            <h2 class="section-title mb-40 mb-xs-30">Our Solutions</h2>
+
+                            <p class="section-descr mb-0">
+                                We help businesses secure the loans they need to thrive in a competitive market.
+                            </p>
+
+                        </div>
+
+                        <div class="col-lg-6 offset-xl-1 d-flex align-items-end pb-10">
+
+                            <!-- Features List -->
+                            <div class="row mt-n10">
+
+                                <!-- Features List Item -->
+                                <div class="col-sm-6 d-flex mt-10">
+                                    <div class="features-list-icon features-list-color-1">
+                                        <i class="mi-check"></i>
+                                    </div>
+                                    <div class="features-list-text">
+                                        Small Business Loans
+                                    </div>
+                                </div>
+                                <!-- End Features List Item -->
+
+                                <!-- Features List Item -->
+                                <div class="col-sm-6 d-flex mt-10">
+                                    <div class="features-list-icon features-list-color-1">
+                                        <i class="mi-check"></i>
+                                    </div>
+                                    <div class="features-list-text">
+                                        Equipment Financing
+                                    </div>
+                                </div>
+                                <!-- End Features List Item -->
+
+                                <!-- Features List Item -->
+                                <div class="col-sm-6 d-flex mt-10">
+                                    <div class="features-list-icon features-list-color-1">
+                                        <i class="mi-check"></i>
+                                    </div>
+                                    <div class="features-list-text">
+                                        Working Capital Loans
+                                    </div>
+                                </div>
+                                <!-- End Features List Item -->
+
+                                <!-- Features List Item -->
+                                <div class="col-sm-6 d-flex mt-10">
+                                    <div class="features-list-icon features-list-color-1">
+                                        <i class="mi-check"></i>
+                                    </div>
+                                    <div class="features-list-text">
+                                        Business Line of Credit
+                                    </div>
+                                </div>
+                                <!-- End Features List Item -->
+
+                            </div>
+                            <!-- End Features List -->
+
+                        </div>
+
+                    </div>
+
+                    <!-- Portfolio Grid -->
+                    <div class="row mt-n50 mt-sm-n40 mb-70 mb-sm-50">
+
+                        <!-- Portfolio Item -->
+                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+
+                                <div class="portfolio-5-image">
+                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                    <div class="wow fadeIn" data-wow-delay="1s">
+                                        <img src="{{url('/')}}/uploads/facebook/Hassle_Free_Loans.png" alt="#" />
+                                    </div>
+                                </div>
+
+                                {{-- <h3 class="portfolio-5-title"><span>How Marketing Wire Support Increased Data Accuracy by 70%</span></h3>
+
+                                <div class="portfolio-5-number">
+                                    70%
+                                </div>
+
+                                <div class="portfolio-5-number-descr">
+                                    growth with Resonance
+                                </div> --}}
+
+                            </a>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <!-- Portfolio Item -->
+                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+
+                                <div class="portfolio-5-image">
+                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                    <div class="wow fadeIn" data-wow-delay="1s">
+                                        <img src="{{url('/')}}/uploads/facebook/Palla_Credit_Loans.png" alt="Image Description" />
+                                    </div>
+                                </div>
+
+                                {{-- <h3 class="portfolio-5-title"><span>How Surface Mobility Increased Sales 3X During the Latest Six Months</span></h3>
+
+                                <div class="portfolio-5-number">
+                                    3x
+                                </div>
+
+                                <div class="portfolio-5-number-descr">
+                                    sales increased with Resonance
+                                </div> --}}
+
+                            </a>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <!-- Portfolio Item -->
+                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                            <a href="corporate-portfolio-single.html" class="portfolio-5-link">
+
+                                <div class="portfolio-5-image">
+                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                    <div class="wow fadeIn" data-wow-delay="1s">
+                                        <img src="{{url('/')}}/uploads/facebook/Worry_No_More.png" alt="Image Description" />
+                                    </div>
+                                </div>
+
+                                {{-- <h3 class="portfolio-5-title"><span>How Gen Machine Uses Automations to Grow Their Subscriber Base</span></h3>
+
+                                <div class="portfolio-5-number">
+                                    Zero
+                                </div>
+
+                                <div class="portfolio-5-number-descr">
+                                    negative reviews with Resonance
+                                </div> --}}
+
+                            </a>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                    </div>
+                    <!-- End Portfolio Grid -->
+
+                    <div class="local-scroll text-center">
+                        <a href="#clients-stories" class="btn btn-mod btn-w btn-with-icon btn-circle"><span class="btn-icon color-3"><i class="mi-link-alt"></i></span> <span data-btn-animate="y">Read Clients Stories <i class="mi-arrow-right"></i></span></a>
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Portfolio Section -->
 
 
 
