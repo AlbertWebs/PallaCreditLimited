@@ -1503,7 +1503,7 @@ a.btn-mod:focus{
 }
 .btn-icon.color-3{
     color: #fff;
-    background: var(--color-primary-1);
+    background: #88B437;
 }
 .btn-icon.color-4{
     color: #fff;
@@ -4886,7 +4886,7 @@ a.logo:hover{
 }
 .features-list-icon.features-list-color-1{
     color: #fff;
-    background: var(--color-primary-1);
+    background: #88B437;
 }
 .features-list-icon.features-list-color-2{
     color: #fff;

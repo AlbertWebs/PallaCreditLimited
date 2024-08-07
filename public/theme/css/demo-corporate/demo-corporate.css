@@ -433,7 +433,7 @@ a.link-hover-anim:hover{
     color: var(--color-primary-1);
 }
 .light-content .features-list-icon{
-    color: var(--color-primary-1);
+    color: #88B437;
 }
 .light-content .features-list-icon.features-list-color-1,
 .light-content .features-list-icon.features-list-color-2,
