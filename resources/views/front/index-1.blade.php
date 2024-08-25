@@ -33,7 +33,7 @@
                     <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 
                         <h1 class="hs-title-9 mb-40 mb-sm-20 wow fadeInUp">
-                            Get instant working capital for your business
+                            Get instant loans for your business today!
                         </h1>
 
                         <div class="row">
@@ -84,8 +84,10 @@
                     <h2 class="section-title mb-40 mb-xs-30 wow fadeInUp" data-wow-delay="0.4s">Empowering SMEs with The Biashara Loan for Business Growth</h2>
 
                     <p class="section-descr mb-0 wow fadeInUp" data-wow-delay="0.4s">
-                        Palla Credit is a fast growing non deposit taking micro-finance institution with eight branches namely; <strong>Kangemi, Kiambu, Kawangware, Eastlands, Muranga, Naivasha, Kasarani, Githurai</strong>
+                        Palla Credit is a fast-growing non-deposit taking micro-finance institution with branches across major counties in Kenya namely: <strong>Nairobi, Nakuru, Kiambu, Kajiado, Embu and Machakos.</strong>
                     </p>
+
+
 
                 </div>
             </div>
@@ -109,7 +111,7 @@
             <div class="row">
                 <div class="col-md-10 offset-md-1 col-lg-6 offset-lg-3">
 
-                    <h2 class="section-title mb-70 mb-sm-50 text-center">Three Simple Steps</h2>
+                    <h2 class="section-title mb-70 mb-sm-50 text-center">Get your biashara loan in 3 simple steps</h2>
 
                     <!-- Steps Grid -->
                     <div class="mb-n20">

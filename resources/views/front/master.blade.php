@@ -73,7 +73,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                 <div class="vr mt-2"></div>
                             </li>
 
-                            <li><a href="tel:+18376528800"><i class="mi-mobile size-24 color-primary-1 align-center"></i> +254 (072) 238 8009</a></li>
+                            <li><a href="tel:+254 793 070 020 "><i class="mi-mobile size-24 color-primary-1 align-center"></i> +254 (079) 307 0020</a></li>
 
                             <!-- Social Links -->
                             <li>
