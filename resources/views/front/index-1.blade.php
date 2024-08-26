@@ -353,7 +353,7 @@
 
                     <div class="row mb-70 mb-sm-50">
 
-                        <div class="col-lg-10 col-xl-10 mb-md-40">
+                        <div class="col-lg-12 col-xl-10 mb-md-40">
 
                             <h2 class="section-title mb-40 mb-xs-30">About Us</h2>
 
@@ -435,7 +435,7 @@
 
 
         <!-- Numbers Section -->
-        <section class="page-section bg-light-alpha-90 bg-scroll" style="background-image: url('{{asset('theme/images/demo-slick/section-bg-1.jpg')}}')">
+        <section class="page-section bg-light-alpha-90 bg-scroll" style="background-image: url('{{url('/')}}/uploads/Picture1.jpg')">
             <div class="container position-relative">
 
                 <!-- Numbers Grid -->
@@ -502,7 +502,7 @@
 
 
           <!-- Call to Action Section -->
-          <section class="page-section bg-scroll light-content" style="background-image: url('{{url('/')}}/uploads/Picture1.jpg'); background-position: 20% 70% !important">
+          <section class="page-section bg-scroll light-content" style="background-image: url('{{url('/')}}/uploads/facebook/6.jpg'); background-position: 20% 70% !important; padding-bottom:30px; padding-top:30px">
 
             <!-- Desktop Overlay -->
             <div class="bg-overlay bg-gradient-primary-alpha-1 d-none d-md-block"></div>
@@ -515,7 +515,7 @@
             <div class="container position-relative">
 
                 <div class="row">
-                    <div class="col-md-7 col-lg-6 col-xl-7">
+                    <div class="col-md-7 col-lg-7 col-xl-7">
 
                         <h2 class="section-title mb-40 mb-xs-30">Vision for the  <span class="mark-decoration-5">Future</span> </h2>
 
