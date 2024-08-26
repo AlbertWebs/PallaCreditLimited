@@ -80,9 +80,9 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                             <!-- Social Links -->
                             <li>
-                                <a href="#" class="no-hover opacity-1 pe-1"><span class="mn-soc-link mn-soc-link-color" title="Facebook"><i class="fa-facebook-f"></i></span> <span class="mobile-nav-display-i">Facebook</span></a>
-                                <a href="#" class="no-hover opacity-1 pe-1"><span class="mn-soc-link mn-soc-link-color" title="LinkedIn"><i class="fa-linkedin-in"></i></span> <span class="mobile-nav-display-i">LinkedIn</span></a>
-                                <a href="#" class="no-hover opacity-1"><span class="mn-soc-link mn-soc-link-color" title="Youtube"><i class="fa-youtube"></i></span> <span class="mobile-nav-display-i">Youtube</span></a>
+                                <a href="https://web.facebook.com/pallacredit" class="no-hover opacity-1 pe-1"><span class="mn-soc-link mn-soc-link-color" title="Facebook"><i class="fa-facebook-f"></i></span> <span class="mobile-nav-display-i">Facebook</span></a>
+                                <a href="https://www.linkedin.com/company/palla-credit-limited/" class="no-hover opacity-1 pe-1"><span class="mn-soc-link mn-soc-link-color" title="LinkedIn"><i class="fa-linkedin-in"></i></span> <span class="mobile-nav-display-i">LinkedIn</span></a>
+                                <a href="https://wa.me/+254793070020?text=Hello, I am texting from your website" class="no-hover opacity-1"><span class="mn-soc-link mn-soc-link-color" title="WhatsApp"><i class="fa-whatsapp"></i></span> <span class="mobile-nav-display-i">WhatsApp</span></a>
                             </li>
                             <!-- End Social Links  -->
                         </ul>
@@ -180,29 +180,21 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                         <div class="col-md-6 mb-sm-40">
                             © Copyright {{date('Y')}} All Rights Reserved | Powered By Designekta Studios
                         </div>
-
                         <!-- Social Links -->
                         <div class="col-md-6 footer-2-social-links text-md-end mb-md-40">
-                            <a href="#" title="Facebook" rel="noopener nofollow" target="_blank">
+                            <a href="https://web.facebook.com/pallacredit" title="Facebook" rel="noopener nofollow" target="_blank">
                                 <span class="visually-hidden">Facebook</span>
                                 <i class="fa-facebook-f"></i>
                             </a>
-                            <a href="#" title="Instagram" rel="noopener nofollow" target="_blank">
-                                <span class="visually-hidden">Instagram</span>
-                                <i class="fa-instagram"></i>
-                            </a>
-                            <a href="#" title="LinkedIn" rel="noopener nofollow" target="_blank">
+
+                            <a href="https://www.linkedin.com/company/palla-credit-limited/" title="LinkedIn" rel="noopener nofollow" target="_blank">
                                 <span class="visually-hidden">LinkedIn</span>
                                 <i class="fa-linkedin"></i>
                             </a>
-                            <a href="#" title="Youtube" rel="noopener nofollow" target="_blank">
-                                <span class="visually-hidden">Youtube</span>
-                                <i class="fa-youtube"></i>
+                            <a href="https://wa.me/+254793070020?text=Hello, I am texting from your website" title="Youtube" rel="noopener nofollow" target="_blank">
+                                <span class="visually-hidden">WhatsApp</span>
+                                <i class="fa-whatsapp"></i>
                              </a>
-                            {{-- <a href="#" title="Dribbble" rel="noopener nofollow" target="_blank">
-                                <span class="visually-hidden">Dribbble</span>
-                                <i class="fa-dribbble"></i>
-                            </a> --}}
                         </div>
                         <!-- End Social Links -->
 

@@ -111,7 +111,9 @@
             <div class="row">
                 <div class="col-md-10 offset-md-1 col-lg-6 offset-lg-3">
 
-                    <h2 class="section-title mb-70 mb-sm-50 text-center">Get your biashara loan in 3 simple steps</h2>
+                    <h2 class="section-title mb-70 mb-sm-50 text-center">
+                        Get your biashara loan in 3 simple steps
+                    </h2>
 
                     <!-- Steps Grid -->
                     <div class="mb-n20">
@@ -346,69 +348,27 @@
         <!-- End Services Section -->
 
                <!-- Portfolio Section -->
-               <section class="page-section" id="portfolio">
+               <section class="page-section bg-light-alpha-90" id="portfolio">
                 <div class="container position-relative">
 
                     <div class="row mb-70 mb-sm-50">
 
-                        <div class="col-lg-6 col-xl-5 mb-md-40">
+                        <div class="col-lg-10 col-xl-10 mb-md-40">
 
-                            <h2 class="section-title mb-40 mb-xs-30">More Solutions</h2>
+                            <h2 class="section-title mb-40 mb-xs-30">About Us</h2>
 
                             <p class="section-descr mb-0">
-                                We help businesses secure the loans they need to thrive in a competitive market.
+                                <strong>Mission Statement:</strong> Our mission goes beyond providing loans; we are dedicated to fostering growth, supporting entrepreneurship, and transforming communities. Our impact can be seen in the thriving businesses and the vibrant communities we serve
                             </p>
 
                         </div>
 
-                        <div class="col-lg-6 offset-xl-1 d-flex align-items-end pb-10">
+                        <div class="col-lg-2 offset-xl-1 d-flex align-items-end pb-10">
 
                             <!-- Features List -->
                             <div class="row mt-n10">
 
-                                <!-- Features List Item -->
-                                <div class="col-sm-6 d-flex mt-10">
-                                    <div class="features-list-icon features-list-color-1">
-                                        <i class="mi-check"></i>
-                                    </div>
-                                    <div class="features-list-text">
-                                        Small Business Loans
-                                    </div>
-                                </div>
-                                <!-- End Features List Item -->
 
-                                <!-- Features List Item -->
-                                <div class="col-sm-6 d-flex mt-10">
-                                    <div class="features-list-icon features-list-color-1">
-                                        <i class="mi-check"></i>
-                                    </div>
-                                    <div class="features-list-text">
-                                        Equipment Financing
-                                    </div>
-                                </div>
-                                <!-- End Features List Item -->
-
-                                <!-- Features List Item -->
-                                <div class="col-sm-6 d-flex mt-10">
-                                    <div class="features-list-icon features-list-color-1">
-                                        <i class="mi-check"></i>
-                                    </div>
-                                    <div class="features-list-text">
-                                        Working Capital Loans
-                                    </div>
-                                </div>
-                                <!-- End Features List Item -->
-
-                                <!-- Features List Item -->
-                                <div class="col-sm-6 d-flex mt-10">
-                                    <div class="features-list-icon features-list-color-1">
-                                        <i class="mi-check"></i>
-                                    </div>
-                                    <div class="features-list-text">
-                                        Business Line of Credit
-                                    </div>
-                                </div>
-                                <!-- End Features List Item -->
 
                             </div>
                             <!-- End Features List -->
@@ -430,17 +390,6 @@
                                         <img src="{{url('/')}}/uploads/facebook/Hassle_Free_Loans.png" alt="#" />
                                     </div>
                                 </div>
-
-                                {{-- <h3 class="portfolio-5-title"><span>How Marketing Wire Support Increased Data Accuracy by 70%</span></h3>
-
-                                <div class="portfolio-5-number">
-                                    70%
-                                </div>
-
-                                <div class="portfolio-5-number-descr">
-                                    growth with Resonance
-                                </div> --}}
-
                             </a>
                         </div>
                         <!-- End Portfolio Item -->
@@ -455,17 +404,6 @@
                                         <img src="{{url('/')}}/uploads/facebook/Palla_Credit_Loans.png" alt="Image Description" />
                                     </div>
                                 </div>
-
-                                {{-- <h3 class="portfolio-5-title"><span>How Surface Mobility Increased Sales 3X During the Latest Six Months</span></h3>
-
-                                <div class="portfolio-5-number">
-                                    3x
-                                </div>
-
-                                <div class="portfolio-5-number-descr">
-                                    sales increased with Resonance
-                                </div> --}}
-
                             </a>
                         </div>
                         <!-- End Portfolio Item -->
@@ -480,17 +418,6 @@
                                         <img src="{{url('/')}}/uploads/facebook/Worry_No_More.png" alt="Image Description" />
                                     </div>
                                 </div>
-
-                                {{-- <h3 class="portfolio-5-title"><span>How Gen Machine Uses Automations to Grow Their Subscriber Base</span></h3>
-
-                                <div class="portfolio-5-number">
-                                    Zero
-                                </div>
-
-                                <div class="portfolio-5-number-descr">
-                                    negative reviews with Resonance
-                                </div> --}}
-
                             </a>
                         </div>
                         <!-- End Portfolio Item -->
@@ -498,14 +425,80 @@
                     </div>
                     <!-- End Portfolio Grid -->
 
-                    <div class="local-scroll text-center">
+                    {{-- <div class="local-scroll text-center">
                         <a href="#clients-stories" class="btn btn-mod btn-w btn-with-icon btn-circle"><span class="btn-icon color-3"><i class="mi-link-alt"></i></span> <span data-btn-animate="y">Read Clients Stories <i class="mi-arrow-right"></i></span></a>
-                    </div>
+                    </div> --}}
 
                 </div>
             </section>
             <!-- End Portfolio Section -->
 
+
+        <!-- Numbers Section -->
+        <section class="page-section bg-light-alpha-90 bg-scroll" style="background-image: url('{{asset('theme/images/demo-slick/section-bg-1.jpg')}}')">
+            <div class="container position-relative">
+
+                <!-- Numbers Grid -->
+                <div class="row mt-n30 wow fadeInUp">
+
+                    <!-- Numbers Item -->
+                    <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
+                        <div class="number-2-item">
+                            <div class="number-2-title">
+                                122+
+                            </div>
+                            <div class="number-2-descr">
+                                Branches in Kenya
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Numbers Item -->
+
+                    <!-- Numbers Item -->
+                    <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
+                        <div class="number-2-item">
+                            <div class="number-2-title">
+                                865,000
+                            </div>
+                            <div class="number-2-descr">
+                                Total Loans Disbursed
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Numbers Item -->
+
+                    <!-- Numbers Item -->
+                    <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
+                        <div class="number-2-item">
+                            <div class="number-2-title">
+                                750,000
+                            </div>
+                            <div class="number-2-descr">
+                                Total Repeat Loans
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Numbers Item -->
+
+                    <!-- Numbers Item -->
+                    <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
+                        <div class="number-2-item">
+                            <div class="number-2-title">
+                                115,000
+                            </div>
+                            <div class="number-2-descr">
+                                New Client Loans
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Numbers Item -->
+
+                </div>
+                <!-- End Numbers Grid -->
+
+            </div>
+        </section>
+        <!-- End Numbers Section -->
 
 
     <!-- Testimonials Section -->
@@ -654,7 +647,8 @@
                     </p>
 
                     <div class="local-scroll mb-70 mb-sm-50">
-                        <a href="tel:+254722388009" class="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09" style="background-color: #88B437"><span> <i class="fa-viber"></i> Give us a Call</span></a>
+                        <a href="https://wa.me/+254793070020?text=Hello, I am texting from your website" class="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09" style="background-color: #88B437"><span> <i class="fa-viber"></i> Give us a Call</span></a>
+
                     </div>
 
                 </div>

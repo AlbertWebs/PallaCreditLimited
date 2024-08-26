@@ -66,7 +66,8 @@
 
                     <div class="content-dark">
                         <br>
-                        <p>Palla Credit is a fast growing non deposit taking micro-finance institution with eight branches namely; <strong>Kangemi, Kiambu, Kawangware, Eastlands, Muranga, Naivasha, Kasarani, Githurai</strong></p>
+                        <p>Palla Credit is a fast-growing non-deposit taking micro-finance institution with branches across major counties in Kenya namely: <strong>Nairobi, Nakuru, Kiambu, Kajiado, Embu and Machakos.</strong>
+                        </p>
                         <p class="description normal animated vntd-animated fadeIn visible" data-animation="fadeIn" data-animation-delay="100">We are a company offering lending services to small and medium enterprises. Our flagship product, The <strong>Biashara Loan</strong>, is primarily intended to aid business people expand their operations. We take great pride and effort in ensuring that business owners and entrepreneurs meet their business goals by offering them the best possible financial solutions. We work hard in ensuring customer convenience so that you can focus on growing your business while leaving the financial aspects to us</p>
                     </div>
 
