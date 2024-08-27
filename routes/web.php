@@ -7,11 +7,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::post('/send-application', [App\Http\Controllers\HomeController::class, 'send_application'])->name('send-application');
 Route::get('/about-us', [App\Http\Controllers\HomeController::class, 'about_us'])->name('about-us');
 Route::get('/news-updates', [App\Http\Controllers\HomeController::class, 'updates'])->name('news-updates');
 Route::get('/news-updates/{slung}', [App\Http\Controllers\HomeController::class, 'update'])->name('news-update');
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact-us');
 
+
+Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'conditions'])->name('terms-and-conditions');
+Route::get('/privacy-policy', [App\Http\Controllers\HomeController::class, 'policy'])->name('privacy-policy');
 
 
 

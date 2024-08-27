@@ -2,7 +2,6 @@
 
 
 @section('content')
-
 <main id="main">
     <!-- Home Section -->
     <section class="home-section light-content parallax-5" id="home">
@@ -45,10 +44,11 @@
                         </div>
 
                         <div class="local-scroll wow fadeInUp wch-unset" data-wow-delay="0.4s">
-                            <a href="#" class="btn btn-mod btn-color btn-large btn-round btn-hover-anim">
+                            <a href="#" class="btn btn-mod btn-color btn-large btn-round btn-hover-anim" onclick="window.dialog.showModal();">
                                 <span>Apply Now</span>
                             </a>
                         </div>
+
 
                     </div>
                     <!-- End Home Section Text -->
@@ -69,6 +69,7 @@
 
     <!-- About Section -->
     <section class="page-section" id="about">
+
 
         <!-- Decorative Line -->
         <div class="bg-line-1 opacity-025">
@@ -913,7 +914,7 @@
                                     <!-- Inform Tip -->
                                     <div class="form-tip w-100 pt-3">
                                         <i class="icon-info size-16"></i>
-                                        All the fields are required. By sending the form you agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
+                                        All the fields are required. By sending the form you agree to the <a target="new" href="{{url('/')}}/terms-and-conditions">Terms & Conditions</a> and <a target="new" href="{{url('/')}}/privacy-policy">Privacy Policy</a>.
                                     </div>
                                     <!-- End Inform Tip -->
 

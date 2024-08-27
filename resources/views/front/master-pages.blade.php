@@ -45,7 +45,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <div class="page" id="top">
 
             <!-- Navigation Panel -->
-            <nav class="main-nav dark transparent light-after-scroll stick-fixed wow-menubar wch-unset">
+
+            <nav class="main-nav transparent stick-fixed wow-menubar wch-unset">
                 <div class="main-nav-sub container">
 
                     <!-- Logo  (* Add your text or image to the link tag. Use SVG or PNG image format.
