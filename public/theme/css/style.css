@@ -12373,3 +12373,8 @@ html:not(.mobile) .owl-animate-fadeInDown{
 .services-image{
     border-radius:75px;
 }
+
+.service-images-resize{
+    height:360px !important;
+    object-fit:cover;
+}

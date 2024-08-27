@@ -12,7 +12,7 @@
             <!-- Please replace the video file in folder "video" with your own file -->
             <div class="bg-video-wrapper">
                 <video class="bg-video" preload="auto" autoplay loop muted playsinline>
-                    <source src="{{asset('uploads/3195652-hd_1280_720_25fps.mp4')}}" type="video/mp4">
+                    <source src="{{asset('uploads/banner.mp4')}}" type="video/mp4">
                 </video>
                 <div class="bg-video-overlay bg-dark-alpha-60"></div>
             </div>
@@ -232,7 +232,7 @@
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
                                     <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img src="{{url('/')}}/uploads/facebook/1.jpg" alt="#" />
+                                        <img class="service-images-resize" src="{{url('/')}}/uploads/facebook/1.jpg" alt="#" />
                                     </div>
                                 </div>
 
@@ -250,7 +250,8 @@
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
                                     <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img src="{{url('/')}}/uploads/facebook/2.jpg" alt="Image Description" />
+                                        <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com989010.jpg" alt="Image Description" />
+
                                     </div>
                                 </div>
                                 <h3 class="portfolio-5-title text-center">
@@ -267,7 +268,7 @@
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
                                     <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img src="{{url('/')}}/uploads/facebook/3.jpg" alt="Image Description" />
+                                        <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com982368.jpg" alt="Image Description" />
                                     </div>
                                 </div>
 
@@ -285,7 +286,7 @@
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
                                     <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img src="{{url('/')}}/uploads/facebook/4.jpg" alt="Image Description" />
+                                        <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com433291.jpg" alt="Image Description" />
                                     </div>
                                 </div>
 
@@ -303,7 +304,8 @@
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
                                     <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img src="{{url('/')}}/uploads/facebook/5.jpg" alt="Image Description" />
+                                        <img class="service-images-resize" src="{{url('/')}}/uploads/facebook/5.jpg" alt="Image Description" />
+
                                     </div>
                                 </div>
 
@@ -322,7 +324,7 @@
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
                                     <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img src="{{url('/')}}/uploads/facebook/6.jpg" alt="Image Description" />
+                                        <img class="service-images-resize" src="{{url('/')}}/uploads/facebook/6.jpg" alt="Image Description" />
                                     </div>
                                 </div>
 
