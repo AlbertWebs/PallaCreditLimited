@@ -16,6 +16,11 @@ Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact'
 
 Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'conditions'])->name('terms-and-conditions');
 Route::get('/privacy-policy', [App\Http\Controllers\HomeController::class, 'policy'])->name('privacy-policy');
+Route::get('/copyright', [App\Http\Controllers\HomeController::class, 'copyright'])->name('copyright');
+Route::get('/credits', [App\Http\Controllers\HomeController::class, 'credits'])->name('credits');
+
+
+
 
 
 

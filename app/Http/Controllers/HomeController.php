@@ -43,6 +43,16 @@ class HomeController extends Controller
     public function policy (){
         return view('front.privacy');
     }
+    public function copyright (){
+        return view('front.copyright');
+    }
+
+    public function credits (){
+        return view('front.credits');
+    }
+
+
+
 
     public function send_application(Request $request){
         $message = $request->message;

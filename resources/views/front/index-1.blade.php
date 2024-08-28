@@ -44,7 +44,7 @@
                         </div>
 
                         <div class="local-scroll wow fadeInUp wch-unset" data-wow-delay="0.4s">
-                            <a href="#" class="btn btn-mod btn-color btn-large btn-round btn-hover-anim" onclick="window.dialog.showModal();">
+                            <a href="javascript:void(0)" class="btn btn-mod btn-color btn-large btn-round btn-hover-anim" onclick="window.dialog.showModal();">
                                 <span>Apply Now</span>
                             </a>
                         </div>
@@ -702,7 +702,9 @@
                     </p>
 
                     <div class="local-scroll mb-70 mb-sm-50">
-                        <a href="https://wa.me/+254793070020?text=Hello, I am texting from your website" class="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09" style="background-color: #88B437"><span> <i class="fa-viber"></i> Give us a Call</span></a>
+                        <a href="https://wa.me/+254793070020?text=Hello, I am texting from your website" class="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09" style="background-color: #88B437">
+                            <span> <i class="fa-viber"></i> Whatsapp us now! </span>
+                        </a>
 
                     </div>
 
