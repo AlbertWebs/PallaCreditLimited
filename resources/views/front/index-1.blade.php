@@ -381,7 +381,7 @@
                         </div>
 
                         <!-- Portfolio Grid -->
-                        <div class="row mt-n50 mt-sm-n40 mb-70 mb-sm-50">
+                        {{-- <div class="row mt-n50 mt-sm-n40 mb-70 mb-sm-50">
 
                             <!-- Portfolio Item -->
                             <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
@@ -425,7 +425,7 @@
                             </div>
                             <!-- End Portfolio Item -->
 
-                        </div>
+                        </div> --}}
                         <!-- End Portfolio Grid -->
 
                        @include('front.reach')

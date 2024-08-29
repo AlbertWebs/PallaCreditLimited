@@ -1,6 +1,6 @@
 <div class="row">
 
-    <div class="col-lg-5">
+    <div class="col-lg-6">
         <div class="split-column-rights rounded-0 position-relative d-flex align-items-center">
             <div class="text-center text-lg-start">
 
@@ -30,10 +30,10 @@
         </div>
     </div>
 
-    <div class="col-lg-7 d-flex align-items-stretch order-lg-first">
+    <div class="col-lg-6 d-flex align-items-stretch order-lg-first">
         <div class="split-image-left rounded-0 pb-xs-70">
 
-            <img style="border-radius:10px" src="{{url('/')}}/uploads/reach/Picture1.jpg" alt="Image Description" class="wow fadeScaleOutIn" data-wow-duration="1.3s" />
+            <img style="border-radius:10px" src="{{url('/')}}/uploads/reach/Palla-Credit-Lg-06.jpg" alt="Image Description" class="wow fadeScaleOutIn" data-wow-duration="1.3s" />
 
 
         </div>
