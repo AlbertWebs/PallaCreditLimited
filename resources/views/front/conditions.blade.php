@@ -51,7 +51,7 @@
                             <p><strong>Effective Date:</strong> 1st Jan 2024</p>
                             <p><strong>Company Name:</strong> Palla Credit Limited<br>
                             <strong>Website:</strong> <a href="https://www.pallacredit.co.ke">https://www.pallacredit.co.ke</a><br>
-                            <strong>Contact Number:</strong> +254 705 100 090</p>
+                            <strong>Contact Number:</strong> + 254 79 307 0020</p>
 
                             <h3>1. Introduction</h3>
                             <p>Welcome to Palla Credit Limited. By applying for or accepting any loan or credit facility from Palla Credit Limited (“Palla Credit,” “we,” “our,” “us”), you (“the Borrower,” “you”) agree to these Terms and Conditions (“Terms”). These Terms constitute a legally binding agreement between you and Palla Credit.</p>
@@ -101,7 +101,7 @@
                             <p>For any questions or concerns regarding these Terms, please contact us at:</p>
                             <p><strong>Palla Credit Limited</strong><br>
                             Website: <a href="https://www.pallacredit.co.ke">https://www.pallacredit.co.ke</a><br>
-                            Phone: +254 705 100 090</p>
+                            Phone: + 254 79 307 0020</p>
                         </div>
 
                         {{--  --}}

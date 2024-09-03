@@ -11,7 +11,7 @@
             <!-- Please replace the video file in folder "video" with your own file -->
             <div class="bg-video-wrapper">
                 <video class="bg-video" preload="auto" autoplay loop muted playsinline>
-                    <source src="{{asset('uploads/banner.mp4')}}" type="video/mp4">
+                    <source src="{{asset('uploads/stock-footage-lusaka-zambia-africa-june-local-people-in-the-market-in-lusaka-city-in-zambia-fruit.webm')}}" type="video/mp4">
                 </video>
                 <div class="bg-video-overlay bg-dark-alpha-60"></div>
             </div>
@@ -106,7 +106,7 @@
 
 
     <!-- Steps Section -->
-    <section class="page-section bg-primary-1 bg-color-alpha-90 bg-scroll light-content" style="background-image: url('{{asset('theme/images/demo-corporate/section-bg-2.jpg')}}')">
+    <section class="page-section bg-primary-1 bg-color-alpha-90 bg-scroll light-content" style="background-image: url('{{asset('uploads/shutterstock/steptodown.com508305.jpg')}}')">
         <div class="container position-relative">
 
             <div class="row">
@@ -269,7 +269,7 @@
                                 <div class="portfolio-5-image">
                                     <div class="portfolio-5-image-bg wow scalexIn"></div>
                                     <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com982368.jpg" alt="Image Description" />
+                                        <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com523514.jpg" alt="Image Description" />
                                     </div>
                                 </div>
 
@@ -350,94 +350,93 @@
         </section>
         <!-- End Services Section -->
 
-               <!-- Portfolio Section -->
-               <section class="page-section bg-light-alpha-90" id="portfolio">
-                    <div class="container position-relative">
+        <!-- Portfolio Section -->
+        <section class="page-section bg-light-alpha-90" id="portfolio">
+            <div class="container position-relative">
 
-                        <div class="row mb-70 mb-sm-50">
+                <div class="row mb-70 mb-sm-50">
 
-                            <div class="col-lg-12 col-xl-10 mb-md-40">
+                    <div class="col-lg-12 col-xl-10 mb-md-40">
 
-                                <h2 class="section-title mb-40 mb-xs-30">About Us</h2>
+                        <h2 class="section-title mb-40 mb-xs-30">About Us</h2>
 
-                                <p class="section-descr mb-0">
-                                    <strong>Mission Statement:</strong> Our mission goes beyond providing loans; we are dedicated to fostering growth, supporting entrepreneurship, and transforming communities. Our impact can be seen in the thriving businesses and the vibrant communities we serve
-                                </p>
-
-                            </div>
-
-                            <div class="col-lg-2 offset-xl-1 d-flex align-items-end pb-10">
-
-                                <!-- Features List -->
-                                <div class="row mt-n10">
-
-
-
-                                </div>
-                                <!-- End Features List -->
-
-                            </div>
-
-                        </div>
-
-                        <!-- Portfolio Grid -->
-                        {{-- <div class="row mt-n50 mt-sm-n40 mb-70 mb-sm-50">
-
-                            <!-- Portfolio Item -->
-                            <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                                <a href="#" class="portfolio-5-link">
-
-                                    <div class="portfolio-5-image">
-                                        <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                        <div class="wow fadeIn" data-wow-delay="1s">
-                                            <img src="{{url('/')}}/uploads/facebook/Hassle_Free_Loans.png" alt="#" />
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- End Portfolio Item -->
-
-                            <!-- Portfolio Item -->
-                            <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                                <a href="#" class="portfolio-5-link">
-
-                                    <div class="portfolio-5-image">
-                                        <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                        <div class="wow fadeIn" data-wow-delay="1s">
-                                            <img src="{{url('/')}}/uploads/facebook/Palla_Credit_Loans.png" alt="Image Description" />
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- End Portfolio Item -->
-
-                            <!-- Portfolio Item -->
-                            <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                                <a href="#" class="portfolio-5-link">
-
-                                    <div class="portfolio-5-image">
-                                        <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                        <div class="wow fadeIn" data-wow-delay="1s">
-                                            <img src="{{url('/')}}/uploads/facebook/Worry_No_More.png" alt="Image Description" />
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- End Portfolio Item -->
-
-                        </div> --}}
-                        <!-- End Portfolio Grid -->
-
-                       @include('front.reach')
+                        <p class="section-descr mb-0">
+                            <strong>Mission Statement:</strong> Our mission goes beyond providing loans; we are dedicated to fostering growth, supporting entrepreneurship, and transforming communities. Our impact can be seen in the thriving businesses and the vibrant communities we serve
+                        </p>
 
                     </div>
 
-                </section>
-            <!-- End Portfolio Section -->
+                    <div class="col-lg-2 offset-xl-1 d-flex align-items-end pb-10">
+
+                        <!-- Features List -->
+                        <div class="row mt-n10">
+
+
+
+                        </div>
+                        <!-- End Features List -->
+
+                    </div>
+
+                </div>
+
+                <!-- Portfolio Grid -->
+                {{-- <div class="row mt-n50 mt-sm-n40 mb-70 mb-sm-50">
+
+                    <!-- Portfolio Item -->
+                    <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                        <a href="#" class="portfolio-5-link">
+
+                            <div class="portfolio-5-image">
+                                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                <div class="wow fadeIn" data-wow-delay="1s">
+                                    <img src="{{url('/')}}/uploads/facebook/Hassle_Free_Loans.png" alt="#" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Portfolio Item -->
+
+                    <!-- Portfolio Item -->
+                    <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                        <a href="#" class="portfolio-5-link">
+
+                            <div class="portfolio-5-image">
+                                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                <div class="wow fadeIn" data-wow-delay="1s">
+                                    <img src="{{url('/')}}/uploads/facebook/Palla_Credit_Loans.png" alt="Image Description" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Portfolio Item -->
+
+                    <!-- Portfolio Item -->
+                    <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                        <a href="#" class="portfolio-5-link">
+
+                            <div class="portfolio-5-image">
+                                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                <div class="wow fadeIn" data-wow-delay="1s">
+                                    <img src="{{url('/')}}/uploads/facebook/Worry_No_More.png" alt="Image Description" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Portfolio Item -->
+
+                </div> --}}
+                <!-- End Portfolio Grid -->
+
+                @include('front.reach')
+
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
 
 
         <!-- Numbers Section -->
-        <section class="page-section bg-light-alpha-90 bg-scroll" style="background-image: url('{{url('/')}}/uploads/Picture1.jpg')">
+        <section id="counter-stats" class="page-section bg-light-alpha-90 bg-scroll" style="background-image: url('{{url('/')}}/uploads/Picture1.jpg')">
             <div class="container position-relative">
 
                 <!-- Numbers Grid -->
@@ -446,8 +445,8 @@
                     <!-- Numbers Item -->
                     <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
                         <div class="number-2-item">
-                            <div class="number-2-title">
-                                122+
+                            <div class="count percent number-2-title" data-count="50">
+                                0
                             </div>
                             <div class="number-2-descr">
                                 Branches in Kenya
@@ -459,9 +458,10 @@
                     <!-- Numbers Item -->
                     <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
                         <div class="number-2-item">
-                            <div class="number-2-title">
-                                865,000
+                            <div class="count percent number-2-title" data-count="865000">
+                                0
                             </div>
+
                             <div class="number-2-descr">
                                 Total Loans Disbursed
                             </div>
@@ -472,8 +472,8 @@
                     <!-- Numbers Item -->
                     <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
                         <div class="number-2-item">
-                            <div class="number-2-title">
-                                750,000
+                            <div class="count percent number-2-title" data-count="750000">
+                                0
                             </div>
                             <div class="number-2-descr">
                                 Total Repeat Loans
@@ -485,8 +485,8 @@
                     <!-- Numbers Item -->
                     <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
                         <div class="number-2-item">
-                            <div class="number-2-title">
-                                115,000
+                            <div class="count percent number-2-title" data-count="125000">
+                                0
                             </div>
                             <div class="number-2-descr">
                                 New Client Loans
@@ -502,9 +502,11 @@
         </section>
         <!-- End Numbers Section -->
 
+        @include('front.impact')
 
-          <!-- Call to Action Section -->
-          <section class="page-section bg-scroll light-content" style="background-image: url('{{url('/')}}/uploads/facebook/6.jpg'); background-position: 20% 70% !important; padding-bottom:30px; padding-top:30px">
+
+        <!-- Call to Action Section -->
+          <section class="page-section bg-scroll light-content" style="background-image: url('{{url('/')}}/uploads/facebook/6.jpg'); background-position: 20% 1% !important; padding-bottom:30px; padding-top:30px">
 
             <!-- Desktop Overlay -->
             <div class="bg-overlay bg-gradient-primary-alpha-1 d-none d-md-block"></div>
@@ -580,17 +582,17 @@
                         <div class="testimonials-6-icon" aria-hidden="true">“</div>
 
                         <p class="testimonials-6-text mb-40">
-                            Getting a loan from Palla Credit was incredibly easy and fast. Their process is seamless, with no hidden fees or complicated requirements. I applied online, got approved within hours, and the funds were in my account the next day.
+                            Thanks to Palla Credit, I was able to expand my shop and increase my inventory. Their flexible repayment plan through M-Pesa made it so convenient to manage my finances
                         </p>
 
                         <div class="section-line mb-10"></div>
 
                         <footer>
                             <div class="testimonials-6-author">
-                                Gerishom Kadiri
+                                George Muhando
                             </div>
                             <div class="testimonials-6-position">
-                                Stock Acquisition Loan
+                                Nakuru
                             </div>
                         </footer>
 
@@ -615,17 +617,17 @@
                         <div class="testimonials-6-icon" aria-hidden="true">“</div>
 
                         <p class="testimonials-6-text mb-40">
-                            Palla Credit's no-hassle application, quick approval, and transparent terms were a game-changer. Their competitive rates and flexible repayment plans provided the financial support I needed for business expansion and unexpected expenses
+                            I was surprised by how straightforward the process was with Palla Credit. No hidden fees, no unnecessary paperwork—just the support I needed to grow my business
                         </p>
 
                         <div class="section-line mb-10"></div>
 
                         <footer>
                             <div class="testimonials-6-author">
-                                Dan Faith
+                                Caroline Mutisya
                             </div>
                             <div class="testimonials-6-position">
-                                Business Expansion Loan
+                                Machakos
                             </div>
                         </footer>
 
@@ -650,17 +652,17 @@
                         <div class="testimonials-6-icon" aria-hidden="true">“</div>
 
                         <p class="testimonials-6-text mb-40">
-                            Getting a loan from Palla Credit was incredibly easy and fast. Their process is seamless, with no hidden fees or complicated requirements. I applied online, got approved within hours, and the funds were in my account the next day.
+                            Palla Credit's customer service is outstanding. They guided me every step of the way and answered all my questions. I feel confident knowing I have a financial partner I can trust
                         </p>
 
                         <div class="section-line mb-10"></div>
 
                         <footer>
                             <div class="testimonials-6-author">
-                                Gerishom Kadiri
+                                Diana Wangechi
                             </div>
                             <div class="testimonials-6-position">
-                                Women Loan Nairobi
+                                Githurai
                             </div>
                         </footer>
 
@@ -677,10 +679,12 @@
         </div>
     </section>
     <!-- End Testimonials Section -->
-
+  <!-- Divider -->
+  {{-- <hr class="mt-0 mb-0"/> --}}
+  <!-- End Divider -->
 
     <!-- Call to Action Section -->
-    <section class="page-section bg-scroll light-content" style="background-image: url('{{asset('uploads/pexels-nappy-935979.jpg')}}'); padding-top:30px; padding-bottom:30px">
+    {{-- <section class="page-section bg-scroll light-content" style="background-image: url('{{asset('uploads/pexels-nappy-935979.jpg')}}'); padding-top:30px; padding-bottom:30px">
 
         <!-- Desktop Overlay -->
         <div class="bg-overlay bg-gradient-primary-alpha-2 d-none d-md-block"></div>
@@ -710,12 +714,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- End Call to Action Section -->
+
+    {{-- @include('front.director') --}}
 
 
     <!-- Blog Section -->
-    <section class="page-section" id="blog">
+    <section class="page-section bg-light-alpha-90" id="blog">
         <div class="container position-relative">
 
             <div class="row">
@@ -778,7 +784,7 @@
 
 
   <!-- Divider -->
-  <hr class="mt-0 mb-0"/>
+  {{-- <hr class="mt-0 mb-0"/> --}}
   <!-- End Divider -->
 
     <!-- Contact Section -->

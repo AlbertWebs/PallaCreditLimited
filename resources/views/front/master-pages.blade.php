@@ -71,7 +71,9 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <li><a href="#home">HOME</a></li>
                             <li><a href="#about">ABOUT US</a></li>
                             <li><a href="#services">SERVICES</a></li>
-                            <li><a href="#blog">UPDATES</a></li>
+                            <li><a href="#impact">IMPACT</a></li>
+                            <li><a href="#services">EDUCATE YOURSELF</a></li>
+                            <li><a href="{{url('/')}}/careers">CAREER</a></li>
                             <li><a href="#contact">CONTACT US</a></li>
 
                             <li class="desktop-nav-display">

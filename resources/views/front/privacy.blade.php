@@ -51,7 +51,7 @@
                             <p><strong>Effective Date:</strong> 1st January 2024</p>
                             <p><strong>Company Name:</strong> Palla Credit Limited<br>
                             <strong>Website:</strong> <a href="https://www.pallacredit.co.ke">https://www.pallacredit.co.ke</a><br>
-                            <strong>Contact Number:</strong> +254 705 100 090</p>
+                            <strong>Contact Number:</strong> + 254 79 307 0020</p>
 
                             <h3>1. Introduction</h3>
                             <p>Palla Credit Limited (“Palla Credit,” “we,” “our,” “us”) is committed to protecting the privacy and confidentiality of your personal information. This Privacy Policy outlines how we collect, use, and safeguard the information you provide to us when you use our services or visit our website.</p>

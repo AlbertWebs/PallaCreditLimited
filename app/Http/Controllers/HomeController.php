@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB;
+use Illuminate\Support\Facades\Log;
+use App\Models\SendEmail;
 
 class HomeController extends Controller
 {
@@ -51,6 +53,13 @@ class HomeController extends Controller
         return view('front.credits');
     }
 
+    public function career(){
+        return view('front.career');
+    }
+
+    public function search_career(){
+        return view('front.search_career');
+    }
 
 
 
@@ -62,6 +71,10 @@ class HomeController extends Controller
         $sub = $request->sub;
         // email wecare@pallacredit.com
         $message = "Hey Admin, You have a message from $name, Phone Number: $phone, County $county, Sub County: $sub, The Message is $message";
+        $SendEmail = SendEmail::MailAdmin($message);
+        if($SendEmail){
+            Log::info("Email Has been Sent:".date('Y-M-D'));
+        }
         return response()->json( [ 'success' => 'Application registered successfully!' ] );
     }
 }

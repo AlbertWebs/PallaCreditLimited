@@ -63,12 +63,13 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <!-- Main Menu -->
                     <div class="inner-nav desktop-nav">
                         <ul class="clearlist local-scroll justify-content-end">
-                            <li><a href="{{url('/')}}/#home" class="active">HOME</a></li>
-                            <li><a href="{{url('/')}}/#about">ABOUT US</a></li>
-                            <li><a href="{{url('/')}}/#services">SERVICES</a></li>
-                            <li><a href="{{url('/')}}/#blog">UPDATES</a></li>
-                            <li><a href="{{url('/')}}/#contact">CONTACT US</a></li>
-
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#about">ABOUT US</a></li>
+                            <li><a href="#services">SERVICES</a></li>
+                            <li><a href="#impact">IMPACT</a></li>
+                            <li><a href="#services">EDUCATE YOURSELF</a></li>
+                            <li><a href="{{url('/')}}/careers">CAREER</a></li>
+                            <li><a href="#contact">CONTACT US</a></li>
                             <li class="desktop-nav-display">
                                 <div class="vr mt-2"></div>
                             </li>

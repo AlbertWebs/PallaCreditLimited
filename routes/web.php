@@ -12,6 +12,10 @@ Route::get('/about-us', [App\Http\Controllers\HomeController::class, 'about_us']
 Route::get('/news-updates', [App\Http\Controllers\HomeController::class, 'updates'])->name('news-updates');
 Route::get('/news-updates/{slung}', [App\Http\Controllers\HomeController::class, 'update'])->name('news-update');
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact-us');
+Route::get('/careers', [App\Http\Controllers\HomeController::class, 'career'])->name('career');
+Route::get('/search-career', [App\Http\Controllers\HomeController::class, 'search_career'])->name('search-career');
+
+
 
 
 Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'conditions'])->name('terms-and-conditions');

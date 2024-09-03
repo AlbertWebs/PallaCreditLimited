@@ -1,8 +1,8 @@
 <div class="row">
 
-    <div class="col-lg-6">
+    <div class="col-lg-12">
         <div class="split-column-rights rounded-0 position-relative d-flex align-items-center">
-            <div class="text-center text-lg-start">
+            <div class="text-center text-lg-start"><br><br>
 
                 <h1 class="hs-title-9 mb-40 mb-sm-20 wow fadeInUp">
                     Our Reach
@@ -30,11 +30,13 @@
         </div>
     </div>
 
-    <div class="col-lg-6 d-flex align-items-stretch order-lg-first">
-        <div class="split-image-left rounded-0 pb-xs-70">
 
-            <img style="border-radius:10px" src="{{url('/')}}/uploads/reach/Palla-Credit-Lg-06.jpg" alt="Image Description" class="wow fadeScaleOutIn" data-wow-duration="1.3s" />
-
+    <div class="col-lg-12 d-flex align-items-stretchS order-lg-first">
+        <div class="split-image-lefts rounded-0 pb-xs-70">
+            <div class="portfolio-5-image">
+                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                  <img style="border-radius:10px" src="{{url('/')}}/uploads/reach/Palla-Credit-Lg-06.jpg" alt="Image Description" class=" wow fadeScaleOutIn" data-wow-duration="1.3s" />
+            </div>
 
         </div>
     </div>

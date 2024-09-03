@@ -3495,7 +3495,7 @@ html:not(.mobile) .wow-p{
 .nav-logo-wrap .logo{
     display: flex;
     align-items: center;
-    max-width: 280px;
+    max-width: 200px;
     height: var(--menu-bar-height);
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
@@ -10454,7 +10454,7 @@ a.blog-item-more:hover{
 }
 
 /* Widget tags */
-.tags a{
+/* .tags a{
     display: inline-block;
     margin: 0 2px 8px 0;
     padding: 5px 7px;
@@ -10465,7 +10465,21 @@ a.blog-item-more:hover{
     border-radius: var(--border-radius-default);
     -webkit-transition: var(--transition-default);
     transition: var(--transition-default);
+} */
+
+.tags a{
+    display: inline-block;
+    margin: 0 2px 8px 0;
+    padding: 5px 7px;
+    border: 5px solid #88B437;
+    color: var(--color-dark-4);
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: var(--border-radius-default);
+    -webkit-transition: var(--transition-default);
+    transition: var(--transition-default);
 }
+
 .tags a:hover{
     text-decoration: none;
     border-color: var(--color-dark-3a);

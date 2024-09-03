@@ -4,8 +4,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 <html lang="en">
     <head>
 
-        <title>Palla Credit</title>
-        <meta name="description" content="Resonance &mdash; One & Multi Page Creative Template">
+        <title>Joyce Wambui - Director Palla Credit Limited</title>
+        <meta name="description" content="Joyce Wambui - Director Palla Credit Limited">
         <meta charset="utf-8">
         <meta name="author" content="Designekta Studios">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -45,7 +45,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <div class="page" id="top">
 
             <!-- Navigation Panel -->
-            <nav class="main-nav dark transparent light-after-scroll stick-fixed wow-menubar wch-unset">
+
+            <nav class="main-nav transparent stick-fixed wow-menubar wch-unset">
                 <div class="main-nav-sub container">
 
                     <!-- Logo  (* Add your text or image to the link tag. Use SVG or PNG image format.
@@ -77,7 +78,9 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <li class="desktop-nav-display">
                                 <div class="vr mt-2"></div>
                             </li>
-                            <li><a href="tel:+254793070020" style="font-size: 16px"><i class="mi-mobile size-24 color-primary-1 align-center"></i> +254 (079) 307 0020</a></li>
+
+                            <li><a href="tel:+18376528800"><i class="mi-mobile size-24 color-primary-1 align-center"></i> +254 (072) 238 8009</a></li>
+
                             <!-- Social Links -->
                             <li>
                                 <a href="https://web.facebook.com/pallacredit" class="no-hover opacity-1 pe-1"><span class="mn-soc-link mn-soc-link-color" title="Facebook"><i class="fa-facebook-f"></i></span> <span class="mobile-nav-display-i">Facebook</span></a>
@@ -101,7 +104,9 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             <!-- End Divider -->
 
             <!-- Footer -->
-           @include('front.footer')
+
+            <!-- Footer -->
+            @include('front.footer')
             <!-- End Footer -->
 
         </div>
@@ -229,42 +234,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                 });
             }));
         });
-        </script>
-        <script>
-            var counted = 0;
-            $(window).scroll(function() {
-
-            var oTop = $('#counter-stats').offset().top - window.innerHeight;
-            if (counted == 0 && $(window).scrollTop() > oTop) {
-                $('.count').each(function() {
-                var $this = $(this),
-                    countTo = $this.attr('data-count');
-                $({
-                    countNum: $this.text()
-                }).animate({
-                    countNum: countTo
-                    },
-
-                    {
-
-                    duration: 2000,
-                    easing: 'swing',
-                    step: function() {
-                        $this.text(Math.floor(this.countNum));
-                    },
-                    complete: function() {
-                        $this.text(this.countNum);
-                        //alert('finished');
-                    }
-
-                    });
-                });
-                counted = 10;
-            }
-
-            });
-
-
         </script>
 
     </body>

@@ -77,12 +77,12 @@ hr:not([size]){
     opacity: 1;
 }
 .inner-nav ul{
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     letter-spacing: normal;
 }
 .inner-nav ul li {
-    margin: 0 17px;
+    margin: 0 13px;
 }
 .inner-nav > ul > li > a {
     opacity: 1;

@@ -18,8 +18,8 @@
                                 <h2 class="section-title mb-60 mb-sm-40">Ready to get started with Business Loans?</h2>
 
                                 <div class="local-scroll">
-                                    <a href="javascript:void(0)" class="btn btn-mod btn-color btn-large btn-round btn-hover-anim" onclick="window.dialog.showModal();">
-                                        <span>Get a Consultation</span>
+                                    <a target="new" href="https://wa.me/+254793070020?text=Hello, I am texting from your website" class="btn btn-mod btn-color btn-large btn-round btn-hover-anim" >
+                                        <span>Whatsapp us now! <i class="fa-whatsapp" aria-hidden="true"></i></span>
                                     </a>
                                 </div>
 
