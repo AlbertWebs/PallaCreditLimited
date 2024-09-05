@@ -10,7 +10,7 @@
 
     <!-- Background Shape -->
     <div class="bg-shape-1 wow fadeIn" style=" width: 100%;">
-        <img class="opacity-05 about-banner" src="{{asset('theme/images/demo-corporate/Palla-Credit-Team-Building-305.jpg')}}" alt="" />
+        <img class="opacity-05 about-banner" src="{{asset('uploads/business-loans-1-768x512.jpg')}}" alt="" />
     </div>
     <!-- End Background Shape -->
 
@@ -25,9 +25,9 @@
                     </span>
                 </h1>
 
-                <p class="hs-descr mb-0 wow fadeIn" data-wow-delay="0.2s" style="max-width:600px; margin:0 auto;">
+                {{-- <p class="hs-descr mb-0 wow fadeIn" data-wow-delay="0.2s" style="max-width:600px; margin:0 auto;">
                     We encourage a culture of collaboration, diversity, and continuous learning, ensuring that all employees have the tools and opportunities to excel.
-                </p>
+                </p> --}}
 
             </div>
         </div>
