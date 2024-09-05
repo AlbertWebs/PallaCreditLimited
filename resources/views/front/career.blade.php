@@ -122,7 +122,17 @@
         </div>
 
         <div class="row wow fadeInUp" data-wow-delay="0.5s">
-
+            <div class="col-lg-6 mb-md-60s">
+                <div class="position-relative">
+                    <!-- Image -->
+                    <div class="video">
+                        <div class="round wow fadeIn animated" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeIn;">
+                            <img class="round" style="max-height:800px; width:100%; object-fit:cover" src="{{url('/')}}/uploads/team/hr.jpeg" alt="Image Description">
+                        </div>
+                    </div>
+                    <!-- End Image -->
+                </div>
+            </div>
 
 
             <div class="col-lg-6">
@@ -147,17 +157,7 @@
                 </p>
             </div>
 
-            <div class="col-lg-6 mb-md-60s">
-                <div class="position-relative">
-                    <!-- Image -->
-                    <div class="video">
-                        <div class="round wow fadeIn animated" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeIn;">
-                            <img class="round" style="max-height:800px; width:100%; object-fit:cover" src="{{url('/')}}/uploads/team/hr.jpeg" alt="Image Description">
-                        </div>
-                    </div>
-                    <!-- End Image -->
-                </div>
-            </div>
+
 
         </div>
     </div>

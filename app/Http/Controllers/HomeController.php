@@ -38,6 +38,13 @@ class HomeController extends Controller
         return view('front.update', compact('Blog'));
     }
 
+    public function updates(){
+        $Blog = DB::table('blogs')->get();
+        return view('front.updates', compact('Blog'));
+    }
+
+
+
     public function conditions(){
         return view('front.conditions');
     }

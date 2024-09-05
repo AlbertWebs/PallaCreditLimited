@@ -350,90 +350,6 @@
         </section>
         <!-- End Services Section -->
 
-        <!-- Portfolio Section -->
-        <section class="page-section bg-light-alpha-90" id="portfolio">
-            <div class="container position-relative">
-
-                <div class="row mb-70 mb-sm-50">
-
-                    <div class="col-lg-12 col-xl-10 mb-md-40">
-
-                        <h2 class="section-title mb-40 mb-xs-30">About Us</h2>
-
-                        <p class="section-descr mb-0">
-                            <strong>Mission Statement:</strong> Our mission goes beyond providing loans; we are dedicated to fostering growth, supporting entrepreneurship, and transforming communities. Our impact can be seen in the thriving businesses and the vibrant communities we serve
-                        </p>
-
-                    </div>
-
-                    <div class="col-lg-2 offset-xl-1 d-flex align-items-end pb-10">
-
-                        <!-- Features List -->
-                        <div class="row mt-n10">
-
-
-
-                        </div>
-                        <!-- End Features List -->
-
-                    </div>
-
-                </div>
-
-                <!-- Portfolio Grid -->
-                {{-- <div class="row mt-n50 mt-sm-n40 mb-70 mb-sm-50">
-
-                    <!-- Portfolio Item -->
-                    <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                        <a href="#" class="portfolio-5-link">
-
-                            <div class="portfolio-5-image">
-                                <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                <div class="wow fadeIn" data-wow-delay="1s">
-                                    <img src="{{url('/')}}/uploads/facebook/Hassle_Free_Loans.png" alt="#" />
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                    <!-- Portfolio Item -->
-                    <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                        <a href="#" class="portfolio-5-link">
-
-                            <div class="portfolio-5-image">
-                                <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                <div class="wow fadeIn" data-wow-delay="1s">
-                                    <img src="{{url('/')}}/uploads/facebook/Palla_Credit_Loans.png" alt="Image Description" />
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                    <!-- Portfolio Item -->
-                    <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                        <a href="#" class="portfolio-5-link">
-
-                            <div class="portfolio-5-image">
-                                <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                <div class="wow fadeIn" data-wow-delay="1s">
-                                    <img src="{{url('/')}}/uploads/facebook/Worry_No_More.png" alt="Image Description" />
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- End Portfolio Item -->
-
-                </div> --}}
-                <!-- End Portfolio Grid -->
-
-                @include('front.reach')
-
-            </div>
-        </section>
-        <!-- End Portfolio Section -->
-
 
         <!-- Numbers Section -->
         <section id="counter-stats" class="page-section bg-light-alpha-90 bg-scroll" style="background-image: url('{{url('/')}}/uploads/Picture1.jpg')">
@@ -735,7 +651,7 @@
                     </p>
 
                     <div class="local-scroll">
-                        <a href="{{url('/news-and-updates')}}" class="btn btn-mod btn-w btn-with-icon btn-circle"><span class="btn-icon color-3"><i class="mi-link-alt"></i></span> <span data-btn-animate="y">Read All Articles <i class="mi-arrow-right"></i></span></a>
+                        <a href="{{url('/news-updates')}}" class="btn btn-mod btn-w btn-with-icon btn-circle"><span class="btn-icon color-3"><i class="mi-link-alt"></i></span> <span data-btn-animate="y">Read All Articles <i class="mi-arrow-right"></i></span></a>
                     </div>
 
                 </div>
@@ -956,6 +872,46 @@
 
     </section>
     <!-- End Contact Section -->
+
+     <!-- Portfolio Section -->
+     <section class="page-section bg-light-alpha-90" id="portfolio">
+        <div class="container position-relative">
+
+            <div class="row mb-70 mb-sm-50">
+
+                <div class="col-lg-12 col-xl-10 mb-md-40">
+
+                    <h2 class="section-title mb-40 mb-xs-30">About Us</h2>
+
+                    <p class="section-descr mb-0">
+                        <strong>Mission Statement:</strong> Our mission goes beyond providing loans; we are dedicated to fostering growth, supporting entrepreneurship, and transforming communities. Our impact can be seen in the thriving businesses and the vibrant communities we serve
+                    </p>
+
+                </div>
+
+                <div class="col-lg-2 offset-xl-1 d-flex align-items-end pb-10">
+
+                    <!-- Features List -->
+                    <div class="row mt-n10">
+
+
+
+                    </div>
+                    <!-- End Features List -->
+
+                </div>
+
+            </div>
+
+
+
+            @include('front.reach')
+
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+
 
 </main>
 @endsection
