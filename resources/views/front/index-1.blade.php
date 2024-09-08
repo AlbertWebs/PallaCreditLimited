@@ -198,157 +198,196 @@
     </section>
     <!-- End Steps Section -->
 
-         <!-- Services Section -->
-         <section class="page-section pb-0" id="services">
+        <!-- Services Section -->
+        <section class="page-section pb-0" id="services">
 
-            <div class="container position-relative">
+        <div class="container position-relative">
 
-                <div class="row mb-70 mb-sm-50">
-                    <div class="col-md-8 offset-md-2 text-center">
+            <div class="row mb-70 mb-sm-50">
+                <div class="col-md-8 offset-md-2 text-center">
 
-                        <h2 class="section-title mb-40 mb-xs-30">Our Services</h2>
+                    <h2 class="section-title mb-40 mb-xs-30">Our Services</h2>
 
-                        <p class="section-descr mb-0">
-                            Unbeatable Rates Tailored to Your Financial Needs: Secure the Best Interest Rates in the Market with Our Customized Financial Solutions
-                        </p>
+                    <p class="section-descr mb-0">
+                        Unbeatable Rates Tailored to Your Financial Needs: Secure the Best Interest Rates in the Market with Our Customized Financial Solutions
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container position-relative">
+            <!-- Services Grid -->
+            <div class="row g-0 mb-70 mb-sm-50">
+
+
+                {{--  --}}
+                <!-- Portfolio Grid -->
+                <div class="row mt-n50 mt-sm-n40 mb-70 mb-sm-50">
+
+                    <!-- Portfolio Item -->
+                    <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                        <a href="#" class="portfolio-5-link">
+
+                            <div class="portfolio-5-image">
+                                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                <div class="wow fadeIn" data-wow-delay="1s">
+                                    <img class="service-images-resize" src="{{url('/')}}/uploads/facebook/1.jpg" alt="#" />
+                                </div>
+                            </div>
+
+                            <h3 class="portfolio-5-title text-center">
+                                <span>Merchant Cash Advances</span>
+                            </h3>
+                        </a>
+                    </div>
+                    <!-- End Portfolio Item -->
+
+                    <!-- Portfolio Item -->
+                    <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                        <a href="#" class="portfolio-5-link">
+
+                            <div class="portfolio-5-image">
+                                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                <div class="wow fadeIn" data-wow-delay="1s">
+                                    <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com989010.jpg" alt="Image Description" />
+
+                                </div>
+                            </div>
+                            <h3 class="portfolio-5-title text-center">
+                                <span>Equipment Financing</span>
+                            </h3>
+                        </a>
+                    </div>
+                    <!-- End Portfolio Item -->
+
+                    <!-- Portfolio Item -->
+                    <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                        <a href="#" class="portfolio-5-link">
+
+                            <div class="portfolio-5-image">
+                                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                <div class="wow fadeIn" data-wow-delay="1s">
+                                    <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com523514.jpg" alt="Image Description" />
+                                </div>
+                            </div>
+
+                            <h3 class="portfolio-5-title text-center">
+                                <span>Inventory Financing</span>
+                            </h3>
+                        </a>
+                    </div>
+                    <!-- End Portfolio Item -->
+
+                        <!-- Portfolio Item -->
+                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                        <a href="#" class="portfolio-5-link">
+
+                            <div class="portfolio-5-image">
+                                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                <div class="wow fadeIn" data-wow-delay="1s">
+                                    <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com433291.jpg" alt="Image Description" />
+                                </div>
+                            </div>
+
+                            <h3 class="portfolio-5-title text-center">
+                                <span>Minimart Stock Financing</span>
+                            </h3>
+                        </a>
+                    </div>
+                    <!-- End Portfolio Item -->
+
+                        <!-- Portfolio Item -->
+                    <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                        <a href="#" class="portfolio-5-link">
+
+                            <div class="portfolio-5-image">
+                                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                <div class="wow fadeIn" data-wow-delay="1s">
+                                    <img class="service-images-resize" src="{{url('/')}}/uploads/facebook/5.jpg" alt="Image Description" />
+
+                                </div>
+                            </div>
+
+                            <h3 class="portfolio-5-title text-center">
+                                <span>Equipment Purchase Financing</span>
+                            </h3>
+                        </a>
+                    </div>
+                    <!-- End Portfolio Item -->
+
+
+                        <!-- Portfolio Item -->
+                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
+                        <a href="#" class="portfolio-5-link">
+
+                            <div class="portfolio-5-image">
+                                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                                <div class="wow fadeIn" data-wow-delay="1s">
+                                    <img class="service-images-resize" src="{{url('/')}}/uploads/facebook/6.jpg" alt="Image Description" />
+                                </div>
+                            </div>
+
+                            <h3 class="portfolio-5-title text-center">
+                                <span>Agri-Business Financing</span>
+                            </h3>
+                        </a>
+                    </div>
+                    <!-- End Portfolio Item -->
+
+
+
+                </div>
+                <!-- End Portfolio Grid -->
+                {{--  --}}
+
+            </div>
+            <!-- End Services Grid -->
+        </div>
+
+
+    </section>
+    <!-- End Services Section -->
+
+      <!-- Portfolio Section -->
+      <section class="page-section bg-light-alpha-90" id="portfolio">
+        <div class="container position-relative">
+
+            <div class="row mb-70 mb-sm-50">
+
+                <div class="col-lg-12 col-xl-10 mb-md-40">
+
+                    <h2 class="section-title mb-40 mb-xs-30">About Us</h2>
+
+                    <p class="section-descr mb-0">
+                        <strong>Mission Statement:</strong> Our mission goes beyond providing loans; we are dedicated to fostering growth, supporting entrepreneurship, and transforming communities. Our impact can be seen in the thriving businesses and the vibrant communities we serve
+                    </p>
+
+                </div>
+
+                <div class="col-lg-2 offset-xl-1 d-flex align-items-end pb-10">
+
+                    <!-- Features List -->
+                    <div class="row mt-n10">
+
+
 
                     </div>
+                    <!-- End Features List -->
+
                 </div>
 
             </div>
 
-            <div class="container position-relative">
-                <!-- Services Grid -->
-                <div class="row g-0 mb-70 mb-sm-50">
 
 
-                    {{--  --}}
-                    <!-- Portfolio Grid -->
-                    <div class="row mt-n50 mt-sm-n40 mb-70 mb-sm-50">
+            @include('front.reach')
 
-                        <!-- Portfolio Item -->
-                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="#" class="portfolio-5-link">
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
 
-                                <div class="portfolio-5-image">
-                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                    <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img class="service-images-resize" src="{{url('/')}}/uploads/facebook/1.jpg" alt="#" />
-                                    </div>
-                                </div>
-
-                                <h3 class="portfolio-5-title text-center">
-                                    <span>Merchant Cash Advances</span>
-                                </h3>
-                            </a>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <!-- Portfolio Item -->
-                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="#" class="portfolio-5-link">
-
-                                <div class="portfolio-5-image">
-                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                    <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com989010.jpg" alt="Image Description" />
-
-                                    </div>
-                                </div>
-                                <h3 class="portfolio-5-title text-center">
-                                    <span>Equipment Financing</span>
-                                </h3>
-                            </a>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                        <!-- Portfolio Item -->
-                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="#" class="portfolio-5-link">
-
-                                <div class="portfolio-5-image">
-                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                    <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com523514.jpg" alt="Image Description" />
-                                    </div>
-                                </div>
-
-                                <h3 class="portfolio-5-title text-center">
-                                    <span>Inventory Financing</span>
-                                </h3>
-                            </a>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                         <!-- Portfolio Item -->
-                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="#" class="portfolio-5-link">
-
-                                <div class="portfolio-5-image">
-                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                    <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img class="service-images-resize" src="{{url('/')}}/uploads/shutterstock/steptodown.com433291.jpg" alt="Image Description" />
-                                    </div>
-                                </div>
-
-                                <h3 class="portfolio-5-title text-center">
-                                    <span>Minimart Stock Financing</span>
-                                </h3>
-                            </a>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-                         <!-- Portfolio Item -->
-                        <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="#" class="portfolio-5-link">
-
-                                <div class="portfolio-5-image">
-                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                    <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img class="service-images-resize" src="{{url('/')}}/uploads/facebook/5.jpg" alt="Image Description" />
-
-                                    </div>
-                                </div>
-
-                                <h3 class="portfolio-5-title text-center">
-                                    <span>Equipment Purchase Financing</span>
-                                </h3>
-                            </a>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-
-                         <!-- Portfolio Item -->
-                         <div class="col-md-6 col-lg-4 mt-50 mt-sm-40">
-                            <a href="#" class="portfolio-5-link">
-
-                                <div class="portfolio-5-image">
-                                    <div class="portfolio-5-image-bg wow scalexIn"></div>
-                                    <div class="wow fadeIn" data-wow-delay="1s">
-                                        <img class="service-images-resize" src="{{url('/')}}/uploads/facebook/6.jpg" alt="Image Description" />
-                                    </div>
-                                </div>
-
-                                <h3 class="portfolio-5-title text-center">
-                                    <span>Agri-Business Financing</span>
-                                </h3>
-                            </a>
-                        </div>
-                        <!-- End Portfolio Item -->
-
-
-
-                    </div>
-                    <!-- End Portfolio Grid -->
-                    {{--  --}}
-
-                </div>
-                <!-- End Services Grid -->
-            </div>
-
-
-        </section>
-        <!-- End Services Section -->
 
 
         <!-- Numbers Section -->
@@ -873,43 +912,6 @@
     </section>
     <!-- End Contact Section -->
 
-     <!-- Portfolio Section -->
-     <section class="page-section bg-light-alpha-90" id="portfolio">
-        <div class="container position-relative">
-
-            <div class="row mb-70 mb-sm-50">
-
-                <div class="col-lg-12 col-xl-10 mb-md-40">
-
-                    <h2 class="section-title mb-40 mb-xs-30">About Us</h2>
-
-                    <p class="section-descr mb-0">
-                        <strong>Mission Statement:</strong> Our mission goes beyond providing loans; we are dedicated to fostering growth, supporting entrepreneurship, and transforming communities. Our impact can be seen in the thriving businesses and the vibrant communities we serve
-                    </p>
-
-                </div>
-
-                <div class="col-lg-2 offset-xl-1 d-flex align-items-end pb-10">
-
-                    <!-- Features List -->
-                    <div class="row mt-n10">
-
-
-
-                    </div>
-                    <!-- End Features List -->
-
-                </div>
-
-            </div>
-
-
-
-            @include('front.reach')
-
-        </div>
-    </section>
-    <!-- End Portfolio Section -->
 
 
 

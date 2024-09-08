@@ -48,6 +48,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             <nav class="main-nav dark transparent light-after-scroll stick-fixed wow-menubar wch-unset">
                 <div class="main-nav-sub container">
 
+
                     <!-- Logo  (* Add your text or image to the link tag. Use SVG or PNG image format.
                     If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
                     image size for support of retina screens. See details in the template documentation. *) -->
@@ -64,16 +65,18 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     </div>
 
 
+
+
                     <!-- Main Menu -->
                     <div class="inner-nav desktop-nav">
                         <ul class="clearlist scroll-nav local-scroll justify-content-end">
-                            <li><a href="{{url('/')}}/#home">HOME</a></li>
-                            <li><a href="{{url('/')}}/#about">ABOUT US</a></li>
-                            <li><a href="{{url('/')}}/#services">SERVICES</a></li>
-                            <li><a href="{{url('/')}}/#impact">IMPACT</a></li>
-                            <li><a href="{{url('/')}}/#blog">EDUCATE YOURSELF</a></li>
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#about">ABOUT US</a></li>
+                            <li><a href="#services">SERVICES</a></li>
+                            <li><a href="#impact">IMPACT</a></li>
+                            <li><a href="#blog">EDUCATE YOURSELF</a></li>
                             <li><a href="{{url('/')}}/careers">CAREER</a></li>
-                            <li><a href="{{url('/')}}/#contact">CONTACT US</a></li>
+                            <li><a href="#contact">CONTACT US</a></li>
                             <li class="desktop-nav-display">
                                 <div class="vr mt-2"></div>
                             </li>
@@ -232,9 +235,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         </script>
 
         <script>
-            function formatHeading(headingText, duration) {
-                    return `${Math.floor(duration).toLocaleString('en-US')} ${headingText}`;
-            };
+
 
             var counted = 0;
             $(window).scroll(function() {
