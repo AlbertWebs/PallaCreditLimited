@@ -1,4 +1,15 @@
 <div class="row">
+
+    <div class="col-lg-12">
+        <div class="split-image-lefts rounded-0 pb-xs-70">
+            <div class="portfolio-5-image">
+                <div class="portfolio-5-image-bg wow scalexIn"></div>
+                  <img style="border-radius:10px" src="{{url('/')}}/uploads/reach/Palla-Credit-Lg-06.jpg" alt="Image Description" class=" wow fadeScaleOutIn" data-wow-duration="1.3s" />
+            </div>
+
+        </div>
+    </div>
+
     <div class="col-lg-12">
         <div class="split-column-rights rounded-0 position-relative d-flex align-items-center">
             <div class="text-center text-lg-start"><br><br>
@@ -20,7 +31,11 @@
                             <span>Contact Us Today</span>
                         </a>
                     </div>
+
+
+
                 </div>
+
             </div>
         </div>
     </div>
@@ -31,14 +46,3 @@
 </div>
 
 
-<div class="row">
-    <div class="col-lg-12">
-        <div class="split-image-lefts rounded-0 pb-xs-70">
-            <div class="portfolio-5-image">
-                <div class="portfolio-5-image-bg wow scalexIn"></div>
-                  <img style="border-radius:10px" src="{{url('/')}}/uploads/reach/Palla-Credit-Lg-06.jpg" alt="Image Description" class=" wow fadeScaleOutIn" data-wow-duration="1.3s" />
-            </div>
-
-        </div>
-    </div>
-</div>

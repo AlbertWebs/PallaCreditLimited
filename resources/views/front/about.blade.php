@@ -6,12 +6,11 @@
 <main id="main">
 
 
-    <!-- Home Section -->
     <section class="page-section bg-gradient-gray-light-1 bg-scroll overflow-hidden">
 
         <!-- Background Shape -->
         <div class="bg-shape-1 wow fadeIn" style=" width: 100%;">
-            <img class="opacity-05 about-banner" src="{{asset('theme/images/demo-corporate/Palla-Credit-Team-Building-305.jpg')}}" alt="" />
+            <img class="opacity-05 about-banner" src="{{asset('uploads/business-loans-1-768x512.jpg')}}" alt="" />
         </div>
         <!-- End Background Shape -->
 
@@ -22,11 +21,13 @@
 
                     <h1 class="hs-title-9 mb-10">
                         <span class="wow charsAnimIn" data-splitting="chars">
-                            About <span class="mark-decoration-3-wrap">Us<b class="mark-decoration-3 wow scalexIn" data-wow-delay="0.5s"></b></span>
+                             <span class="mark-decoration-3-wrap">About Us<b class="mark-decoration-3 wow scalexIn" data-wow-delay="0.5s"></b></span>
                         </span>
                     </h1>
 
-                    <p class="hs-descr mb-0 wow fadeIn" data-wow-delay="0.2s" style="max-width:600px; margin:0 auto;">We are a company offering lending services to small and medium enterprises.</p>
+                    {{-- <p class="hs-descr mb-0 wow fadeIn" data-wow-delay="0.2s" style="max-width:600px; margin:0 auto;">
+                        We encourage a culture of collaboration, diversity, and continuous learning, ensuring that all employees have the tools and opportunities to excel.
+                    </p> --}}
 
                 </div>
             </div>
