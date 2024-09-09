@@ -1,5 +1,4 @@
 <div class="row">
-
     <div class="col-lg-12">
         <div class="split-column-rights rounded-0 position-relative d-flex align-items-center">
             <div class="text-center text-lg-start"><br><br>
@@ -21,17 +20,19 @@
                             <span>Contact Us Today</span>
                         </a>
                     </div>
-
-
-
                 </div>
-
             </div>
         </div>
     </div>
 
 
-    <div class="col-lg-12 d-flex align-items-stretchS order-lg-first">
+
+
+</div>
+
+
+<div class="row">
+    <div class="col-lg-12">
         <div class="split-image-lefts rounded-0 pb-xs-70">
             <div class="portfolio-5-image">
                 <div class="portfolio-5-image-bg wow scalexIn"></div>
@@ -40,5 +41,4 @@
 
         </div>
     </div>
-
 </div>

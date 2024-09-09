@@ -36,6 +36,7 @@
     </section>
     <!-- End Home Section -->
 
+
     <!-- About Section -->
     <section class="page-section bg-white light-content content-dark" id="about">
 
@@ -81,6 +82,45 @@
         </div>
     </section>
     <!-- End About Section -->
+
+      <!-- Portfolio Section -->
+      <section class="page-section bg-light-alpha-90" id="portfolio">
+        <div class="container position-relative">
+
+            <div class="row mb-70 mb-sm-50">
+
+                <div class="col-lg-12 col-xl-10 mb-md-40">
+
+                    {{-- <h2 class="section-title mb-40 mb-xs-30">About Us</h2> --}}
+
+                    <p class="section-descr mb-0">
+                        <strong>Mission Statement:</strong> Our mission goes beyond providing loans; we are dedicated to fostering growth, supporting entrepreneurship, and transforming communities. Our impact can be seen in the thriving businesses and the vibrant communities we serve
+                    </p>
+
+                </div>
+
+                <div class="col-lg-2 offset-xl-1 d-flex align-items-end pb-10">
+
+                    <!-- Features List -->
+                    <div class="row mt-n10">
+
+
+
+                    </div>
+                    <!-- End Features List -->
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
 
      <!-- About Section -->
      <section class="page-section bg-primary-1 bg-color-alpha-90 bg-scroll light-content" id="about" style="background-image: url('{{asset('uploads/palla-credit.jpg')}}')">
