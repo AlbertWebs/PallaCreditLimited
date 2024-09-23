@@ -92,6 +92,12 @@
                                 <span class="visually-hidden">WhatsApp</span>
                                 <i class="fa-whatsapp"></i>
                              </a>
+                             <a href="https://www.tiktok.com/@pallacredit?_t=8psUn9Jd3OH&_r=1" title="tiktok" rel="noopener nofollow" target="_blank">
+                                <span class="visually-hidden">TikTok</span>
+                                <i class="fa-tiktok"></i>
+                             </a>
+
+
                         </div>
                         <!-- End Social Links -->
 

@@ -101,7 +101,7 @@
                 <a href="#" class="portfolio-5-link">
                     <div class="portfolio-5-image">
                         <div class="portfolio-5-image-bg wow scalexIn"></div>
-                        <div class="wow fadeIn" data-wow-delay="1s">
+                        <div class="wow fadeIn" data-wow-delay="1```s">
                             <img src="{{url('/')}}/uploads/sdg/6.png" alt="Image Description" />
                         </div>
                     </div>

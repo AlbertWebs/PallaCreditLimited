@@ -70,23 +70,26 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <!-- Main Menu -->
                     <div class="inner-nav desktop-nav">
                         <ul class="clearlist scroll-nav local-scroll justify-content-end">
-                            <li><a href="#home">HOME</a></li>
-                            <li><a href="#about">ABOUT US</a></li>
-                            <li><a href="#services">SERVICES</a></li>
-                            <li><a href="#impact">IMPACT</a></li>
-                            <li><a href="#blog">EDUCATE YOURSELF</a></li>
-                            <li><a href="{{url('/')}}/careers">CAREER</a></li>
-                            <li><a href="#contact">CONTACT US</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#impact">Impact</a></li>
+                            <li><a href="#blog">Educate Yourself</a></li>
+                            <li><a href="{{url('/')}}/careers">Career</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
                             <li class="desktop-nav-display">
                                 <div class="vr mt-2"></div>
                             </li>
-                            <li><a href="tel:+254793070020" style="font-size: 16px"><i class="mi-mobile size-24 color-primary-1 align-center"></i> +254 (079) 307 0020</a></li>
+
+                            <li><a href="tel:+254793070020" style="font-size: 16px"><i class="mi-mobile size-24 color-primary-1 align-center"></i> 0793 070 020</a></li>
                             <!-- Social Links -->
                             <li>
                                 <a href="https://web.facebook.com/pallacredit" class="no-hover opacity-1 pe-1"><span class="mn-soc-link mn-soc-link-color" title="Facebook"><i class="fa-facebook-f"></i></span> <span class="mobile-nav-display-i">Facebook</span></a>
                                 <a href="https://www.linkedin.com/company/palla-credit-limited/" class="no-hover opacity-1 pe-1"><span class="mn-soc-link mn-soc-link-color" title="LinkedIn"><i class="fa-linkedin-in"></i></span> <span class="mobile-nav-display-i">LinkedIn</span></a>
+                                <a href="https://www.tiktok.com/@pallacredit?_t=8psUn9Jd3OH&_r=1" class="no-hover opacity-1 pe-1"><span class="mn-soc-link mn-soc-link-color" title="tiktok"><i class="fa-tiktok"></i></span> <span class="mobile-nav-display-i">Tiktok</span></a>
                                 <a href="https://wa.me/+254793070020?text=Hello, I am texting from your website" class="no-hover opacity-1"><span class="mn-soc-link mn-soc-link-color" title="WhatsApp"><i class="fa-whatsapp"></i></span> <span class="mobile-nav-display-i">WhatsApp</span></a>
                             </li>
+
                             <!-- End Social Links  -->
                         </ul>
 
