@@ -14,7 +14,7 @@ Route::get('/news-updates/{slung}', [App\Http\Controllers\HomeController::class,
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact-us');
 Route::get('/careers', [App\Http\Controllers\HomeController::class, 'career'])->name('career');
 Route::get('/search-career', [App\Http\Controllers\HomeController::class, 'search_career'])->name('search-career');
-
+Route::get('/impact', [App\Http\Controllers\HomeController::class, 'impact'])->name('impact');
 
 
 

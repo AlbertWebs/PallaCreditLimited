@@ -11,7 +11,32 @@
                     At Palla Credit, we believe in making a positive impact on the communities we serve. Our financial products and services are designed not only to support small
                     businesses but also to contribute to global sustainability. We're proud to align our efforts with several United Nations Sustainable Development Goals (SDGs).
                 </p><br><br>
+                <p class="section-descr mb-0">
+                    <strong>SDG 1: No Poverty</strong>
+                    - By providing accessible financial services, we helps individuals and small businesses improve their livelihoods, contributing to poverty reduction.
+                    <br>
+                    <strong>SDG 5: Gender Equality</strong>
+                    We offer loans to women-owned businesses and have policies promoting equal access to financial services regardless of gender.
+                    <br>
+                    <strong> SDG 8: Decent Work and Economic Growth</strong>
+                    - By supporting small businesses and entrepreneurship through loans, we contribute to economic growth and the creation of decent jobs.
+                    <br>
+                    <strong>SDG 9: Industry, Innovation, and Infrastructure</strong>
+                    -Facilitating access to finance for small businesses encourages innovation and supports the development of infrastructure, particularly in underserved areas.
+                    <br>
+                    <strong>SDG 10: Reduced Inequalities</strong>
 
+                    - Our inclusive approach to lending, such as not requiring collateral or guarantors, helps reduce inequalities by providing financial access to those who might
+                    be excluded from traditional banking services.<br>
+
+                    <strong>SDG 17: Partnerships for the Goals</strong>
+
+                    - We collaborate with other organizations, governments, and international bodies to extend its reach and impact, it aligns with this goal by contributing to
+                    global partnerships for sustainable development.<br><br>
+
+                    We demonstrate our commitment to fostering economic growth, reducing inequalities, and supporting sustainable communities through the financial services
+                    that we offer to small businesses in Kenya.
+                </p>
 
             </div>
 

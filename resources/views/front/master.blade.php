@@ -63,18 +63,18 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <!-- Main Menu -->
                     <div class="inner-nav desktop-nav">
                         <ul class="clearlist local-scroll justify-content-end">
-                            <li><a href="{{url('/')}}/#home">HOME</a></li>
-                            <li><a href="{{url('/')}}/#about">ABOUT US</a></li>
-                            <li><a href="{{url('/')}}/#services">SERVICES</a></li>
-                            <li><a href="{{url('/')}}/#impact">IMPACT</a></li>
-                            <li><a href="{{url('/')}}/#blog">EDUCATE YOURSELF</a></li>
-                            <li><a href="{{url('/')}}/careers">CAREER</a></li>
-                            <li><a href="{{url('/')}}/#contact">CONTACT US</a></li>
+                            <li><a href="{{url('/')}}/#home">Home</a></li>
+                            <li><a href="{{url('/')}}/#about">About Us</a></li>
+                            <li><a href="{{url('/')}}/#services">Services</a></li>
+                            <li><a href="{{url('/')}}/#impact">Impact</a></li>
+                            <li><a href="{{url('/')}}/#blog">Educate Yourself</a></li>
+                            <li><a href="{{url('/')}}/careers">Career</a></li>
+                            <li><a href="{{url('/')}}/#contact">Contact Us</a></li>
                             <li class="desktop-nav-display">
                                 <div class="vr mt-2"></div>
                             </li>
 
-                            <li><a href="tel:+254 793 070 020 "><i class="mi-mobile size-24 color-primary-1 align-center"></i> +254 (079) 307 0020</a></li>
+                            <li><a href="tel:+254 793 070 020 "><i class="mi-mobile size-24 color-primary-1 align-center"></i> 0793 070 020</a></li>
 
                             <!-- Social Links -->
                             <li>

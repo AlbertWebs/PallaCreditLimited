@@ -12392,3 +12392,6 @@ html:not(.mobile) .owl-animate-fadeInDown{
     height:360px !important;
     object-fit:cover;
 }
+.weight-800{
+  font-weight:800;
+}

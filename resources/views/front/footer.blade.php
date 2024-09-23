@@ -29,21 +29,21 @@
                                 <div class="row">
 
                                     <div class="col-md-6 mb-sm-40">
-                                        <ul class="fw-menu-large clearlist">
+                                        <ul class="fw-menu-large clearlist local-scroll">
                                             <li>
-                                                <a href="#">About us</a>
+                                                <a href="#about">About us</a>
                                             </li>
                                             <li>
-                                                <a href="#">Services</a>
+                                                <a href="#services">Services</a>
                                             </li>
                                             <li>
-                                                <a href="#">Portfolio</a>
+                                                <a href="#blog">Educate Yourself</a>
                                             </li>
                                             <li>
-                                                <a href="#">News Updates</a>
+                                                <a href="{{url('/careers')}}">Career</a>
                                             </li>
                                             <li>
-                                                <a href="#">Contact</a>
+                                                <a href="#conatct">Contact</a>
                                             </li>
                                         </ul>
                                     </div>

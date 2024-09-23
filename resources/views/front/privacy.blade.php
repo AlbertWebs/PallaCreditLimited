@@ -22,7 +22,7 @@
 
                     <h1 class="hs-title-9 mb-10">
                         <span class="wow charsAnimIn" data-splitting="chars">
-                            Terms <span class="mark-decoration-3-wrap">And<b class="mark-decoration-3 wow scalexIn" data-wow-delay="0.5s"></b></span> Conditions
+                            Privacy <span class="mark-decoration-3-wrap">Policy<b class="mark-decoration-3 wow scalexIn" data-wow-delay="0.5s"></b></span>
                         </span>
                     </h1>
 

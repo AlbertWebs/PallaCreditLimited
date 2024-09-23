@@ -371,11 +371,16 @@
 
                 <!-- Numbers Grid -->
                 <div class="row mt-n30 wow fadeInUp">
+                    <?php
+                       $Statistics = DB::table('statistics')->get();
+
+                    ?>
+                    @foreach ($Statistics as $statistics)
 
                     <!-- Numbers Item -->
                     <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
                         <div class="number-2-item">
-                            <div class="count percent number-2-title" data-count="50">
+                            <div class="count percent number-2-title" data-count="{{$statistics->branches}}">
                                 0
                             </div>
                             <div class="number-2-descr">
@@ -388,7 +393,7 @@
                     <!-- Numbers Item -->
                     <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
                         <div class="number-2-item">
-                            <div class="count percent number-2-title" data-count="865000">
+                            <div class="count percent number-2-title" data-count="{{$statistics->disbursed}}">
                                 0
                             </div>
 
@@ -402,7 +407,7 @@
                     <!-- Numbers Item -->
                     <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
                         <div class="number-2-item">
-                            <div class="count percent number-2-title" data-count="750000">
+                            <div class="count percent number-2-title" data-count="{{$statistics->repeat}}">
                                 0
                             </div>
                             <div class="number-2-descr">
@@ -415,7 +420,7 @@
                     <!-- Numbers Item -->
                     <div class="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30">
                         <div class="number-2-item">
-                            <div class="count percent number-2-title" data-count="125000">
+                            <div class="count percent number-2-title" data-count="{{$statistics->clients}}">
                                 0
                             </div>
                             <div class="number-2-descr">
@@ -424,6 +429,7 @@
                         </div>
                     </div>
                     <!-- End Numbers Item -->
+                    @endforeach
 
                 </div>
                 <!-- End Numbers Grid -->
@@ -461,7 +467,7 @@
                         </p>
 
                         <div class="local-scroll mb-70 mb-sm-50">
-                            <a href="#" class="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"><span>Get Involved</span></a>
+                            <a href="{{route('impact')}}" class="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"><span>More Impact</span></a>
                         </div>
 
                     </div>
@@ -614,41 +620,7 @@
   {{-- <hr class="mt-0 mb-0"/> --}}
   <!-- End Divider -->
 
-    <!-- Call to Action Section -->
-    {{-- <section class="page-section bg-scroll light-content" style="background-image: url('{{asset('uploads/pexels-nappy-935979.jpg')}}'); padding-top:30px; padding-bottom:30px">
 
-        <!-- Desktop Overlay -->
-        <div class="bg-overlay bg-gradient-primary-alpha-2 d-none d-md-block"></div>
-        <!-- End Desktop Overlay -->
-
-        <!-- Mobile Overlay -->
-        <div class="bg-overlay bg-primary-1 opacity-09 d-md-none"></div>
-        <!-- End Mobile Overlay -->
-
-        <div class="container position-relative">
-            <div class="row">
-                <div class="col-md-8 col-lg-6 col-xl-8" style="margin:0 auto; text-align:center">
-
-                    <h2 class="section-title mb-40 mb-xs-30" style="color:#88B437; font-weight:900 ">Smart <span class="mark-decoration-5">Financing</span> Business Solutions</h2>
-
-                    <p class="section-descr mb-50 mb-sm-40">
-                        We understand that financial needs can arise unexpectedly. That's why we offer hassle-free instant loans designed to meet your urgent requirements, whether you're expanding your business, dealing with unforeseen expenses, or facing emergencies
-                    </p>
-
-                    <div class="local-scroll mb-70 mb-sm-50">
-                        <a href="https://wa.me/+254793070020?text=Hello, I am texting from your website" class="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09" style="background-color: #88B437">
-                            <span> <i class="fa-viber"></i> Whatsapp us now! </span>
-                        </a>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!-- End Call to Action Section -->
-
-    {{-- @include('front.director') --}}
 
 
     <!-- Blog Section -->
@@ -794,10 +766,10 @@
                                 Phone
                             </h4>
                             <div class="ci-text large">
-                                +254722388009/+254705100090
+                                +254793070020/+254711082640
                             </div>
                             <div class="ci-link">
-                                <a href="tel:+61383767284">Call now</a>
+                                <a href="tel:+254793070020">Call now</a>
                             </div>
                         </div>
                         <!-- End Phone -->

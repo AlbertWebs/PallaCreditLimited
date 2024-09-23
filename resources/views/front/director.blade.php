@@ -51,7 +51,7 @@
                         <br><br>
                         <small>
                         Warm regards,<br>
-                        Joyce Wambui,<br>
+                        Wambui Gitehi,<br>
                         Director, Palla Credit Ltd.
                         </small>
 
