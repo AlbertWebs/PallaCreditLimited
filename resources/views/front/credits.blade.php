@@ -22,7 +22,7 @@
 
                     <h1 class="hs-title-9 mb-10">
                         <span class="wow charsAnimIn" data-splitting="chars">
-                            Copyright <span class="mark-decoration-3-wrap">Statement<b class="mark-decoration-3 wow scalexIn" data-wow-delay="0.5s"></b></span>
+                            Copyright <span class="mark-decoration-3-wrap">Credits<b class="mark-decoration-3 wow scalexIn" data-wow-delay="0.5s"></b></span>
                         </span>
                     </h1>
 

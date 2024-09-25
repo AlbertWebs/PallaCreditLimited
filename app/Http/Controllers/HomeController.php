@@ -29,6 +29,10 @@ class HomeController extends Controller
         return view('front.index-1');
     }
 
+    public function impact(){
+        return view('front.impacts');
+    }
+
     public function about_us(){
         return view('front.about');
     }

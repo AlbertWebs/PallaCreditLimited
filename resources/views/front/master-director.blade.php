@@ -4,8 +4,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 <html lang="en">
     <head>
 
-        <title>Joyce Wambui - Director Palla Credit Limited</title>
-        <meta name="description" content="Joyce Wambui - Director Palla Credit Limited">
+        <title>Wambui Gitehi  - Director Palla Credit Limited</title>
+        <meta name="description" content="Wambui Gitehi  - Director Palla Credit Limited">
         <meta charset="utf-8">
         <meta name="author" content="Designekta Studios">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
