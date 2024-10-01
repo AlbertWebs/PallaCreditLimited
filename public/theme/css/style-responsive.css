@@ -5,14 +5,14 @@
    ============================== */
 
 @media only screen and (max-width: 1440px) {
-    
+
     .decoration-1{
         left: -30px;
     }
-    
+
 }
-@media only screen and (max-width: 1366px) {	
-    
+@media only screen and (max-width: 1366px) {
+
     root{
         --full-wrapper-margin-x: 30px;
     }
@@ -116,7 +116,7 @@
     }
     .section-title-large{
         font-size: calc(0.50887rem + 5.99vw);
-    }    
+    }
     .section-title-repeat{
         font-size: calc(0.358rem + 8.37vw);
     }
@@ -135,7 +135,7 @@
     .section-text{
         font-size: calc(1.157rem + 0.4vw);
     }
-    
+
     .services-2-button{
         padding: 4.2459vw;
     }
@@ -186,7 +186,7 @@
     .post-prev-container > *:last-child{
         padding-bottom: calc(0.459rem + 2.39vw);
     }
-    
+
     .portfolio-1-title{
         margin-left: -7.6867vw;
         font-size: calc(0.297rem + 5.65vw);
@@ -194,22 +194,22 @@
     .portfolio-1-title a{
         margin-left: -0.19vw;
     }
-    
+
     .post-prev-1-title{
         font-size: calc(0.684rem + 0.96vw);
     }
     .post-prev-1-title.large{
         font-size: calc(0.789rem + 1.27vw);
     }
-    
+
     .post-prev-2-title{
         font-size: calc(0.98rem + 1.2vw);
     }
-    
+
     .contact-1-text{
         font-size: calc(0.692rem + 1.39vw);
     }
-    
+
     .marquee-style-1{
         font-size: calc(0.779rem + 0.48vw);
     }
@@ -263,13 +263,13 @@
     .testimonials-6-item,
     .testimonials-6-text{
         font-size: calc(0.915rem + 1.05vw);
-    }    
+    }
     .ci-text.large{
         font-size: calc(0.904rem + 0.48vw);
     }
     .fw-menu-large{
         font-size: calc(0.915rem + 1.05vw);
-    }    
+    }
     .newsletter-elegant input.newsletter-field{
         font-size: calc(1.472rem + 0.76vw) !important;
     }
@@ -277,23 +277,23 @@
     .form.newsletter-modern input.newsletter-field:hover,
     .form.newsletter-modern input.newsletter-field::placeholder,
     .form.newsletter-modern input.newsletter-field:hover::placeholder{
-        font-size: calc(1.398rem + 1.29vw);  
+        font-size: calc(1.398rem + 1.29vw);
     }
     .features-1-title{
         font-size: calc(1.541rem + 2.29vw);
     }
-    
+
     .testimonials-5-text{
         font-size: calc(1.174rem + 0.38vw);
     }
-    
+
     .form.newsletter-elegant input.newsletter-field {
         font-size: calc(1.309rem + 0.96vw) !important;
     }
-    
+
 }
 @media only screen and (max-width: 1200px) {
-    
+
     .hs-paragraph-1{
         font-size: 15px;
     }
@@ -303,7 +303,7 @@
     }
     .inner-nav ul{
         font-size: 16px;
-    }	
+    }
     .inner-nav ul li{
         margin: 0 11px;
     }
@@ -317,34 +317,34 @@
     .team-social-links a{
         width: 30px;
         height: 30px;
-    }    
-    
+    }
+
     .mod-breadcrumbs-mini{
         text-align: right;
     }
-    
+
     .decoration-1{
         bottom: -20px;
     }
-    
+
     .number-title{
         font-size: calc(2.273rem + 3.64vw);
     }
-    
+
     .item-carousel .owl-item{
         padding: 0 3vw;
     }
-    
+
     .works-grid:not(.work-grid-3) .work-item{
         width: 49.9%;
-    } 
-     
+    }
+
 }
 @media only screen and (max-width: 1199px) {
-    
+
     main{
         overflow: hidden;
-    }    
+    }
     .tpl-alt-tabs{
         font-size: 13px;
         letter-spacing: 0.2em;
@@ -352,19 +352,19 @@
     .tpl-alt-tabs > li{
         width: 170px;
     }
-    
+
     .services-tabs > li > a > .number{
         top: .3em;
     }
     :root{
         --services-text-overlap: 135px;
     }
-    
-    .team-1-column-sticky{    
+
+    .team-1-column-sticky{
         position: static;
         height: auto;
     }
-    
+
 }
 
 /* ==============================
@@ -372,7 +372,7 @@
    ============================== */
 
 @media only screen and (max-width: 1024px) {
-    
+
     .hs-paragraph-1{
         position: static;
         top: 0;
@@ -408,47 +408,47 @@
     .page-section,
     .split-column-left,
     .split-column-right{
-        padding-top: 120px; 
-        padding-bottom: 120px;       
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
-    
+
     .owl-pagination{
         bottom: 25px;
-    }  
-    
+    }
+
     .lp-item{
         width: 50%;
     }
-    .lp-item:nth-child(4n + 5) { 
-        clear: none; 
+    .lp-item:nth-child(4n + 5) {
+        clear: none;
     }
-    .lp-item:nth-child(2n + 3) {        
+    .lp-item:nth-child(2n + 3) {
         clear:left;
     }
     .lp-title, .lp-author{
         font-size: 13px;
     }
-    
+
     .fa-examples > li{
         width: 33.3%;
     }
-    
+
     .services-2-descr.js-visible{
-        max-height: 800px;  
+        max-height: 800px;
     }
-    
+
     .works-filter.works-filter-bold a{
         margin-left: 12px;
     }
-    
+
     .section-showcases{
         border-radius: 30px;
     }
 
 }
-  
+
 @media only screen and (max-width: 991px) {
-     
+
     .works-grid.work-grid-gut-lg{
         margin: -40px 0 0 -30px;
     }
@@ -466,7 +466,7 @@
         height: 37px;
         font-size: 37px;
     }
-    
+
     :root{
         --services-text-overlap: 0;
     }
@@ -482,22 +482,22 @@
         max-width: 520px;
         margin: 0 0 0 35%;
     }
-    
+
     .mod-breadcrumbs:not(.align-center):not(.mod-breadcrumbs-mini) {
         text-align: left !important;
     }
-    
+
     .tpl-alt-tabs > li{
         width: 200px;
-    } 
-    
+    }
+
     .team-item-name{
         font-size: 18px;
     }
-    
+
     .features-icon{
         font-size: 64px;
-    } 
+    }
     .features-title{
         font-size: 20px;
     }
@@ -506,7 +506,7 @@
     }
     .alt-features-grid{
         margin-top: -30px;
-    } 
+    }
     .alt-features-item{
         margin-top: 30px;
     }
@@ -514,13 +514,13 @@
     .work-grid-3 .work-item,
     .container .work-grid-3 .work-item{
         width: 49.9%;
-    }      
-    
+    }
+
     .contact-1-left,
     .contact-1-right{
         border-radius: 20px;
     }
-    
+
     .split-column-left{
         padding-right: 30px;
         border-radius: 0;
@@ -539,7 +539,7 @@
         position: relative;
         height: auto;
     }
-    
+
     .call-action-2-images {
         margin: 0;
     }
@@ -548,20 +548,20 @@
     }
 
 }
-  
-  
+
+
 /* ==============================
    Tablet Portrait
    ============================== */
-  
+
 @media only screen and (max-width: 768px) {
-    
+
     .page-section,
     .split-column-left,
     .split-column-right{
         padding-top: 80px;
         padding-bottom: 80px;
-    }    
+    }
     .small-section{
         padding-top: 50px;
         padding-bottom: 50px;
@@ -569,20 +569,20 @@
     .small-title{
         font-size: 18px;
     }
-    
+
     .section-features li{
         font-size: 11px;
         padding: 8px 8px 6px 8px;
      }
-    
+
     .owl-pagination{
         bottom: 17px;
-    }  
-    
+    }
+
     .tpl-minimal-tabs > li{
         padding: 0 5px;
-    }    
-        
+    }
+
     .benefit-item{
         width: 264px;
     }
@@ -595,7 +595,7 @@
 
     .works-filter a{
         margin: 4px 12px 4px 0;
-    }    
+    }
     .blog-item{
         margin-bottom: 50px;
     }
@@ -614,20 +614,20 @@
     .google-map > iframe{
         height: 300px;
     }
-    
+
     .decoration-3{
         bottom: -125px;
         right: -35px;
     }
-    
+
     .portfolio-3-image{
         border-radius: 30px;
     }
-    
+
 }
 
 @media only screen and (max-width: 767px) {
-    
+
     .fixed-height-small{
         height: 300px;
         min-height: 300px;
@@ -661,14 +661,14 @@
     .benefit-item{
         width: 230px;
         padding: 0;
-    }    
+    }
     .benefit-item:hover:after{
         display: none;
-    }       
+    }
     .wide-heading{
         font-size: 32px;
         letter-spacing: 2px;
-    }    
+    }
     .works-filter a{
         margin: 4px 4px 4px 0;
         width: 46%;
@@ -719,7 +719,7 @@
     }
     .works-filter.works-filter-slick a,
     .works-filter.works-filter-slick a:hover,
-    .works-filter.works-filter-slick a.active{        
+    .works-filter.works-filter-slick a.active{
         width: 46%;
         margin: 2px !important;
         padding-top: 10px;
@@ -739,7 +739,7 @@
     .container .work-grid-3 .work-item,
     .work-grid-4 .work-item{
         width: 100% !important;
-    }   
+    }
     .big-icon{
         width: 60px;
         height: 60px;
@@ -754,11 +754,11 @@
     .portfolio-1-title{
         margin-left: 0;
     }
-    
+
     .fw-social-inline-item{
         display: block;
     }
-    
+
     .map-boxed-1{
         min-height: 50vh;
         aspect-ratio: 9/12;
@@ -766,10 +766,10 @@
         border-radius: var(--border-radius-default);
     }
     .map-boxed-1 iframe,
-    .map-boxed-1 img{        
+    .map-boxed-1 img{
         border-radius: calc(var(--border-radius-default) - 5px);
     }
-    
+
     .composition-7{
         margin-top: -30px;
     }
@@ -786,15 +786,15 @@
     .services-8-icon{
         margin-bottom: 25px;
     }
-    
+
 }
 
 
 /* ==============================
    Phone
    ============================== */
-  
-@media only screen and (max-width: 575px) { 
+
+@media only screen and (max-width: 575px) {
 
     .form input.newsletter-field,
     .form .newsletter-field-wrap{
@@ -807,20 +807,20 @@
         display: block;
         width: 100%;
     }
-    
+
     .works-filter a{
         margin: 4px 4px 4px 0;
-    } 
-    
+    }
+
     .hs-wrap{
         padding: 30px 20px;
     }
-    
+
     .scroll-down-2,
     .scroll-down-2:hover{
         animation: none;
     }
-    
+
     .contact-2-icon{
         width: 36px;
     }
@@ -830,11 +830,11 @@
     .contact-2-text{
         font-size: 16px;
     }
-     
+
 }
-    
+
 @media only screen and (max-width: 480px) {
-    
+
     .full-wrapper{
         --full-wrapper-margin-x: 20px;
     }
@@ -846,7 +846,7 @@
         font-size: 120%;
     }
     .form textarea{
-        min-height: 200px !important; 
+        min-height: 200px !important;
     }
     .tpl-tabs {
         border: none;
@@ -873,10 +873,10 @@
     }
     .small-section{
         padding: 30px 0;
-    }    
+    }
     .owl-pagination{
         bottom: 5px !important;
-    }    
+    }
     .owl-page{
         padding-left: 8px;
         padding-right: 8px;
@@ -887,7 +887,7 @@
     .owl-next{
         right: 0;
     }
-    
+
     .tpl-minimal-tabs > li{
         padding: 0;
     }
@@ -905,21 +905,21 @@
     .alt-tabs-icon{
         font-size: 32px;
     }
-    
+
     .work-container{
         padding: 30px 0;
-    }     
+    }
     .works-filter a{
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-    }    
+    }
     .work-full-text{
         margin-top: 30px;
     }
     .work-full-title{
         font-size: 20px;
-    }    
+    }
     .works-filter.works-filter-elegant a{
         width: 100%;
         margin-left: 0;
@@ -943,7 +943,7 @@
         width: 100% !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
-    } 
+    }
     .call-action-2-image-2{
         margin: 60px auto;
     }
@@ -952,7 +952,7 @@
     }
     .composition-8-image{
         margin-bottom: 60px;
-        border-radius: 50px;        
+        border-radius: 50px;
     }
     .composition-8-decoration-2{
         bottom: -60px;
@@ -960,7 +960,7 @@
     .blog-container{
         margin-top: 30px;
         margin-bottom: 30px;
-    }    
+    }
     .blog-item-q p{
         font-size: 20px;
     }
@@ -973,10 +973,10 @@
     .comment-avatar{
         width: 30px;
         margin-top: 7px;
-    }    
+    }
     .comment-item{
         font-size: 15px;
-    }    
+    }
     .separ-space{
         display: block;
         height: 10px;
@@ -992,11 +992,11 @@
     .tpl-tabs > li.active a{
         background: #f5f5f5 !important;
     }
-    
+
     .mark-decoration-1:before{
         bottom: -0.27em;
     }
-    
+
     .blog-item-title{
         font-size: 22px;
     }
@@ -1012,11 +1012,11 @@
    ============================== */
 
 @media only screen and (max-height: 768px) {
-    
+
     .stack-images{
         padding: 16% 0;
     }
-    
+
 }
 
 
@@ -1025,20 +1025,20 @@
    ============================== */
 
 @media only screen and (max-height: 374px) {
-    
+
     .min-height-80vh,
     .min-height-90vh,
     .min-height-100vh{
         min-height: 374px;
     }
-    
+
 }
 
 
 /* ==============================
    IOS Background Fix
    ============================== */
-  
+
 .mobile .page-section, .mobile .home-section, .mobile .small-section{
     background-attachment: scroll !important;
 }
@@ -1048,47 +1048,47 @@
  */
 
 @media only screen and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    
+
     html:not(.no-touch) .page-section, html:not(.no-touch) .home-section, html:not(.no-touch) .small-section{
         background-attachment: scroll !important;
     }
-    
+
 }
 
 /* ==============================
    Internet Explorer Fix
    ============================== */
-  
+
 @media all and (-ms-high-contrast:none){
-     
+
     .min-height-80vh{
         height: 80vh;
-    } 
+    }
     .min-height-90vh{
         height: 90vh;
-    } 
+    }
     .min-height-100vh{
         height: 100vh;
     }
     .fixed-height-large{
         height: 800px;
-    } 
+    }
     .fixed-height-medium{
         height: 700px;
-    } 
+    }
     .fixed-height-small{
         height: 600px;
     }
-     
+
 }
 
 
 /* ==============================
    Print Styles Fix
    ============================== */
-  
+
 @media print {
-    
+
     *{
         color: #000 !important;
         background: #fff !important;
@@ -1101,6 +1101,6 @@
     }
     img{
         display: block;
-    }    
-    
+    }
+
 }

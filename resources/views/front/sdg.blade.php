@@ -22,62 +22,62 @@
         <div class="row mt-n50 mt-sm-n40 mb-70 mb-sm-50">
 
             <!-- Portfolio Item -->
-            <div class="col-md-6 col-lg-2 mt-50 mt-sm-40">
+            <div class="col-sm-6 col-md-6 col-lg-2 mt-50 mt-sm-40">
                 <a href="#" class="portfolio-5-link">
                     <div class="portfolio-5-image">
                         <div class="portfolio-5-image-bg wow scalexIn"></div>
                         <div class="wow fadeIn" data-wow-delay="0s">
-                            <img src="{{url('/')}}/uploads/sdg/1.png" alt="Image Description" />
+                            <img class="sdg-images" src="{{url('/')}}/uploads/sdg/1.png" alt="Image Description" />
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 col-lg-2 mt-50 mt-sm-40">
+            <div class="col-sm-6 col-md-6 col-lg-2 mt-50 mt-sm-40">
                 <a href="#" class="portfolio-5-link">
                     <div class="portfolio-5-image">
                         <div class="portfolio-5-image-bg wow scalexIn"></div>
                         <div class="wow fadeIn" data-wow-delay="0.2s">
-                            <img src="{{url('/')}}/uploads/sdg/2.png" alt="Image Description" />
+                            <img class="sdg-images" src="{{url('/')}}/uploads/sdg/2.png" alt="Image Description" />
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 col-lg-2 mt-50 mt-sm-40">
+            <div class="col-sm-6 col-md-6 col-lg-2 mt-50 mt-sm-40">
                 <a href="#" class="portfolio-5-link">
                     <div class="portfolio-5-image">
                         <div class="portfolio-5-image-bg wow scalexIn"></div>
                         <div class="wow fadeIn" data-wow-delay="0.4s">
-                            <img src="{{url('/')}}/uploads/sdg/3.png" alt="Image Description" />
+                            <img class="sdg-images" src="{{url('/')}}/uploads/sdg/3.png" alt="Image Description" />
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 col-lg-2 mt-50 mt-sm-40">
+            <div class="col-sm-6 col-md-6 col-lg-2 mt-50 mt-sm-40">
                 <a href="#" class="portfolio-5-link">
                     <div class="portfolio-5-image">
                         <div class="portfolio-5-image-bg wow scalexIn"></div>
                         <div class="wow fadeIn" data-wow-delay="0.6s">
-                            <img src="{{url('/')}}/uploads/sdg/4.png" alt="Image Description" />
+                            <img class="sdg-images" src="{{url('/')}}/uploads/sdg/4.png" alt="Image Description" />
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 col-lg-2 mt-50 mt-sm-40">
+            <div class="col-sm-6 col-md-6 col-lg-2 mt-50 mt-sm-40">
                 <a href="#" class="portfolio-5-link">
                     <div class="portfolio-5-image">
                         <div class="portfolio-5-image-bg wow scalexIn"></div>
                         <div class="wow fadeIn" data-wow-delay="0.8s">
-                            <img src="{{url('/')}}/uploads/sdg/5.png" alt="Image Description" />
+                            <img class="sdg-images" src="{{url('/')}}/uploads/sdg/5.png" alt="Image Description" />
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 col-lg-2 mt-50 mt-sm-40">
+            <div class="col-sm-6 col-md-6 col-lg-2 mt-50 mt-sm-40">
                 <a href="#" class="portfolio-5-link">
                     <div class="portfolio-5-image">
                         <div class="portfolio-5-image-bg wow scalexIn"></div>
                         <div class="wow fadeIn" data-wow-delay="1```s">
-                            <img src="{{url('/')}}/uploads/sdg/6.png" alt="Image Description" />
+                            <img class="sdg-images" src="{{url('/')}}/uploads/sdg/6.png" alt="Image Description" />
                         </div>
                     </div>
                 </a>

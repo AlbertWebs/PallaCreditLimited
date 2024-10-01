@@ -440,7 +440,11 @@
 
         @include('front.impact')
 
+
+
         @include('front.sdg')
+
+
 
         <!-- Call to Action Section -->
           <section class="page-section bg-scroll light-content" style="background-image: url('{{url('/')}}/uploads/facebook/6.jpg'); background-position: 20% 1% !important; padding-bottom:30px; padding-top:30px">
@@ -493,6 +497,7 @@
             </div>
         </section>
         <!-- End Call to Action Section -->
+        @include('front.sdg-1')
 
     <!-- Testimonials Section -->
     <section class="page-section" id="clients-stories">

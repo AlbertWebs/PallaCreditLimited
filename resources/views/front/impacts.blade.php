@@ -18,6 +18,7 @@
         <div class="container position-relative pt-10 pt-sm-40 text-center">
 
             <div class="row">
+
                 <div class="col-lg-10 offset-lg-1">
 
                     <h1 class="hs-title-9 mb-10">
@@ -126,6 +127,7 @@
                             </p> --}}
                         </div>
                         <!-- End Blog Post Item -->
+
 
 
                     </div>

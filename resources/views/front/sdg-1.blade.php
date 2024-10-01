@@ -9,11 +9,11 @@
             <!-- Numbers Item -->
             <div class="col-sm-6 col-xl-6 d-flex align-items-stretch mt-30">
                 <div class="number-2-item">
-                    {{-- <div class="post-prev-2-img">
+                    <div class="post-prev-2-img">
                         <a href="#">
-                            <img style="width:70px" src="{{url('/')}}/uploads/5253089.png" alt="#" />
+                            <img style="width:70px" src="{{url('/')}}/uploads/icons/1.png" alt="#" />
                         </a>
-                    </div> --}}
+                    </div>
                     <div class="count percent number-2-title weight-800">
                         5000+
                     </div>
@@ -27,12 +27,17 @@
             <!-- Numbers Item -->
             <div class="col-sm-6 col-xl-6 d-flex align-items-stretch mt-30">
                 <div class="number-2-item">
+                    <div class="post-prev-2-img">
+                        <a href="#">
+                            <img style="width:70px" src="{{url('/')}}/uploads/icons/2.png" alt="#" />
+                        </a>
+                    </div>
                     <div class="count percent number-2-title weight-800">
                         95%
                     </div>
 
                     <div class="number-2-descr">
-                        of loans issued without collatera orguarantors, making finance accessible to all
+                        of loans issued without collatera or guarantors, making finance accessible to all
                     </div>
                 </div>
             </div>
@@ -41,11 +46,16 @@
             <!-- Numbers Item -->
             <div class="col-sm-6 col-xl-4 d-flex align-items-stretch mt-30">
                 <div class="number-2-item">
+                    <div class="post-prev-2-img">
+                        <a href="#">
+                            <img style="width:70px" src="{{url('/')}}/uploads/icons/3.png" alt="#" />
+                        </a>
+                    </div>
                     <div class="count percent number-2-title weight-800">
                         80%
                     </div>
                     <div class="number-2-descr">
-                        of loan reciepent wer first-time users of formal financial services
+                        of loan reciepent were first-time users of formal financial services
                     </div>
                 </div>
             </div>
@@ -54,6 +64,11 @@
             <!-- Numbers Item -->
             <div class="col-sm-6 col-xl-4 d-flex align-items-stretch mt-30">
                 <div class="number-2-item">
+                    <div class="post-prev-2-img">
+                        <a href="#">
+                            <img style="width:70px" src="{{url('/')}}/uploads/icons/4.png" alt="#" />
+                        </a>
+                    </div>
                     <div class="count percent number-2-title weight-800" >
                         100,000
                     </div>
@@ -68,6 +83,11 @@
             <!-- Numbers Item -->
             <div class="col-sm-6 col-xl-4 d-flex align-items-stretch mt-30">
                 <div class="number-2-item">
+                    <div class="post-prev-2-img">
+                        <a href="#">
+                            <img style="width:70px" src="{{url('/')}}/uploads/icons/5.png" alt="#" />
+                        </a>
+                    </div>
                     <div class="count percent number-2-title weight-800" >
                         10,000+
                     </div>
