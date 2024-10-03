@@ -44,22 +44,22 @@
             <div class="row">
 
 
-                <div class="col-lg-6 col-xl-4 mb-md-70 mb-sm-50">
+                <div class="col-lg-6 col-xl-3 mb-md-70 mb-sm-50">
                     <br><br><br>
-                    <h2 class="section-title mb-40 mb-xs-30">SDGs</h2>
-                    <p class="section-descr mb-50 mb-sm-40">
+                    <h1 class="section-title mb-40 mb-xs-30">SDGs</h1>
+                    {{-- <p class="section-descr mb-50 mb-sm-40" style="font-size:24px;">
 
                         We demonstrate our commitment to fostering economic growth, reducing inequalities, and supporting sustainable communities through the financial services that we offer to small businesses in Kenya.
-                    </p>
+                    </p> --}}
                 </div>
 
-                <div class="col-lg-6 col-xl-8">
+                <div class="col-lg-6 col-xl-9">
                     <div class="row mt-n50">
                         <!-- Blog Post Item -->
                         <div class="post-prev-2 col-md-6  wow fadeInLeft">
                             <h1 class="bg-text sdg-1">1</h1>
-                            <h3 class="post-prev-2-title"><a href="#">No Poverty </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                            <h3 class="post-prev-2-title" style="font-size:24px;"><a href="#">No Poverty </a></h3>
+                            <p class="post-prev-2-text sdg-text" style="font-size:24px;">
                                 By providing accessible financial services, we helps individuals and small businesses improve their livelihoods, contributing to poverty reduction.
                             </p>
                         </div>
@@ -67,9 +67,9 @@
 
                          <!-- Blog Post Item -->
                          <div class="post-prev-2 col-md-6  wow fadeInLeft">
-                            <h1 class="bg-text sdg-5">5</h1>
-                            <h3 class="post-prev-2-title"><a href="#">Gender Equality </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                            <h1 class="bg-text sdg-5" >5</h1>
+                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Gender Equality </a></h3>
+                            <p class="post-prev-2-text sdg-text" style="font-size:24px;">
                                 We offer loans to women-owned businesses and have policies promoting equal access to financial services regardless of gender.
                             </p>
                         </div>
@@ -78,8 +78,8 @@
                         <!-- Blog Post Item -->
                         <div class="post-prev-2 col-md-6  wow fadeInLeft">
                             <h1 class="bg-text sdg-8">8</h1>
-                            <h3 class="post-prev-2-title"><a href="#">Decent Work and Economic Growth </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Decent Work and Economic Growth </a></h3>
+                            <p class="post-prev-2-text sdg-text" style="font-size:24px;">
                                 By supporting small businesses and entrepreneurship through loans, we contribute to economic growth and the creation of decent jobs.
                             </p>
                         </div>
@@ -87,8 +87,8 @@
                         <!-- Blog Post Item -->
                         <div class="post-prev-2 col-md-6  wow fadeInLeft">
                             <h1 class="bg-text sdg-9">9</h1>
-                            <h3 class="post-prev-2-title"><a href="#">Industry, Innovation, & Infrastructure </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Industry, Innovation, & Infrastructure </a></h3>
+                            <p class="post-prev-2-text sdg-text" style="font-size:24px;">
                                 Facilitating access to finance for small businesses encourages innovation and supports the development of infrastructure, particularly in underserved areas.
                             </p>
                         </div>
@@ -98,8 +98,8 @@
                         <!-- Blog Post Item -->
                         <div class="post-prev-2 col-md-6  wow fadeInLeft">
                             <h1 class="bg-text sdg-10">10</h1>
-                            <h3 class="post-prev-2-title"><a href="#">Reduced Inequalities  </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Reduced Inequalities  </a></h3>
+                            <p class="post-prev-2-text sdg-text" style="font-size:24px;">
                                 Our inclusive approach to lending, such as not requiring collateral or guarantors, helps reduce inequalities by providing financial access to those who might be excluded from traditional banking services.
                             </p>
                         </div>
@@ -109,8 +109,8 @@
                         <!-- Blog Post Item -->
                         <div class="post-prev-2 col-md-6  wow fadeInLeft">
                             <h1 class="bg-text sdg-17">17</h1>
-                            <h3 class="post-prev-2-title"><a href="#">Partnerships for the Goals  </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Partnerships for the Goals  </a></h3>
+                            <p class="post-prev-2-text sdg-text" style="font-size:24px;">
                                 We collaborate with other organizations, governments, and international bodies to extend its reach and impact, it aligns with this goal by contributing to global partnerships for sustainable development.
                             </p>
                         </div>
