@@ -46,9 +46,9 @@
 
                 <div class="col-lg-6 col-xl-4 mb-md-70 mb-sm-50">
                     <br><br><br>
-                    <h2 class="section-title mb-40 mb-xs-30">SDGs</h2>
+                    <h2 class="section-title mb-40 mb-xs-30">Our impact</h2>
                     <p class="section-descr mb-50 mb-sm-40">
-
+                        {{-- Palla Credit is committed to supporting communities by offering financial products and services that help small businesses while promoting global sustainability. Their efforts align with multiple United Nations Sustainable Development Goals (SDGs). --}}
                         We demonstrate our commitment to fostering economic growth, reducing inequalities, and supporting sustainable communities through the financial services that we offer to small businesses in Kenya.
                     </p>
                 </div>
@@ -56,63 +56,75 @@
                 <div class="col-lg-6 col-xl-8">
                     <div class="row mt-n50">
                         <!-- Blog Post Item -->
-                        <div class="post-prev-2 col-md-6  wow fadeInLeft">
-                            <h1 class="bg-text sdg-1">1</h1>
-                            <h3 class="post-prev-2-title"><a href="#">No Poverty </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                        <div class="post-prev-2 col-md-6 mt-50 wow fadeInLeft">
+                            <div class="post-prev-2-img">
+                                <a href="#"><img src="{{url('/')}}/uploads/sdg/1.png" alt="Image Description" /></a>
+                            </div>
+                            {{-- <h3 class="post-prev-2-title"><a href="#">SDG 1: No Poverty </a></h3>
+                            <p class="post-prev-2-text">
                                 By providing accessible financial services, we helps individuals and small businesses improve their livelihoods, contributing to poverty reduction.
-                            </p>
+                            </p> --}}
                         </div>
                         <!-- End Blog Post Item -->
 
                          <!-- Blog Post Item -->
-                         <div class="post-prev-2 col-md-6  wow fadeInLeft">
-                            <h1 class="bg-text sdg-5">5</h1>
-                            <h3 class="post-prev-2-title"><a href="#">Gender Equality </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                         <div class="post-prev-2 col-md-6 mt-50 wow fadeInLeft">
+                            <div class="post-prev-2-img">
+                                <a href="#"><img src="{{url('/')}}/uploads/sdg/2.png" alt="Image Description" /></a>
+                            </div>
+                            {{-- <h3 class="post-prev-2-title"><a href="#">SDG 5: Gender Equality </a></h3>
+                            <p class="post-prev-2-text">
                                 We offer loans to women-owned businesses and have policies promoting equal access to financial services regardless of gender.
-                            </p>
+                            </p> --}}
                         </div>
                         <!-- End Blog Post Item -->
 
                         <!-- Blog Post Item -->
-                        <div class="post-prev-2 col-md-6  wow fadeInLeft">
-                            <h1 class="bg-text sdg-8">8</h1>
-                            <h3 class="post-prev-2-title"><a href="#">Decent Work and Economic Growth </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                        <div class="post-prev-2 col-md-6 mt-50 wow fadeInLeft">
+                            <div class="post-prev-2-img">
+                                <a href="#"><img src="{{url('/')}}/uploads/sdg/3.png" alt="Image Description" /></a>
+                            </div>
+                            {{-- <h3 class="post-prev-2-title"><a href="#">SDG 8: Decent Work and Economic Growth </a></h3>
+                            <p class="post-prev-2-text">
                                 By supporting small businesses and entrepreneurship through loans, we contribute to economic growth and the creation of decent jobs.
-                            </p>
+                            </p> --}}
                         </div>
                         <!-- End Blog Post Item -->
                         <!-- Blog Post Item -->
-                        <div class="post-prev-2 col-md-6  wow fadeInLeft">
-                            <h1 class="bg-text sdg-9">9</h1>
-                            <h3 class="post-prev-2-title"><a href="#">Industry, Innovation, & Infrastructure </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                        <div class="post-prev-2 col-md-6 mt-50 wow fadeInLeft">
+                            <div class="post-prev-2-img">
+                                <a href="#"><img src="{{url('/')}}/uploads/sdg/4.png" alt="Image Description" /></a>
+                            </div>
+                            {{-- <h3 class="post-prev-2-title"><a href="#">SDG 9: Industry, Innovation, and Infrastructure </a></h3>
+                            <p class="post-prev-2-text">
                                 Facilitating access to finance for small businesses encourages innovation and supports the development of infrastructure, particularly in underserved areas.
-                            </p>
+                            </p> --}}
                         </div>
                         <!-- End Blog Post Item -->
 
 
                         <!-- Blog Post Item -->
-                        <div class="post-prev-2 col-md-6  wow fadeInLeft">
-                            <h1 class="bg-text sdg-10">10</h1>
-                            <h3 class="post-prev-2-title"><a href="#">Reduced Inequalities  </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                        <div class="post-prev-2 col-md-6 mt-50 wow fadeInLeft">
+                            <div class="post-prev-2-img">
+                                <a href="#"><img src="{{url('/')}}/uploads/sdg/5.png" alt="Image Description" /></a>
+                            </div>
+                            {{-- <h3 class="post-prev-2-title"><a href="#">SDG 10: Reduced Inequalities  </a></h3>
+                            <p class="post-prev-2-text">
                                 Our inclusive approach to lending, such as not requiring collateral or guarantors, helps reduce inequalities by providing financial access to those who might be excluded from traditional banking services.
-                            </p>
+                            </p> --}}
                         </div>
                         <!-- End Blog Post Item -->
 
 
                         <!-- Blog Post Item -->
-                        <div class="post-prev-2 col-md-6  wow fadeInLeft">
-                            <h1 class="bg-text sdg-17">17</h1>
-                            <h3 class="post-prev-2-title"><a href="#">Partnerships for the Goals  </a></h3>
-                            <p class="post-prev-2-text sdg-text">
+                        <div class="post-prev-2 col-md-6 mt-50 wow fadeInLeft">
+                            <div class="post-prev-2-img">
+                                <a href="#"><img src="{{url('/')}}/uploads/sdg/6.png" alt="Image Description" /></a>
+                            </div>
+                            {{-- <h3 class="post-prev-2-title"><a href="#">SDG 17: Partnerships for the Goals  </a></h3>
+                            <p class="post-prev-2-text">
                                 We collaborate with other organizations, governments, and international bodies to extend its reach and impact, it aligns with this goal by contributing to global partnerships for sustainable development.
-                            </p>
+                            </p> --}}
                         </div>
                         <!-- End Blog Post Item -->
 

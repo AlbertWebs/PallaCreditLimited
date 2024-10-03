@@ -12396,10 +12396,61 @@ html:not(.mobile) .owl-animate-fadeInDown{
   font-weight:800;
 }
 
+.thick-title{
+    color:#1960a9 !important;
+    font-weight: 900;
+    font-size:60px;
+}
+
+.sdg-icons-page{
+    width:250px !important;
+    height:250px  !important;
+    object-fit: cover;
+}
+
+.bg-text{
+    position: absolute;
+    top: -95px;
+    left:-10px;
+    z-index: -1;
+    font-size: 100px;
+    font-weight:900;
+    mix-blend-mode: screen;
+
+}
+.sdg-text{
+    height:150px;
+    /* border:2px solid #000000; */
+    vertical-align: middle;
+    margin:10px;
+    margin-bottom: 100px;
+}
+.sdg-1{
+    color:#e4233a;
+}
+.sdg-5{
+    color:#ff3a21;
+}
+.sdg-8{
+    color:#8f1838;
+}
+.sdg-9{
+    color:#df6925;
+}
+.sdg-17{
+    color:#19486a;
+}
+.sdg-10{
+    color:#dd1367;
+}
 
 @media only screen and (max-width: 540px) {
     .sdg-images{
         width:100%;
+    }
+    .sdg-icons-card{
+        margin:0 auto !important;
+        text-align: center;
     }
 }
 

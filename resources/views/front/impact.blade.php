@@ -4,7 +4,7 @@
 
 
              <!-- About Section -->
-    <section class="page-section bg-white light-contents content-dark" id="impact">
+    <section class="page-section bg-light-alpha-90 light-contents content-dark" id="impact">
 
         <div class="container position-relative">
 
@@ -39,7 +39,10 @@
                     </p>
 
 
-
+                    <br>
+                    <div class="local-scroll mb-70 mb-sm-50">
+                        <a href="{{route('impact')}}" class="submit_btns btn btn-mod btn-color btn-large btn-round btn-hover-anim opacity-09"><span>Learn More</span></a>
+                    </div>
 
 
                 </div>
@@ -49,4 +52,10 @@
 
         </div>
     </section>
+
+
+
+
+
+
     <!-- End About Section -->

@@ -1,4 +1,4 @@
-<section class="page-section bg-light-alpha-90" id="portfolio">
+<section class="page-section bg-white" id="portfolio">
     <div class="container position-relative">
 
         <div class="row mb-70 mb-sm-50">
@@ -11,8 +11,6 @@
                     At Palla Credit, we believe in making a positive impact on the communities we serve. Our financial products and services are designed not only to support small
                     businesses but also to contribute to global sustainability. We're proud to align our efforts with several United Nations Sustainable Development Goals (SDGs).
                 </p><br><br>
-
-
             </div>
 
 

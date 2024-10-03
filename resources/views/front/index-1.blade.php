@@ -442,62 +442,7 @@
 
 
 
-        @include('front.sdg')
 
-
-
-        <!-- Call to Action Section -->
-          <section class="page-section bg-scroll light-content" style="background-image: url('{{url('/')}}/uploads/facebook/6.jpg'); background-position: 20% 1% !important; padding-bottom:30px; padding-top:30px">
-
-            <!-- Desktop Overlay -->
-            <div class="bg-overlay bg-gradient-primary-alpha-1 d-none d-md-block"></div>
-            <!-- End Desktop Overlay -->
-
-            <!-- Mobile Overlay -->
-            <div class="bg-overlay bg-primary-1 opacity-09 d-md-none"></div>
-            <!-- End Mobile Overlay -->
-
-            <div class="container position-relative">
-
-                <div class="row">
-                    <div class="col-md-7 col-lg-7 col-xl-7">
-
-                        <h2 class="section-title mb-40 mb-xs-30">Vision for the  <span class="mark-decoration-5">Future</span> </h2>
-
-                        <p class="section-descr mb-50 mb-sm-40">
-                            Our mission doesn’t stop here. As we continue to support small businesses across Kenya, our commitment to empowering entrepreneurs remains stronger than ever. Over the next five years, our goal is to provide 10,000 more small businesses with the capital they need to grow and thrive. By driving economic growth and fostering innovation, we’re building a brighter future for our communities.
-                            <br><br>
-                            Be a part of this exciting journey! Whether you're a small business owner looking to expand, a partner eager to collaborate, or someone who believes in the power of entrepreneurship, there’s a role for you in our story. Join us in empowering the next generation of Kenyan entrepreneurs. Learn how you can get involved today.
-                        </p>
-
-                        <div class="local-scroll mb-70 mb-sm-50">
-                            <a href="{{route('impact')}}" class="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"><span>More Impact</span></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Logotypes & Brands, Use M-PESA, KCB and More -->
-                {{-- <div class="row">
-                    <div class="col-md-6">
-
-                        <h2 class="section-title-tiny opacity-09 mb-30">Trusted by leading companies</h2>
-
-                        <div class="logo-grid">
-                            <img class="logo-grid-img" src="images/clients-logos/logo-grid-dark/logo-1.png" width="110" height="33" alt="Image description is here" />
-                            <img class="logo-grid-img" src="images/clients-logos/logo-grid-dark/logo-2.png" width="119" height="33" alt="Image description is here" />
-                            <img class="logo-grid-img" src="images/clients-logos/logo-grid-dark/logo-3.png" width="79" height="33" alt="Image description is here" />
-                            <img class="logo-grid-img" src="images/clients-logos/logo-grid-dark/logo-4.png" width="122" height="33" alt="Image description is here" />
-                        </div>
-
-                    </div>
-                </div> --}}
-                <!-- End Logotypes -->
-
-            </div>
-        </section>
-        <!-- End Call to Action Section -->
-        @include('front.sdg-1')
 
     <!-- Testimonials Section -->
     <section class="page-section" id="clients-stories">
