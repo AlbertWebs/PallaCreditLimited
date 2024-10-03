@@ -12410,7 +12410,7 @@ html:not(.mobile) .owl-animate-fadeInDown{
 
 .bg-text{
     position: absolute;
-    top: -95px;
+    top: -105px;
     left:-10px;
     z-index: -1;
     font-size: 100px;

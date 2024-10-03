@@ -36,9 +36,8 @@
 
     </section>
     <!-- End Home Section -->
-
-      <!-- Blog Section -->
-      <section class="page-section bg-light-alpha-90" id="blog">
+     <!-- Blog Section -->
+     <section class="page-section bg-white" id="blog" style="margin-top:140px;">
         <div class="container position-relative">
 
             <div class="row">
@@ -46,7 +45,7 @@
 
                 <div class="col-lg-6 col-xl-3 mb-md-70 mb-sm-50">
                     <br><br><br>
-                    <h1 class="section-title mb-40 mb-xs-30">SDGs</h1>
+                    <h1 class="section-title mb-40 mb-xs-30" style="font-weight:900">SDGs</h1>
                     {{-- <p class="section-descr mb-50 mb-sm-40" style="font-size:24px;">
 
                         We demonstrate our commitment to fostering economic growth, reducing inequalities, and supporting sustainable communities through the financial services that we offer to small businesses in Kenya.
@@ -123,7 +122,17 @@
 
 
             </div>
-            <hr>
+
+
+        </div>
+    </section>
+    <!-- End Blog Section -->
+
+      <!-- Blog Section -->
+      <section class="page-section bg-light-alpha-90" id="blog">
+        <div class="container position-relative">
+
+
 
             <div class="row mb-70 mb-sm-50">
 
