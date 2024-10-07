@@ -28,6 +28,12 @@ class HomeController extends Controller
     {
         return view('front.index-1');
     }
+    public function download()
+    {
+        return view('front.download');
+    }
+
+
 
     public function impact(){
         return view('front.impacts');

@@ -7,6 +7,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/download', [App\Http\Controllers\HomeController::class, 'download'])->name('download');
 Route::post('/send-application', [App\Http\Controllers\HomeController::class, 'send_application'])->name('send-application');
 Route::get('/about-us', [App\Http\Controllers\HomeController::class, 'about_us'])->name('about-us');
 Route::get('/news-updates', [App\Http\Controllers\HomeController::class, 'updates'])->name('news-updates');
