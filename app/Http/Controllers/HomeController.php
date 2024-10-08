@@ -53,8 +53,6 @@ class HomeController extends Controller
         return view('front.updates', compact('Blog'));
     }
 
-
-
     public function conditions(){
         return view('front.conditions');
     }

@@ -12419,7 +12419,7 @@ html:not(.mobile) .owl-animate-fadeInDown{
 
 }
 .sdg-text{
-    height:180px;
+    min-height:400px;
     /* border:2px solid #000000; */
     vertical-align: middle;
     margin:10px;

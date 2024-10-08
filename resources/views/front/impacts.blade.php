@@ -9,57 +9,46 @@
        <!-- Home Section -->
        <section class="page-section bg-gradient-gray-light-1 bg-scroll overflow-hidden">
 
-        <!-- Background Shape -->
-        <div class="bg-shape-1 wow fadeIn">
-            <img class="opacity-05" src="images/demo-corporate/bg-shape-1.svg" alt="" />
-        </div>
-        <!-- End Background Shape -->
+            <!-- Background Shape -->
+            <div class="bg-shape-1 wow fadeIn">
+                <img class="opacity-05" src="images/demo-corporate/bg-shape-1.svg" alt="" />
+            </div>
+            <!-- End Background Shape -->
 
-        <div class="container position-relative pt-10 pt-sm-40 text-center">
-
-            <div class="row">
-
-                <div class="col-lg-10 offset-lg-1">
-
-                    <h1 class="hs-title-9 mb-10">
-                        <span class="wow charsAnimIn" data-splitting="chars">
-                            Our Commitment to  <span class="mark-decoration-3-wrap">Sustainable Development.<b class="mark-decoration-3 wow scalexIn" data-wow-delay="0.5s"></b></span>
-                        </span>
-                    </h1>
-
-
-
+            <div class="container position-relative pt-10 pt-sm-40 text-center">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <h1 class="hs-title-9 mb-10">
+                            <span class="wow charsAnimIn" data-splitting="chars">
+                                Our Commitment to  <span class="mark-decoration-3-wrap">Sustainable.<b class="mark-decoration-3 wow scalexIn" data-wow-delay="0.5s"></b> </span>Development
+                            </span>
+                        </h1>
+                    </div>
                 </div>
             </div>
-
-        </div>
-
-    </section>
+        </section>
     <!-- End Home Section -->
      <!-- Blog Section -->
-     <section class="page-section bg-white" id="blog" style="margin-top:140px;">
+     <section class="page-section bg-light-alpha-90" id="blog" >
         <div class="container position-relative">
 
-            <div class="row">
+            <div class="row" style="margin-top:140px;">
 
 
-                <div class="col-lg-6 col-xl-3 mb-md-70 mb-sm-50">
-                    <br><br><br>
-                    <h1 class="section-title mb-40 mb-xs-30" style="font-weight:900">SDGs</h1>
-                    {{-- <p class="section-descr mb-50 mb-sm-40" style="font-size:24px;">
 
-                        We demonstrate our commitment to fostering economic growth, reducing inequalities, and supporting sustainable communities through the financial services that we offer to small businesses in Kenya.
-                    </p> --}}
-                </div>
 
-                <div class="col-lg-6 col-xl-9">
+                <div class="col-lg-6 col-xl-12">
                     <div class="row mt-n50">
                         <!-- Blog Post Item -->
                         <div class="post-prev-2 col-md-6  wow fadeInLeft">
                             <h1 class="bg-text sdg-1">1</h1>
-                            <h3 class="post-prev-2-title" style="font-size:24px;"><a href="#">No Poverty </a></h3>
+                            <h3 class="post-prev-2-title" style="font-size:24px;"><a href="#">Reducing Poverty and Inequality </a></h3>
                             <p class="post-prev-2-text sdg-text" style="font-size:24px;">
-                                By providing accessible financial services, we helps individuals and small businesses improve their livelihoods, contributing to poverty reduction.
+                                By providing accessible financial services, we helps individuals and small businesses improve their livelihoods, contributing to poverty reduction.<br>
+                                Our inclusive approach to lending, such as not requiring collateral or guarantors, helps reduce inequalities by providing financial access to those who might be excluded from traditional banking services.<br>
+                                - 80% of our clients reported improved household income.<br>
+                                - 50% of clients came from rural or marginalized areas, giving everyone a chance to grow.<br>
+                                - 3,000 families benefitted indirectly from the success of their businesses.<br>
                             </p>
                         </div>
                         <!-- End Blog Post Item -->
@@ -67,9 +56,11 @@
                          <!-- Blog Post Item -->
                          <div class="post-prev-2 col-md-6  wow fadeInLeft">
                             <h1 class="bg-text sdg-5" >5</h1>
-                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Gender Equality </a></h3>
+                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Supporting Women in Business </a></h3>
                             <p class="post-prev-2-text sdg-text" style="font-size:24px;">
-                                We offer loans to women-owned businesses and have policies promoting equal access to financial services regardless of gender.
+                                We offer loans to women-owned businesses and have policies promoting equal access to financial services regardless of gender. - 60% of our loans were issued to women-owned businesses.<br>
+                                - 45% of these women expanded their businesses within the first year.<br>
+                                - Helping women succeed with fair and accessible financing.<br>
                             </p>
                         </div>
                         <!-- End Blog Post Item -->
@@ -77,18 +68,23 @@
                         <!-- Blog Post Item -->
                         <div class="post-prev-2 col-md-6  wow fadeInLeft">
                             <h1 class="bg-text sdg-8">8</h1>
-                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Decent Work and Economic Growth </a></h3>
+                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Driving Economic Growth </a></h3>
                             <p class="post-prev-2-text sdg-text" style="font-size:24px;">
-                                By supporting small businesses and entrepreneurship through loans, we contribute to economic growth and the creation of decent jobs.
+                                By supporting small businesses and entrepreneurship through loans, we contribute to economic growth and the creation of decent jobs.<br>
+                                - 70% of businesses grew their revenue by 15% within a year of receiving loans.<br>
+                                - 85% of loan recipients successfully repaid their loans via M-Pesa.<br>
+                                - Offering a 25% interest rate , with no hidden fees and flexible repayment plans.<br>
                             </p>
                         </div>
                         <!-- End Blog Post Item -->
                         <!-- Blog Post Item -->
                         <div class="post-prev-2 col-md-6  wow fadeInLeft">
                             <h1 class="bg-text sdg-9">9</h1>
-                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Industry, Innovation, & Infrastructure </a></h3>
+                            <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Innovating and Expanding </a></h3>
                             <p class="post-prev-2-text sdg-text" style="font-size:24px;">
-                                Facilitating access to finance for small businesses encourages innovation and supports the development of infrastructure, particularly in underserved areas.
+                                Facilitating access to finance for small businesses encourages innovation and supports the development of infrastructure, particularly in underserved areas.<br>
+                                - 30% of businesses used their loans to invest in new technologies or expand their services.<br>
+                                - 25% of clients entered new markets, growing their business reach.<br>
                             </p>
                         </div>
                         <!-- End Blog Post Item -->
@@ -110,7 +106,9 @@
                             <h1 class="bg-text sdg-17">17</h1>
                             <h3 class="post-prev-2-title"><a style="font-size:24px;" href="#">Partnerships for the Goals  </a></h3>
                             <p class="post-prev-2-text sdg-text" style="font-size:24px;">
-                                We collaborate with other organizations, governments, and international bodies to extend its reach and impact, it aligns with this goal by contributing to global partnerships for sustainable development.
+                                We collaborate with other organizations, governments, and international bodies to extend its reach and impact, it aligns with this goal by contributing to global partnerships for sustainable development.<br>
+                                - 10 strategic partnerships formed with NGOs, government agencies, and business development centers.<br>
+                                - 1,000 business owners received training in financial management and business growth.<br>
                             </p>
                         </div>
                         <!-- End Blog Post Item -->
@@ -129,7 +127,7 @@
     <!-- End Blog Section -->
 
       <!-- Blog Section -->
-      <section class="page-section bg-light-alpha-90" id="blog">
+      {{-- <section class="page-section bg-light-alpha-90" id="blog">
         <div class="container position-relative">
 
 
@@ -195,7 +193,7 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
     <!-- End Blog Section -->
     @include('front.sdg')
 
