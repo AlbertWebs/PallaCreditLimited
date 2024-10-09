@@ -34,9 +34,6 @@
 
             <div class="row" style="margin-top:140px;">
 
-
-
-
                 <div class="col-lg-6 col-xl-12">
                     <div class="row mt-n50">
                         <!-- Blog Post Item -->
@@ -195,9 +192,8 @@
         </div>
     </section> --}}
     <!-- End Blog Section -->
+
     @include('front.sdg')
-
-
 
     @include('front.sdg-1')
 
