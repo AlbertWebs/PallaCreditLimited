@@ -11,7 +11,7 @@
             <!-- Please replace the video file in folder "video" with your own file -->
             <div class="bg-video-wrapper">
                 <video class="bg-video" preload="auto" autoplay loop muted playsinline>
-                    <source src="{{asset('uploads/stock-footage-lusaka-zambia-africa-june-local-people-in-the-market-in-lusaka-city-in-zambia-fruit.webm')}}" type="video/mp4">
+                    <source src="{{asset('uploads/shutterstock_1057239070.mov')}}" type="video/mp4">
                 </video>
                 <div class="bg-video-overlay bg-dark-alpha-60"></div>
             </div>
