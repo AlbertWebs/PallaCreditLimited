@@ -476,7 +476,7 @@
 
                         <footer>
                             <div class="testimonials-6-author">
-                                George Muhando
+                                Geoffrey Mayor Nyamari
                             </div>
                             <div class="testimonials-6-position">
                                 Nakuru
@@ -511,7 +511,7 @@
 
                         <footer>
                             <div class="testimonials-6-author">
-                                Caroline Mutisya
+                                Carol Muthoni Kamoni
                             </div>
                             <div class="testimonials-6-position">
                                 Machakos
@@ -546,10 +546,10 @@
 
                         <footer>
                             <div class="testimonials-6-author">
-                                Diana Wangechi
+                                Magrine Khakhai
                             </div>
                             <div class="testimonials-6-position">
-                                Githurai
+                                Ndumboini
                             </div>
                         </footer>
 
