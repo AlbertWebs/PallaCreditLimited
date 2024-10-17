@@ -1,4 +1,4 @@
-@extends('front.master-director')
+@extends('front.master-career')
 
 
 @section('content')
@@ -35,7 +35,7 @@
 <!-- End Home Section -->
 
 
-<section class="page-section">
+{{-- <section class="page-section">
     <div class="container relative">
         <div class="row">
             <!-- Content -->
@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 
 <!-- Section -->
@@ -66,31 +66,35 @@
             <div class="col-lg-10" style="margin:0 auto">
 
                 <!-- Blog Posts Grid -->
-                <div class="row mt-n50 mb-60 mb-sm-40 text-center">
+                <div class="row mt-n50 mb-60 mb-sm-40 text-centers">
+                    <?php
+                       $Careers = DB::table('careers')->get();
+                    ?>
+                    @if($Careers->isEmpty())
                     <h2>
                         No Jobs Found
                     </h2>
+                    @else
 
-                    <!-- Blog Post Item -->
-                    {{-- <div class="post-prev-2 col-md-6 mt-50">
 
-                        <div class="post-prev-2-img">
-                            <a href="corporate-blog-single.html"><img src="images/demo-corporate/blog/post-prev-1.jpg" alt="Image Description" /></a>
+                    @foreach ($Careers as $Career)
+                        <!-- Blog Post Item -->
+                        <div class="post-prev-2 col-md-12 mt-50">
+
+                            <div class="post-prev-2-img">
+                                <a href="#"><img src="{{url('/')}}/uploads/{{$Career->image}}" alt="{{$Career->title}}" /></a>
+                            </div>
+
+                            <h3 class="post-prev-2-title"><a href="#">{{$Career->title}}</a></h3>
+                            <h4><a href="#">{{$Career->function}}</a></h4>
+                            <p class="post-prev-2-text">
+                                {!!html_entity_decode($Career->content)!!}
+                            </p>
                         </div>
+                        <!-- End Blog Post Item -->
+                    @endforeach
 
-                        <h3 class="post-prev-2-title"><a href="corporate-blog-single.html">Content Marketing Steps That Will Help You to Grow Your Business</a></h3>
-
-                        <p class="post-prev-2-text">
-                            The macro-environment, over which a firm holds little control, consists of a variety of external factors that manifest on a large scale.
-                        </p>
-
-                        <div class="post-prev-2-tags">
-                            <span class="post-prev-2-tag">February 13, 2022</span>
-                            <span class="post-prev-2-tag"><i class="mi-circle color-primary-1"></i> Articles</span>
-                        </div>
-
-                    </div> --}}
-                    <!-- End Blog Post Item -->
+                    @endif
 
 
 
