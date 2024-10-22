@@ -93,6 +93,23 @@
                     </div>
                     <!-- End Portfolio Item -->
 
+                     <!-- Portfolio Item -->
+                     <div class="portfolio-2-item mb-100 mb-sm-50 mix branding design sdg-icons-card">
+                        <div class="row wow-p fadeInUp">
+                            <div class="col-md-6">
+                                <hr class="black thick mt-0 mb-20 d-none d-md-block">
+                                <h3 class="portfolio-2-title font-alt mb-20 thick-title">60%</h3>
+                                <p class="section-descr">of our loans were issued to women-owned businesses.</p>
+                            </div>
+                            <div class="col-md-6 mb-sm-30 order-first order-md-last">
+                                <div class="portfolio-2-image">
+                                    <a href="#"><img class="sdg-icons-page" src="{{url('/')}}/uploads/icons/6.png" alt="Image Description"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Portfolio Item -->
+
                 </div>
                 <!-- End Portfolio Grid -->
                 {{--  --}}
